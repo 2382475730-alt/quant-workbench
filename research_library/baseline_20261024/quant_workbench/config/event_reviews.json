@@ -1,0 +1,1343 @@
+[
+  {
+    "code": "000157.SZ",
+    "date": "20190805",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201907261341458571_1.pdf",
+    "source_path": "data\\source_documents\\4b6712730e077edd57d9.pdf",
+    "source_sha256": "b16e31295e77aab9b97bc7b8d04b6f7236d0db193af4e23a3b947a0721016038",
+    "source_title": "中联重科:2018年度A股权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.25,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.2348967,
+    "reference_stock_ratio": 0,
+    "evidence_note": "回购股不参与；公告第4-5页列出参考扣减0.2348967元，普通股东仍获0.25元。",
+    "source_pages": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "code": "000728.SZ",
+    "date": "20201022",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202010211422799690_1.pdf",
+    "source_path": "data\\source_documents\\bb9de5a264eab958bdea.pdf",
+    "source_sha256": "e04228bee04263a3f9381b14af1a804153abbb1cc6ea17a637911112b866b6d9",
+    "source_title": "国元证券:配股发行结果公告暨复牌公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 9.36,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "000977.SZ",
+    "date": "20170727",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201707260746035003_1.pdf",
+    "source_path": "data\\source_documents\\946a28cf26edd3be3660.pdf",
+    "source_sha256": "734e0b4cd9c1e6e3fe151e33ea9429931fedf6d32e41c433120d16f15ba19586",
+    "source_title": "浪潮信息:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 15.15,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002074.SZ",
+    "date": "20171127",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201711241058092736_1.pdf",
+    "source_path": "data\\source_documents\\301110a19d490cf9a248.pdf",
+    "source_sha256": "2af044e2c75a9749da898b3c76609b42453b44271bc1815b75dd84c59ac6d4c1",
+    "source_title": "国轩高科:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 25.98,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002202.SZ",
+    "date": "20190329",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201903281310869001_1.pdf",
+    "source_path": "data\\source_documents\\ba80c27dafd7e0e11e5d.pdf",
+    "source_sha256": "4a0bdce6c2c13a13d35928ab1508b57dd14f1187ba64da31186cf24461d96291",
+    "source_title": "金风科技:A股配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 14.62,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002466.SZ",
+    "date": "20191226",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201912251372581347_1.pdf",
+    "source_path": "data\\source_documents\\ae2b59a34c3d1bd2e17e.pdf",
+    "source_sha256": "8e89dfc2a4cd372d5bb95d4fcab452e988951f8ad4ec20c1138609a4ea61152c",
+    "source_title": "天齐锂业:关于配股发行结果暨复牌的公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 24.45,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002602.SZ",
+    "date": "20190606",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201906051333824703_1.pdf",
+    "source_path": "data\\source_documents\\b7a1509854ed045ade0a.pdf",
+    "source_sha256": "d71d52b68de78bac85271b793daf34927d0d2a9e997c1ba8950ec6edb463b044",
+    "source_title": "世纪华通:2018年年度权益分派实施公告补充公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.1,
+    "account_stock_ratio": 0.6,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.09773437385012086,
+    "reference_stock_ratio": 0.586406242843739,
+    "evidence_note": "实施公告及6月6日补充公告：回购股剔除，普通账户0.1元及0.6股；按修订总派息及总转增摊薄参考价。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "002602.SZ",
+    "date": "20200713",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202007061389874395_1.pdf",
+    "source_path": "data\\source_documents\\dbf45e1deab8450f060c.pdf",
+    "source_sha256": "ab894c5da7b4baec9ecbec07e6560962b6e63fca765999bf3cc760a1917d91c6",
+    "source_title": "世纪华通:2019年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0.2,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0,
+    "reference_stock_ratio": 0.19687,
+    "evidence_note": "公告第1-2页：普通账户每股转增0.2股，除权计算使用0.196870。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "002673.SZ",
+    "date": "20170411",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201704100492727706_1.pdf",
+    "source_path": "data\\source_documents\\c497a4e897adac280172.pdf",
+    "source_sha256": "c6cf1c4587bb51767ec71f2b970dd8c44b9941f4f6c59fa12c8e3e2d822ad3f4",
+    "source_title": "西部证券:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 15.98,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600025.SH",
+    "date": "20190705",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201906281336784096_1.pdf",
+    "source_path": "data\\source_documents\\af6b130813440e6c6154.pdf",
+    "source_sha256": "804c45fc429a75413979b70c82451e065b82cb3e9ce54ff26f9705df45ba4b31",
+    "source_title": "600025:华能水电2018年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.178,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.15022,
+    "reference_stock_ratio": 0,
+    "evidence_note": "社会公众股0.178元；原股东补足扶贫支出；市场参考价扣减全体平均0.15022元。",
+    "source_pages": [
+      1,
+      3
+    ]
+  },
+  {
+    "code": "600025.SH",
+    "date": "20200619",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202006111384194389_1.pdf",
+    "source_path": "data\\source_documents\\72023c059e22de693ccd.pdf",
+    "source_sha256": "316b5b0cd8667807c3697319a66473571e9a0958a1058ea072ce8a7ef2abc2ca",
+    "source_title": "600025:华能水电2019年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.18,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.15,
+    "reference_stock_ratio": 0,
+    "evidence_note": "社会公众股0.18元；公告第2页参考价扣减0.15元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "600089.SH",
+    "date": "20170609",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201706080634869538_1.pdf",
+    "source_path": "data\\source_documents\\45ff5405c1a1ca61db61.pdf",
+    "source_sha256": "f9516b2ea72ca360568274456d822eb549a4499e7baeb15bb021ad9b379025bd",
+    "source_title": "600089:特变电工配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 9.32,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600219.SH",
+    "date": "20181101",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201810311228232317_1.pdf",
+    "source_path": "data\\source_documents\\221477ff0be88f454769.pdf",
+    "source_sha256": "acd3a3619c8092d0047bb352e93a1949b966c8e73e536ace028313c3b735d41e",
+    "source_title": "600219:南山铝业配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 2.43,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600346.SH",
+    "date": "20190627",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201906201335877151_1.pdf",
+    "source_path": "data\\source_documents\\ec112e8d6eb8e61b1eea.pdf",
+    "source_sha256": "d76686221a37ad39605e2f38d00de4f98d24d8d31de7208bc3fcf960e7be91e8",
+    "source_title": "600346:恒力股份2018年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.3,
+    "account_stock_ratio": 0.4,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.29,
+    "reference_stock_ratio": 0.39,
+    "evidence_note": "回购股不参与；普通股东0.3元及0.4股，公告第2页明确参考计算0.29元及0.39。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "600919.SH",
+    "date": "20201217",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202012161440784045_1.pdf",
+    "source_path": "data\\source_documents\\ff07152929ccc207066c.pdf",
+    "source_sha256": "f4e23147e10026d15aeadf557509b60746c1ab3c035ac4fa7c9b47012af49762",
+    "source_title": "600919:江苏银行配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 5.62,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600999.SH",
+    "date": "20200720",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202007191392694805_1.pdf",
+    "source_path": "data\\source_documents\\f680f3c1b135bd80b5aa.pdf",
+    "source_sha256": "e631c34d3e80165a9c8c9e866e373b999bc1ec5e32cf6bbb00a42c26179d09f5",
+    "source_title": "600999:招商证券配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 23.71,
+    "source_pages": [
+      2,
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601012.SH",
+    "date": "20190417",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201904161319694052_1.pdf",
+    "source_path": "data\\source_documents\\60db5247abeeff7f5552.pdf",
+    "source_sha256": "5b6225b8f4bce91e9cb39d3a1cf7d891b37447daa5a127379c8c70c92f1ce15a",
+    "source_title": "601012:隆基股份配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 21.91,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601162.SH",
+    "date": "20200319",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202003181376628523_1.pdf",
+    "source_path": "data\\source_documents\\377194257e79411be11a.pdf",
+    "source_sha256": "1767ce82f80cf6225c67d24e5ad3e840e70ccb2b807f8507d430e673330ec078",
+    "source_title": "601162:天风证券配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 6.33,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601225.SH",
+    "date": "20210709",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202107021501367098_1.pdf",
+    "source_path": "data\\source_documents\\101bf6185330fbbb69f6.pdf",
+    "source_sha256": "f40033ab555ffa4f8f02d9030f1a1bafe1305ab818f8e0e75f0148eb23f1b8b6",
+    "source_title": "601225:陕西煤业股份有限公司2020年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.8,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.7756,
+    "reference_stock_ratio": 0,
+    "evidence_note": "普通股东0.8元；公告第2页以96.95亿/100亿股摊薄，参考扣减0.7756元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "601236.SH",
+    "date": "20210804",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202108031507837069_1.pdf",
+    "source_path": "data\\source_documents\\ab535e9db0cbf28712ae.pdf",
+    "source_sha256": "ed45ce84da9f6704a012041a8ba2eb0a5eee1522ac9c4fd7f823446b5d3a0b0e",
+    "source_title": "601236:红塔证券股份有限公司配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 11.97,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601555.SH",
+    "date": "20200323",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202003221376784213_1.pdf",
+    "source_path": "data\\source_documents\\5ddd0ab3965465e2f087.pdf",
+    "source_sha256": "2eff087f92f7f7163f22afd617f65b8a93863fe28f708848ffbd96f9244032f2",
+    "source_title": "601555:东吴证券配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 8.65,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601555.SH",
+    "date": "20211223",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202112221536107387_1.pdf",
+    "source_path": "data\\source_documents\\e5fb37acdb3247f8c5e3.pdf",
+    "source_sha256": "3cb85dc8aad6cc513eda45f264e62a034a667464240670e897d375517b9f8daa",
+    "source_title": "601555:东吴证券配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 8.48,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "603858.SH",
+    "date": "20190819",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201908081342722547_1.pdf",
+    "source_path": "data\\source_documents\\e38191df325283f9492e.pdf",
+    "source_sha256": "902f0f38fa92e1cad73cca4db07d28b7f54a0447a5f5107f66e613b4b301a2fc",
+    "source_title": "603858:步长制药2018年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 1.614,
+    "account_stock_ratio": 0.3,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 1.55,
+    "reference_stock_ratio": 0.29,
+    "evidence_note": "普通股东1.614元及0.3股；回购股剔除，公告第2页参考计算1.55元及0.29。",
+    "source_pages": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "code": "002466.SZ",
+    "date": "20171226",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201712251069698886_1.pdf",
+    "source_path": "data\\source_documents\\b9c94d7e77bad938446a.pdf",
+    "source_sha256": "bcf25f7dd8f4a996e78c94f875414dbce6923ce7f5b2d6d7b573bc309e2018aa",
+    "source_title": "天齐锂业:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 52.04,
+    "source_pages": [
+      4
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "000157.SZ",
+    "date": "20230721",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202307131592241885_1.pdf",
+    "source_path": "data\\source_documents\\cea964c8774b1ba67695.pdf",
+    "source_sha256": "8e6a4b10b6d84a550edbd8d21ab1b021aa682697c29d2954ba14cbae091aefb3",
+    "source_title": "中联重科:2022年度A股权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.32,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.3008813929306641,
+    "reference_stock_ratio": 0,
+    "evidence_note": "公告第1页披露普通股东0.32元，参与分配A股6672070922股、回购股423956766股；按A股总股本摊薄参考金额。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "600030.SH",
+    "date": "20220127",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202201261542758975_1.pdf",
+    "source_path": "data\\source_documents\\066dc61a4de9bc92e7ee.pdf",
+    "source_sha256": "3b654ded79b3d289496cb2ceb59c8ef7bf9c460ef06a36c1e96d88d503594f57",
+    "source_title": "600030:中信证券股份有限公司A股配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 24.23,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600958.SH",
+    "date": "20220429",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204281562192470_1.pdf",
+    "source_path": "data\\source_documents\\0398bbd0df1d80bb0fc2.pdf",
+    "source_sha256": "af63a07ebd7daaefb0fb22d3510416e782af314102f7d9c066cd6f0ac968d366",
+    "source_title": "600958:东方证券股份有限公司A股配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 9.05,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600989.SH",
+    "date": "20220512",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202205041563491509_1.pdf",
+    "source_path": "data\\source_documents\\90a8652ed6248aa9c691.pdf",
+    "source_sha256": "77c7945236346f652800a271f942a9610c3960538e011146aedd9860afb39bc8",
+    "source_title": "600989:宁夏宝丰能源集团股份有限公司2021年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.321,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.28,
+    "reference_stock_ratio": 0,
+    "evidence_note": "流通股普通账户0.321元，限售股0.2648元；公告第2页参考价扣减0.28元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "600989.SH",
+    "date": "20221227",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202212201581238778_1.pdf",
+    "source_path": "data\\source_documents\\1a87b3a4d7cd645fdd1a.pdf",
+    "source_sha256": "d0ce17862db32ba2dde975b62dcc2286d16188ee59e287589f1969edaad909d0",
+    "source_title": "宝丰能源:宁夏宝丰能源集团股份有限公司2022年前三季度度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.1841,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.14,
+    "reference_stock_ratio": 0,
+    "evidence_note": "流通股普通账户0.1841元，限售股0.1216元；公告参考价扣减0.14元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "600989.SH",
+    "date": "20240724",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202407171638009021_1.pdf",
+    "source_path": "data\\source_documents\\2531836936c2f87cf4f9.pdf",
+    "source_sha256": "d47db5c0b7d2c9bfc37dbc71cfdd2e34ed299948baaad08e7fadedb6fa2dde86",
+    "source_title": "宝丰能源:宁夏宝丰能源集团股份有限公司2023年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.3158,
+    "account_stock_ratio": 0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.28,
+    "reference_stock_ratio": 0,
+    "evidence_note": "普通中小股东0.3158元，大股东0.265元；公告第2页参考价扣减0.28元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "601108.SH",
+    "date": "20220412",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204111558664492_1.pdf",
+    "source_path": "data\\source_documents\\75e1ed8ad09b5701b0a9.pdf",
+    "source_sha256": "75bc8f94188a56795dc25b21dec729483978cdf2aa6f840e02efb577c8d3e304",
+    "source_title": "601108:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 8.09,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601377.SH",
+    "date": "20220825",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202208241577576659_1.pdf",
+    "source_path": "data\\source_documents\\9bed74731364d62d5083.pdf",
+    "source_sha256": "44b33bc7afce5e6e906cce74ef21d402f33477d180e957615d38d7a28eb57509",
+    "source_title": "601377:兴业证券配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 6.05,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "300308.SZ",
+    "date": "20240606",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202405301634964339_1.pdf",
+    "source_path": "data\\source_documents\\109c42120bfcccd0f724.pdf",
+    "source_sha256": "43776bd0a4bd26d2b5660fedd1724041103f4bee1505844dfc61de15a4658a1b",
+    "source_title": "中际旭创:2023年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.45,
+    "account_stock_ratio": 0.4,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.4408015,
+    "reference_stock_ratio": 0.3918236,
+    "evidence_note": "回购股不参与；普通账户0.45元及0.4股，公告第1/4页参考计算0.4408015元及0.3918236。",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "code": "000651.SZ",
+    "date": "20210823",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202108131509825611_1.pdf",
+    "source_path": "data\\source_documents\\7575d8d587773cc4c459.pdf",
+    "source_sha256": "7a4ce60ae7b9b6fd4f748ff1f1e24ebdc928245239f4f20f61206ac9a364bc98",
+    "source_title": "格力电器:2020年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 3.0,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 2.784787,
+    "reference_stock_ratio": 0,
+    "evidence_note": "回购股不参与；普通账户3元，公告第3页市场参考价扣减2.784787元。",
+    "source_pages": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "code": "000661.SZ",
+    "date": "20160427",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201604260014543140_1.pdf",
+    "source_path": "data\\source_documents\\efd6329c6e7119e8f6cf.pdf",
+    "source_sha256": "04c35e45574d1fe89825176c0f5bcc58779d4d7314a0bdcc42739063c0412107",
+    "source_title": "长春高新:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 90.09,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "000686.SZ",
+    "date": "20160415",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201604140014358206_1.pdf",
+    "source_path": "data\\source_documents\\a760e6bd4b32e7316780.pdf",
+    "source_sha256": "92f1338da4015e311206e4083bd4134c76889cf7dc11b9e6d35bf16ea6542de7",
+    "source_title": "东北证券:2016年度配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 13.0,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "000703.SZ",
+    "date": "20260918",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609111829253206_1.pdf",
+    "source_path": "data\\source_documents\\c46bedcf6c9ecdd99b06.pdf",
+    "source_sha256": "715eaa06cacce6eeaa492cbcbecc6697bc6e6f1bc8c6bdf0d3e326cff50a887c",
+    "source_title": "恒逸石化:2026年中期权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.9,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.8164176,
+    "reference_stock_ratio": 0,
+    "evidence_note": "回购股不参与；普通账户0.9元，公告第1/4页市场参考价扣减0.8164176元。",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "code": "000718.SZ",
+    "date": "20190514",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201905071327436314_1.pdf",
+    "source_path": "data\\source_documents\\fdb088b876127ddfbdbc.pdf",
+    "source_sha256": "4bb94e4b4497a9c08913fa31c14f2bcbe2aef4165692947d8efc7701b3981c6d",
+    "source_title": "苏宁环球:2018年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.3,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.283518,
+    "reference_stock_ratio": 0,
+    "evidence_note": "回购股不参与；普通账户0.3元，公告第3-4页参考价扣减0.283518元。",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "code": "000718.SZ",
+    "date": "20200518",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202005111379563727_1.pdf",
+    "source_path": "data\\source_documents\\ed1b741c8e24d35d7d69.pdf",
+    "source_sha256": "c7703d149aebca3eb4e72477e51000f9dff29e22a8ce10ec16b4ec1e517ec007",
+    "source_title": "苏宁环球:2019年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.3,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.271551,
+    "reference_stock_ratio": 0,
+    "evidence_note": "回购股不参与；普通账户0.3元，公告第3页参考价扣减0.271551元。",
+    "source_pages": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "code": "000750.SZ",
+    "date": "20200114",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202001131373933705_1.pdf",
+    "source_path": "data\\source_documents\\a9c6f08b86ec1c131d06.pdf",
+    "source_sha256": "7866047c49547ad8b4b42b3b345723307bf4bae34cfdd20c51cb322bd1d0d99d",
+    "source_title": "国海证券:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 4.81,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "000970.SZ",
+    "date": "20220224",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202202231548732325_1.pdf",
+    "source_path": "data\\source_documents\\19ac4bb70b077e4d4af8.pdf",
+    "source_sha256": "494832199d91e31d800e38ea14bbcb236228896fc2c1c5821adbbbfbaab5921c",
+    "source_title": "中科三环:北京中科三环高技术股份有限公司配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 12.71,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "000977.SZ",
+    "date": "20200319",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202003181376628427_1.pdf",
+    "source_path": "data\\source_documents\\73b7f12e09c8fcf37602.pdf",
+    "source_sha256": "9dd720c9a7dd3e986f2d22d56f64181cfc48f67b23cf7b2a41207b80e68aaa3b",
+    "source_title": "浪潮信息:配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 40.47,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002142.SZ",
+    "date": "20211202",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202112011532251528_1.pdf",
+    "source_path": "data\\source_documents\\647c0ff208fd1c8e9d94.pdf",
+    "source_sha256": "4375dadafc13620b5069c538b488c4f90f41bddabd6afa71d3aa1bd42e8eff80",
+    "source_title": "宁波银行:宁波银行股份有限公司配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 37.17,
+    "source_pages": [
+      4
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002500.SZ",
+    "date": "20200629",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202006281387993488_1.pdf",
+    "source_path": "data\\source_documents\\cf0b2a2b6b5828cb017d.pdf",
+    "source_sha256": "8ba5244ba0db1fe83918a5ab75cc411032c7414e57669a0470c86aaf9a2a8b6f",
+    "source_title": "山西证券:配股发行结果公告暨复牌公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 6.1,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "002831.SZ",
+    "date": "20190513",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201904291324436853_1.pdf",
+    "source_path": "data\\source_documents\\6c92d3ea064cb56081db.pdf",
+    "source_sha256": "0a62f0fa9ed46b622a2d8c62aade2ece75de43a14c56849fc2b8868c22197b32",
+    "source_title": "裕同科技:2018年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.6,
+    "account_stock_ratio": 1.2,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.5963459,
+    "reference_stock_ratio": 1.1926917,
+    "evidence_note": "回购股不参与；普通账户0.6元及1.2股，公告第3页市场参考计算0.5963459元及1.1926917。",
+    "source_pages": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "code": "300274.SZ",
+    "date": "20240613",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406051635601078_1.pdf",
+    "source_path": "data\\source_documents\\9da5fd6eb56bca988988.pdf",
+    "source_sha256": "dd6bd2d541ac75cc71671a521bbfa9e77667eda1e5a8ad2481d082af60f5c5de",
+    "source_title": "阳光电源:2023年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.965,
+    "account_stock_ratio": 0.4,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.9552535,
+    "reference_stock_ratio": 0.39596,
+    "evidence_note": "回购股不参与；普通账户0.965元及0.4股，公告第1页市场参考计算0.9552535元及0.39596。",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "code": "300888.SZ",
+    "date": "20230602",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202305261587306354_1.pdf",
+    "source_path": "data\\source_documents\\0d24e28e4a0c0a4a7304.pdf",
+    "source_sha256": "881169dcf26f5e87312508b57e3cd7bb739b29f98f77b6d245bfb31123158351",
+    "source_title": "稳健医疗:2022年年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 1.9,
+    "account_stock_ratio": 0.4,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 1.8699083,
+    "reference_stock_ratio": 0.3936649,
+    "evidence_note": "回购股不参与；普通账户1.9元及0.4股，公告第1/5页市场参考计算1.8699083元及0.3936649。",
+    "source_pages": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "code": "600008.SH",
+    "date": "20200929",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202009281417966297_1.pdf",
+    "source_path": "data\\source_documents\\7b04b0f9c97020de330b.pdf",
+    "source_sha256": "c6efef72da8904bc56912d6914b6bb10bda61619ad18efa954ed4d343a3c9eba",
+    "source_title": "600008:首创股份配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 2.95,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600489.SH",
+    "date": "20160524",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201605230014962468_1.pdf",
+    "source_path": "data\\source_documents\\81dd4c9ae651a26f2642.pdf",
+    "source_sha256": "c4a1af7a3c7e6fa4577f838abc28b585971de4292f1fc9e1d4d4310be1083af7",
+    "source_title": "600489:中金黄金配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 9.92,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600803.SH",
+    "date": "20180212",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201802111090473031_1.pdf",
+    "source_path": "data\\source_documents\\1e353ce61bf8af877086.pdf",
+    "source_sha256": "9a1ded109241122e7b139816a7682cdc2be1de3251bfddd5dd185b85bff03696",
+    "source_title": "600803:新奥股份配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 13.5,
+    "source_pages": [
+      2,
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600900.SH",
+    "date": "20160719",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201607140016572091_1.pdf",
+    "source_path": "data\\source_documents\\ff33da1a0f41e652a935.pdf",
+    "source_sha256": "23dc22d95f4e38578d8b4dbdaf2bdd25f11ec0529be5753b2102c65204808158",
+    "source_title": "600900:长江电力对2015年度利润分配实施公告的补充说明公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.4,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.35696,
+    "reference_stock_ratio": 0,
+    "evidence_note": "重组新老股东分配不同；原社会公众股每股合计0.4元，公告第3页220亿股摊薄后参考扣减0.35696元。",
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "code": "600909.SH",
+    "date": "20210610",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202106091496958915_1.pdf",
+    "source_path": "data\\source_documents\\81ae47dc6b19f3dad2d9.pdf",
+    "source_sha256": "5667c7f4626f670e03576a4188ddc1f23bca181fcb2d60b182de146054147c38",
+    "source_title": "600909:华安证券股份有限公司配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 5.63,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "600989.SH",
+    "date": "20250513",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202505061668387199_1.pdf",
+    "source_path": "data\\source_documents\\5650440b24eb75d0f1d5.pdf",
+    "source_sha256": "1a9e10e1bd1ba1e5ea3493a8c8dab9e1a70e2211de015c60c4ec97312a968f60",
+    "source_title": "宝丰能源:宁夏宝丰能源集团股份有限公司2024年度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.4598,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.41,
+    "reference_stock_ratio": 0,
+    "evidence_note": "中小股东0.4598元，大股东0.3891元；公告第2页参考价扣减0.41元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "600989.SH",
+    "date": "20260428",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604211821382258_1.pdf",
+    "source_path": "data\\source_documents\\024645248096813a15d5.pdf",
+    "source_sha256": "8ebf1cd4b3dcb2f36ad60ffc5307f32faf43c16ab3f4f580d8b6e3bbef5d6c9b",
+    "source_title": "宝丰能源:宁夏宝丰能源集团股份有限公司2025年度末期权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0.4921,
+    "account_stock_ratio": 0.0,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0.42,
+    "reference_stock_ratio": 0,
+    "evidence_note": "中小股东0.4921元，大股东0.3906元；公告第2页参考价扣减0.42元。",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "code": "601016.SH",
+    "date": "20221128",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202211271580604659_1.pdf",
+    "source_path": "data\\source_documents\\2ac219208c7f385d9a57.pdf",
+    "source_sha256": "f5b7aa23f3daf71465d14a9ac0f070007cd7832f5f39544902dbfee1c2d9553e",
+    "source_title": "601016:中节能风力发电股份有限公司配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 3.93,
+    "source_pages": [
+      2,
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601099.SH",
+    "date": "20160125",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201601240013256057_1.pdf",
+    "source_path": "data\\source_documents\\5ac9e9ee174aef1f6b22.pdf",
+    "source_sha256": "63d9548027380e2e97a61b1d75378664ab37d2f69031c877280578053b1077e6",
+    "source_title": "601099:太平洋配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 6.8,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601377.SH",
+    "date": "20160107",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201601060012773557_1.pdf",
+    "source_path": "data\\source_documents\\2cb46686790eca017f81.pdf",
+    "source_sha256": "ee3035e211360cf8da7342e268e07f8065f2c57226fe1ffd518adfcadb241d66",
+    "source_title": "601377:兴业证券配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 10.35,
+    "source_pages": [
+      2
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "601916.SH",
+    "date": "20230627",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202306261591330790_1.pdf",
+    "source_path": "data\\source_documents\\70c07d9263c064b31ee4.pdf",
+    "source_sha256": "2e8822d20c8f50284b75111ce4e8a23327d675a3d82caed398a758e958ca2e92",
+    "source_title": "浙商银行:浙商银行股份有限公司A股配股发行结果公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "issue_type": "unexplained_factor_change",
+    "classification": "rights_not_subscribed",
+    "observed_reference": 2.57,
+    "source_pages": [
+      3
+    ],
+    "evidence_note": "发行结果公告核实配股成功及该日除权。研究账户统一不参与配股，不增加股份、不支出认购款，保留原始价格稀释损失。此项仅解释因子变动，不证明参与配股的收益。"
+  },
+  {
+    "code": "688005.SH",
+    "date": "20250306",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202502271643570316_1.pdf",
+    "source_path": "data\\source_documents\\27dcfbc5021db73ab8a8.pdf",
+    "source_sha256": "62c167f736bbf62d5749fa14dc091addaef5cbf59e91cd2c2dfadc91ef837d32",
+    "source_title": "容百科技:2024年三季度权益分派实施公告",
+    "reviewed_on": "2026-10-24",
+    "account_cash": 0,
+    "account_stock_ratio": 0.49,
+    "issue_type": "action_factor_mismatch",
+    "classification": "differential_reference",
+    "reference_cash": 0,
+    "reference_stock_ratio": 0.4798,
+    "evidence_note": "普通账户每股转增0.49股；回购股不参与，公告第2-3页参考转增比例0.4798。",
+    "source_pages": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "code": "000630.SZ",
+    "date": "20150924",
+    "issue_type": "action_factor_mismatch",
+    "previous_quote": "20150306",
+    "resumption_quote": "20151023",
+    "gap_actions": [
+      {
+        "date": "20150602",
+        "cash": 0.05,
+        "stock": 1.0
+      },
+      {
+        "date": "20150924",
+        "cash": 0.06,
+        "stock": 1.5
+      }
+    ],
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "classification": "distributions_during_suspension",
+    "source_title": "铜陵有色:2015年半年度权益分派实施公告",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "evidence_note": "公告核实分配日期及权益；停牌期间逐次调整每股记账价，将无报价区间两端累计因子、复牌参考价与全部分配事件交叉核对。不得直接用数月前未调整收盘价校验第二次除权，也不将现金发放日期推迟至复牌日。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201509160010812075_1.pdf",
+    "source_path": "data\\source_documents\\e409f09e3cbb071c0e35.pdf",
+    "source_sha256": "d5a9a9944fa6cc7d2f12044913bb1d483024781496d3fe9c12c4c2deafc75751",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "601877.SH",
+    "date": "20151014",
+    "issue_type": "action_factor_mismatch",
+    "previous_quote": "20150515",
+    "resumption_quote": "20151127",
+    "gap_actions": [
+      {
+        "date": "20150521",
+        "cash": 0.3,
+        "stock": 0.3
+      },
+      {
+        "date": "20151014",
+        "cash": 0.6,
+        "stock": 0.0
+      }
+    ],
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "classification": "distributions_during_suspension",
+    "source_title": "601877:正泰电器2015年中期利润分配实施公告",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "evidence_note": "公告核实分配日期及权益；停牌期间逐次调整每股记账价，将无报价区间两端累计因子、复牌参考价与全部分配事件交叉核对。不得直接用数月前未调整收盘价校验第二次除权，也不将现金发放日期推迟至复牌日。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201509290010929314_1.pdf",
+    "source_path": "data\\source_documents\\b52a2a354bed94c18210.pdf",
+    "source_sha256": "434ab1f6c0a6708562ce6eb3b428b5e66eb15afd07497abc9a0281d8c342ab2a",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "600717.SH",
+    "date": "20260618",
+    "issue_type": "action_factor_mismatch",
+    "previous_quote": "20260608",
+    "resumption_quote": "20260623",
+    "gap_actions": [
+      {
+        "date": "20260618",
+        "cash": 0.102,
+        "stock": 0.0
+      }
+    ],
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "classification": "distributions_during_suspension",
+    "source_title": "天津港:天津港股份有限公司2025年年度权益分派实施公告",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evidence_note": "公告核实分配日期及权益；停牌期间逐次调整每股记账价，将无报价区间两端累计因子、复牌参考价与全部分配事件交叉核对。不得直接用数月前未调整收盘价校验第二次除权，也不将现金发放日期推迟至复牌日。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823458119_1.pdf",
+    "source_path": "data\\source_documents\\8a432ca9d2f1973dc414.pdf",
+    "source_sha256": "5f77dd939379c3b102c5b4b518c43b511d68da8a6ea8281299d2be6ee7fdeb0f",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "600717.SH",
+    "date": "20260623",
+    "issue_type": "unexplained_factor_change",
+    "previous_quote": "20260608",
+    "resumption_quote": "20260623",
+    "gap_actions": [
+      {
+        "date": "20260618",
+        "cash": 0.102,
+        "stock": 0.0
+      }
+    ],
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "classification": "distributions_during_suspension",
+    "source_title": "天津港:天津港股份有限公司2025年年度权益分派实施公告",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evidence_note": "公告核实分配日期及权益；停牌期间逐次调整每股记账价，将无报价区间两端累计因子、复牌参考价与全部分配事件交叉核对。不得直接用数月前未调整收盘价校验第二次除权，也不将现金发放日期推迟至复牌日。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606111823458119_1.pdf",
+    "source_path": "data\\source_documents\\8a432ca9d2f1973dc414.pdf",
+    "source_sha256": "5f77dd939379c3b102c5b4b518c43b511d68da8a6ea8281299d2be6ee7fdeb0f",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "600256.SH",
+    "date": "20180328",
+    "issue_type": "unexplained_factor_change",
+    "previous_quote": "20180319",
+    "resumption_quote": "20180410",
+    "gap_actions": [],
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "classification": "rights_not_subscribed_during_suspension",
+    "source_title": "600256:广汇能源配股发行结果公告",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evidence_note": "公告第3页确认3月28日配股除权、预计4月10日复牌；研究不参与配股。以无报价区间两端因子和复牌参考价交叉核对，不能凭无报价日因子推断免费股份。",
+    "source_reference": 3.81,
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201803271111927405_1.pdf",
+    "source_path": "data\\source_documents\\e7df60905393d4d75894.pdf",
+    "source_sha256": "8b54764b5fa080dc6e7522e35b97d6143e23577b9ffb9a13882f5815a285f948",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "000793.SZ",
+    "date": "20260622",
+    "issue_type": "action_factor_mismatch",
+    "classification": "reorganization_no_distribution",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "observed_previous": 2.63,
+    "source_reference": 2.51,
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evidence_note": "重整文件明确转增股份不向普通原股东分配，并核实特别除权参考价；持仓股数不变，原始股价稀释完整计入净值。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606171823639955_1.pdf",
+    "source_path": "data\\source_documents\\011b29fe886b4bd5642d.pdf",
+    "source_sha256": "12ab6f2e70a8aea35b65322b33f15e2bec7da6177d91d35c6d18ebda2a9177c2",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "600666.SH",
+    "date": "20230220",
+    "issue_type": "action_factor_mismatch",
+    "classification": "reorganization_no_distribution",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "observed_previous": 2.84,
+    "source_reference": 1.79,
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evidence_note": "重整文件明确转增股份不向普通原股东分配，并核实特别除权参考价；持仓股数不变，原始股价稀释完整计入净值。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202302161583251323_1.pdf",
+    "source_path": "data\\source_documents\\602d3803e99b97ac83c4.pdf",
+    "source_sha256": "8a2213025434d3b6f0288c320548b17dec6480f0e02160d37252cbef2c4d13dd",
+    "reviewed_on": "2026-10-24"
+  },
+  {
+    "code": "601258.SH",
+    "date": "20191230",
+    "issue_type": "action_factor_mismatch",
+    "classification": "reorganization_no_distribution",
+    "account_cash": 0,
+    "account_stock_ratio": 0,
+    "observed_previous": 1.46,
+    "source_reference": 1.42,
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "evidence_note": "重整文件明确转增股份不向普通原股东分配，并核实特别除权参考价；持仓股数不变，原始股价稀释完整计入净值。",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201912261372658558_1.pdf",
+    "source_path": "data\\source_documents\\313e96e85da223505065.pdf",
+    "source_sha256": "898744a3a2c19869c7cd22e03812c3a07008f29dd7c7e61277f5926b54165151",
+    "reviewed_on": "2026-10-24"
+  }
+]

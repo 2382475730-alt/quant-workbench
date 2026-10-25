@@ -1,0 +1,2 @@
+# Preserve original bytes so snapshot and research integrity hashes remain valid.
+* -text

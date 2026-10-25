@@ -1,0 +1,153 @@
+[
+  {
+    "code": "000001.SZ",
+    "period": "20260630",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608141827992716_1.pdf",
+      "path": "data\\source_documents\\e73bec3f1019ae224126.pdf",
+      "sha256": "04f7b69417f665164ea6b8c636bc6a1ec1f399cedc97faa0662226a54b4f5527"
+    },
+    "pages": [
+      11
+    ],
+    "source_unit_cny": 1000000.0,
+    "financial_checks": {
+      "revenue_ytd": 70617000000.0,
+      "parent_profit_ytd": 25696000000.0,
+      "total_assets": 6028785000000.0,
+      "parent_equity": 548214000000.0
+    },
+    "observations": [
+      "净息差1.80%，同比持平；不良率1.05%，较年初持平。拨备覆盖率219.58%，较年初下降1.30个百分点；逾期60天以上贷款偏离度由0.67升至0.84。",
+      "核心一级资本充足率9.32%，较年初下降0.04个百分点。普通股股东每股净资产24.13元，和包含其他权益工具的总股东权益口径不同。"
+    ],
+    "holding_questions": "低PB须结合资产质量和普通股资本回报判断；观察逾期迁徙、净息差与资本缓冲是否恶化，不能把账面折价直接当作上涨空间"
+  },
+  {
+    "code": "000063.SZ",
+    "period": "20260630",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608210006743766_1.pdf",
+      "path": "data\\source_documents\\8ce1346ed980e5f2d4ee.pdf",
+      "sha256": "33b6cbe914f7839fd6d92b2fc2a480e2d09fdc7f5af8d3f75073f2f80aa1339a"
+    },
+    "pages": [
+      8
+    ],
+    "source_unit_cny": 1000.0,
+    "financial_checks": {
+      "revenue_ytd": 78025359000.0,
+      "parent_profit_ytd": 2752825000.0,
+      "operating_cash_ytd": -126600000.0,
+      "total_assets": 240547535000.0,
+      "total_liabilities": 163424121000.0,
+      "parent_equity": 76976307000.0
+    },
+    "observations": [
+      "营业收入同比增长9.05%，归母净利润下降45.57%，扣非净利润下降45.89%；收入增长尚未转化为同向利润增长。",
+      "经营现金流净额为-1.266亿元，负债总额较年末增长15.01%；利润与现金流同时需要跟踪。"
+    ],
+    "holding_questions": "即使价格趋势转强，也要核查毛利、业务结构和营运资金；以仓位上限与失效条件控制单一行业波动"
+  },
+  {
+    "code": "000333.SZ",
+    "period": "20260630",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608280006758469_1.pdf",
+      "path": "data\\source_documents\\425034c328fa9d7994b0.pdf",
+      "sha256": "576dd80e353e53296a800b03e9889a9cbb2e8b91fa2ab3c1dace7c10159179b8"
+    },
+    "pages": [
+      7
+    ],
+    "source_unit_cny": 1000.0,
+    "financial_checks": {
+      "revenue_ytd": 260042490000.0,
+      "parent_profit_ytd": 26446037000.0,
+      "operating_cash_ytd": 37552090000.0,
+      "total_assets": 643101789000.0,
+      "parent_equity": 212861055000.0
+    },
+    "observations": [
+      "营业收入同比增长3.55%，归母净利润增长1.66%，扣非净利润下降25.31%。",
+      "公司解释扣非下降主要涉及外币货币性项目汇兑损失计入经常损益、对冲衍生品收益计入非经常损益的分类差异；不能只据扣非数字判断主营恶化，也不能完全忽略外汇敞口。",
+      "本快照营业收入采用2600.42亿元口径，另列含附属金融业务等项目的营业总收入口径，避免混用。"
+    ],
+    "holding_questions": "结合区域收入、外汇对冲和现金流考察盈利质量；跟踪对冲后经济收益而非仅单一会计指标"
+  },
+  {
+    "code": "600519.SH",
+    "period": "20260630",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608141827994408_1.pdf",
+      "path": "data\\source_documents\\07f1d896860b5f560e2b.pdf",
+      "sha256": "0e10aa26be46b1cf3cd03f06e834c7fb98d5dd0d661b96f8fddd4af7e846a4f6"
+    },
+    "pages": [
+      5
+    ],
+    "source_unit_cny": 1,
+    "financial_checks": {
+      "revenue_ytd": 90703260964.48,
+      "parent_profit_ytd": 44516880421.86,
+      "operating_cash_ytd": 70690750119.06,
+      "total_assets": 309050784569.31,
+      "parent_equity": 251253594419.5
+    },
+    "observations": [
+      "营业收入同比增长1.47%，归母净利润下降1.95%，扣非净利润下降2.04%。",
+      "经营现金流同比增长438.84%，公司明确主要来自财务子公司吸收集团成员存款增加和不可随时支取的同业存款减少；不能把这一增幅等同于白酒销售回款改善。",
+      "营业收入907.03亿元与包含利息等项目的营业总收入922.78亿元属于不同口径。"
+    ],
+    "holding_questions": "现金流须剔辨财务子公司影响；关注终端动销、渠道库存、批零价与直销结构，低于自身历史PE不自动构成安全边际"
+  },
+  {
+    "code": "600900.SH",
+    "period": "20260630",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608301828734088_1.pdf",
+      "path": "data\\source_documents\\f47a76f61e8afac93dbc.pdf",
+      "sha256": "738de3b36a31646f344cefaf90b4f149d653c3f68e89f4f8d14bdf02fc9c65a2"
+    },
+    "pages": [
+      6
+    ],
+    "source_unit_cny": 1,
+    "financial_checks": {
+      "revenue_ytd": 37929268927.18,
+      "parent_profit_ytd": 14755694774.53,
+      "operating_cash_ytd": 24128313774.37,
+      "total_assets": 561351112997.94,
+      "parent_equity": 216131353669.07
+    },
+    "observations": [
+      "营业收入同比增长3.36%，归母净利润增长13.02%，扣非净利润增长8.37%。",
+      "经营现金流同比仅增长0.57%，归母利润增速与现金流增速不同；经营现金流减资本开支仍仅是代理口径。"
+    ],
+    "holding_questions": "结合来水、发电量、电价、利息费用和资本支出验证分红持续性；低波动特征也不能替代价格与集中度风险控制"
+  },
+  {
+    "code": "601318.SH",
+    "period": "20260630",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608201828216003_1.pdf",
+      "path": "data\\source_documents\\8fdb05bfbca15c4b5ffc.pdf",
+      "sha256": "f42140b5ad6ca7577d746dad57fd43a7bbc11ee0e360f61c2ed52bd7a4f4a54b"
+    },
+    "pages": [
+      10
+    ],
+    "source_unit_cny": 1000000.0,
+    "financial_checks": {
+      "revenue_ytd": 575138000000.0,
+      "parent_profit_ytd": 92585000000.0,
+      "parent_equity": 1028084000000.0
+    },
+    "observations": [
+      "归母营运利润841.96亿元，同比增长8.3%；归母净利润925.85亿元，同比增长36.1%。二者口径与对资本市场波动的敏感性不同。",
+      "寿险及健康险新业务价值248.47亿元，同比增长11.2%；财险整体综合成本率95.1%，同比优化0.1个百分点。",
+      "集团包含平安银行；同时配置中国平安与平安银行时，需识别业务与风险重叠，不能把两个证券代码视为完全独立风险。"
+    ],
+    "holding_questions": "同时检验新业务价值、保险服务业绩、投资回报与偿付能力；PB和净利润增速均不应单独触发加仓"
+  }
+]

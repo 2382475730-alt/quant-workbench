@@ -1,0 +1,1393 @@
+{
+  "version": "small_capital_v1",
+  "phases": {
+    "development": [
+      "2017-01-03",
+      "2021-12-31"
+    ],
+    "validation": [
+      "2022-01-04",
+      "2024-12-31"
+    ],
+    "review": [
+      "2025-01-02",
+      "2026-10-23"
+    ]
+  },
+  "budget": {
+    "volatility": 0.18,
+    "estimation_multiplier": 1.25,
+    "max_equity": 0.95,
+    "no_trade_band": 0.05,
+    "min_order": 2000.0,
+    "turnover": 0.25
+  },
+  "costs": {
+    "commission": 0.0003,
+    "minimum": 5.0,
+    "slippage": 0.001,
+    "multiplier": 1.0
+  },
+  "evidence": "retrospective_all_history_seen",
+  "runs": [
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_single_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "development_single_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "development_single_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "development_single_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "development_fixed_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "development_risk_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_band_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "development_band_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "development_band_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "development_band_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "development",
+      "strategy": "legacy",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "development_legacy_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "validation_single_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "validation_fixed_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "validation_risk_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "validation_band_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "validation",
+      "strategy": "legacy",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "validation_legacy_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_single_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "review_single_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "review_single_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "review_single_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "review_fixed_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "review_risk_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "double_cost",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_double_cost_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "delay_2",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_delay_2_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "miss_fourth",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_miss_fourth_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "partial",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_partial_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "staged",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_staged_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 50000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_base_50000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 200000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_base_200000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 500000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_band_base_500000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 300,
+      "monthly_contribution": 0,
+      "id": "review_band_base_100000_fee300_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 600,
+      "monthly_contribution": 0,
+      "id": "review_band_base_100000_fee600_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 1200,
+      "monthly_contribution": 0,
+      "id": "review_band_base_100000_fee1200_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "legacy",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 0,
+      "id": "review_legacy_base_100000_fee0_flow0"
+    },
+    {
+      "phase": "review",
+      "strategy": "single",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 1000,
+      "id": "review_single_base_100000_fee0_flow1000"
+    },
+    {
+      "phase": "review",
+      "strategy": "fixed",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 1000,
+      "id": "review_fixed_base_100000_fee0_flow1000"
+    },
+    {
+      "phase": "review",
+      "strategy": "risk",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 1000,
+      "id": "review_risk_base_100000_fee0_flow1000"
+    },
+    {
+      "phase": "review",
+      "strategy": "band",
+      "scenario": "base",
+      "initial": 100000,
+      "annual_fee": 0,
+      "monthly_contribution": 1000,
+      "id": "review_band_base_100000_fee0_flow1000"
+    }
+  ]
+}

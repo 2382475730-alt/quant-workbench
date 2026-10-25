@@ -1,0 +1,142 @@
+PDF page 24
+1.2 Multiperiod Binomial Model 9 
+S2(H H) = uS1(H) = u2S0, S2(HT) = dS1(H) = duSo, 
+S2(TH) = uS1(T) = udSo, S2(TT) = dS1(T) =�So. 
+After three tosses, there are eight possible coin sequences, although not all of 
+them result in different stock prices at time 3. See Figure 1.2.1. 
+Example 1.2.1. Consider the particular three-period model with So= 4, u = 
+2, and d = 4. We have the binomial "tree" of possible stock prices shown in 
+Figure 1.2.2. 0 
+Fig. 1.2.2. A particular three-period model. 
+Let us return to the general three-period binomial model of Figure 1.2.1 
+and consider a European call that confers the right to buy one share of stock 
+for K dollars at time two. After the discussion of this option, we extend the 
+analysis to an arbitrary European derivative security that expires at time 
+N�2. 
+At expiration, the payoff of a call option with strike price K and expiration 
+time two is V2 = (S2- K)+, where V2 and S2 depend on the first and second 
+coin tosses. We want to determine the no-arbitrage price for this option at time 
+zero. Suppose an agent sells the option at time zero for Vil dollars, where Vo is 
+still to be determined. She then buys Ll0 shares of stock, investing Vo - Ll0S0 
+dollars in the money market to finance this. {The quantity Vo - LloSo will 
+turn out to be negative, so the agent is actually borrowing LloSo - Vo dollars 
+from the money market.) At time one, the agent has a portfolio (excluding 
+the short position in the option) valued at 
+X1 = LloS1 + (1 + r)(Vo - LloSo). ( 1.2.1) 
+
+PDF page 25
+10 1 The Binomial No-Arbitra ge Pricing J'vlodel 
+Although we do not indicate it in the notation, S1 and therefore X1 depend 
+on the outcome of the first coin toss. Thus, there are really two equations 
+implicit in (1 .2. 1): 
+XI (H) = d0St(H) + (1 + r)(Vo - doSo), 
+Xt(T) = doSt (T) + (1 + r)(Vo - doSo). 
+( 1. 2.2) 
+(1.2.3) 
+After the first coin toss, the agent has a portfolio valued at X1 dollars and can 
+readjust her hedge. Suppose she decides now to hold 6.1 shares of stock, where 
+6.1 is allowed to depend on the first coin toss because the agent knows the 
+result of this toss at time one when she chooses .11. She invests the remainder 
+of her W!:'alth, X 1-6.1 S1, in the money market. In the next period, her wealth 
+will be given by the right-hand side of the following equation, and she wants 
+it to be V2. Therefore, she wants to have 
+(1 .2.4) 
+Although we do not indicate it in the notation, S2 and V2 depend on the 
+outcomes of the first two coin tosses. Considering all four possible outcomes, 
+we can write (1 .2.4) as four equations: 
+V2(HH) = dt (H)S2(H H) + (1 + r)(X1 (H)- dt (H)St (H)), 
+V2(HT) = L11(H)S2(HT) + (1 + r)(X1( H) - Llt(H)St (H)), 
+V2( TH) = L11( T)S2(TH) + (1 + r)(XJ( T) - dt( T)SJ (T)). 
+\;'2(TT) = L1J (T)S2(TT) + ( 1 +r )(XJ (T)- L11( T)S1 (T)). 
+( 1. 2.5) 
+( 1. 2. 6) 
+(1. 2.7 ) 
+(1 .2. 8) 
+We now have six equations, the two represented by (1.2.1) and the four rep­
+resented by (1 .2.4), in the six unknowns Vo, 110, 111 (H), L1I (T), X1 (H). and 
+Xt(T). 
+To solve these equations, and thereby determine the no-arbitra ge price V0 
+at time zero of the option and the replicating portfolio Llo, 6.1 (H), and 6.1 (T), 
+we begin with the last two equations, ( 1. 2. 7) and ( 1. 2. 8) . Subtr acting ( 1.2 .8) 
+from (1 .2.7 ) and solving for d1(T), we obtain the delta-he dging formula 
+( 1. 2.9) 
+and substituting this into either (1 .2.7) or (1.2.8), we can solve for 
+(1 .2.1 0) 
+where p and ij are the risk-neutral probabilit ies given by (1. 1.8). We can also 
+obtain (1.2. 10) by multiplying (1 .2.7 ) by p and (1 .2. 8) by ij and adding them 
+together. Since 
+
+PDF page 51
+-- - ---- --- · ---- -------- -- �--- -- --- -�--� 
+36 2 Probability Theory on Coin Toss Space 
+We see that lE1 [ � J does not depend on the first coin toss (is not really 
+random) and in fact is equal to 
+Sz 2 1 1 3 lE - = - . 2 + -.- = - . s1 3 3 2 2 
+2.4 Martin gales 
+In the binomial pricing model of Chapter 1, we chose risk-neutral probabilit ies 
+p and ij so that at every time n and for every coin toss sequence w1 . . . Wn we 
+have (2.3.3). In terms of the notation for conditional expectatio ns introduced 
+in Section 2.3, this fact can be written as (2.3 .5). If we divide both sides of 
+(2. 3.5) by (1 + r) " , we get the equation 
+S, 
+_ lE [ Sn+t ] 
+(1 + r)" - " (1 + r) "+ 1 · (2.4. 1) 
+It does not matter in this model whether we write the term (! +,\"+' inside 
+or outside the conditional expectation because it is constant (see Theorem 
+2.3.2 (i)). In models with random interest. rates, it would matter; we shall 
+follow the practice of writing this term inside the conditio nal expectation 
+since that is the way it would be written in models with random interest 
+rates. 
+Equation (2.4. 1) expresses the key fact that under the risk-neutral mea­
+sure, for a stock that pays no dividend, the best estimate based on the infor­
+mation at time n of the value of the discounted stock price at time n + 1 is the 
+discounted stock price at time n. The risk-neutral probabilit ies are chosen to 
+enforce this fact. Processes that satisfy this condition are called martingales. 
+We give a formal definition of marti ngale under the actual probabilit ies p and 
+q; the definition of martingale under the risk-neutral probabiliti es p and ij is 
+obtained by replacing JE, by En in (2. 4.2) . 
+Definition 2.4.1. Consider the binomial asset-pricing model. Let Afo , Jl.ft, . . . , 
+A!N be a sequence of random variables, with each Af, depending only on the 
+first n coin tosses (and M0 consta nt). Such a sequence of random variables is 
+called an adapted stochastic process. 
+(i) If 
+Af,. =lE 11[ Af,+t]. n=O ,l , ... ,N- 1 , 
+we say this process is a martingale. 
+(ii} If 
+M, :<:; 1En[Mn+l], n = 0, 1, ... , N- 1, 
+(2.4.2) 
+we say the process i8 a snbmartingale (even though it may have a tendency 
+to increase); 
+
+PDF page 52
+(iii) If 
+2.4 Martingales 37 
+Afn � En [Mn+ t), n = 0, 1, ... , N-1, 
+we say the process is a supermartin gale (even though it may have a ten­
+dency to decrease). 
+Remark 2. 4.2 . The martingale property in (2.4.2) is a "one-step-ahead" condi­
+tion. However, it implies a similar condition for any number of steps. Indeed, if 
+M0, A11 , ... , MN is a martingale and n � N- 2, then the martingale property 
+(2.4.2) implies 
+Taking conditional expectations on both sides based on the information at 
+time n and using the iterated conditioning property (iii ) of Theorem 2.3.2, we 
+obtain 
+Because of the martingale property (2.4.2), the left-hand side is Mn, and we 
+thus have the "two-step-ahead" property 
+Iterating this argument, we can show that whenever 0 � n � m � N, 
+(2.4.3) 
+One might call this the "multistep-ahe ad'' version of the martingale property. 
+Remark 2. 4.3 . The expectation of a martingale is constant over time, i.e., if 
+M0,. M1 , ... ,M N is a martingale, then 
+Afo = EAfn, n = 0, 1, . . . , N. (2.4.4) 
+Indeed, if Af0, M1 , ... , A!N is a martingale, we may take expectations on both 
+sides of (2.4.2), using Theorem 2.3. 2(iii ) , and obtain IEMn = E[Mn+d for 
+every n. It follows that 
+But M0 is not random, so M0 = EM0, and (2.4.4) follows. 0 
+In order to have a martingale, the equality in (2.4.2) must hold for all 
+possible coin toss sequences. The stock price process in Figure 2.3.1 would be 
+a martingale if the probability of an up move were p = � and the probability 
+of a down move were ij = � because, at every node in the tree in Figure 
+2.3. 1, the stock price shown would then be the average of the two possible 
+subsequent stock prices averaged with these weights. For example, 
+1 2 St (T) = 2 = - · S2(TH) + - · S2(TT). 3 3 

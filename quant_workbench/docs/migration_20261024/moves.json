@@ -1,0 +1,158 @@
+[
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\.pytest_cache",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\.pytest_cache"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\artifacts",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\artifacts"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\config",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\config"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\data",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\data"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\logs",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\logs"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\quant_workbench",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\quant_workbench"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\report_app",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\report_app"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\reports",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\reports"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\research",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\research"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\scripts",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\scripts"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\src",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\src"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\tests",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\tests"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\.gitignore",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\.gitignore"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\当前工作台说明.md",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\当前工作台说明.md"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\pyproject.toml",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\pyproject.toml"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\QuantWorkbench.bat",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\QuantWorkbench.bat"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\README.md",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\README.md"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\Start_EntryTiming_Archived.bat",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\Start_EntryTiming_Archived.bat"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\Start_EntryTiming.bat",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\Start_EntryTiming.bat"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\Start_Pork_Research.bat",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\Start_Pork_Research.bat"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\Start_StandaloneETF_Archived.bat",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\Start_StandaloneETF_Archived.bat"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\quant_workbench\\uv.lock",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\quant_workbench\\uv.lock"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\.pytest_cache",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\.pytest_cache"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\.ruff_cache",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\.ruff_cache"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\artifacts",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\artifacts"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\config",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\config"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\data",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\data"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\docs",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\docs"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\scripts",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\scripts"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\src",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\src"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\tests",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\tests"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\tmp",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\tmp"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\.gitignore",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\.gitignore"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\FinancialAnalysis.bat",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\FinancialAnalysis.bat"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\project_status.md",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\project_status.md"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\pyproject.toml",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\pyproject.toml"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\README.md",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\README.md"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\run_gui.ps1",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\run_gui.ps1"
+  },
+  {
+    "from": "D:\\Study\\# Financial\\uv.lock",
+    "to": "D:\\Study\\# Financial\\research_library\\baseline_20261024\\uv.lock"
+  }
+]

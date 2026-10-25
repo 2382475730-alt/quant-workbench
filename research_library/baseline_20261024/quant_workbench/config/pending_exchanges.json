@@ -1,0 +1,44 @@
+[
+  {
+    "code": "601059.SH",
+    "record_date": "20261016",
+    "delist_date": "20261019",
+    "exchange_to": "601995.SH",
+    "exchange_ratio": 0.521,
+    "registration_completed": false,
+    "list_date": null,
+    "asof": "20261023",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610151830511655_1.pdf",
+      "path": "data\\source_documents\\5be8f6795e1db818a9c2.pdf",
+      "sha256": "9553a01c4278f46f18fcc05665640fbe39a759c546d5f2f6a47010cc1c7d94cf"
+    },
+    "pages": [
+      1,
+      2,
+      5
+    ],
+    "handling": "截至观察日仅核实换股实施公告，未核实登记完成及新股上市。旧代码数量作为待换股权利的跟踪标签，沿用旧报价为陈旧估值代理；不能成交、不能提现，也不能假定证券价值为零。"
+  },
+  {
+    "code": "601198.SH",
+    "record_date": "20261016",
+    "delist_date": "20261019",
+    "exchange_to": "601995.SH",
+    "exchange_ratio": 0.4376,
+    "registration_completed": false,
+    "list_date": null,
+    "asof": "20261023",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610151830511655_1.pdf",
+      "path": "data\\source_documents\\5be8f6795e1db818a9c2.pdf",
+      "sha256": "9553a01c4278f46f18fcc05665640fbe39a759c546d5f2f6a47010cc1c7d94cf"
+    },
+    "pages": [
+      1,
+      2,
+      5
+    ],
+    "handling": "截至观察日仅核实换股实施公告，未核实登记完成及新股上市。旧代码数量作为待换股权利的跟踪标签，沿用旧报价为陈旧估值代理；不能成交、不能提现，也不能假定证券价值为零。"
+  }
+]

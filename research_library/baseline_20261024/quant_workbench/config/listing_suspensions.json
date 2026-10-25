@@ -1,0 +1,122 @@
+[
+  {
+    "code": "000629.SZ",
+    "start": "20170505",
+    "end_exclusive": "20180824",
+    "classification": "listing_suspended_until_resumption_or_delisting",
+    "sources": [
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN201808151179144695_1.pdf",
+        "path": "data\\source_documents\\b09de3b8e42c00940349.pdf",
+        "sha256": "4e083aa8b28ff29203bdf11c72387a36c70a6eb8814108f968b1f2db5688f4c6",
+        "pages": [
+          1,
+          19
+        ]
+      }
+    ],
+    "accounting": "No executable quotes during interval; preserve held shares and disclose stale mark sensitivity."
+  },
+  {
+    "code": "600732.SH",
+    "start": "20160408",
+    "end_exclusive": "20170606",
+    "classification": "listing_suspended_until_resumption_or_delisting",
+    "sources": [
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN201705260605196411_1.pdf",
+        "path": "data\\source_documents\\4ed19daa9b2a6f0d8c73.pdf",
+        "sha256": "ef2f8da2d605fdf52c7058a68aa3c87801a89a836d7b8b57f9d1c954521194be",
+        "pages": [
+          1,
+          10
+        ]
+      }
+    ],
+    "accounting": "No executable quotes during interval; preserve held shares and disclose stale mark sensitivity."
+  },
+  {
+    "code": "300104.SZ",
+    "start": "20190513",
+    "end_exclusive": "20200605",
+    "classification": "listing_suspended_until_resumption_or_delisting",
+    "sources": [
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202006031382125811_1.pdf",
+        "path": "data\\source_documents\\ff8857529c1cd0fe0e2a.pdf",
+        "sha256": "3deffe6fc91b935074a58188b686b2ec4e3ca2b78608ca725023758434d54a6d",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "accounting": "No executable quotes during interval; preserve held shares and disclose stale mark sensitivity."
+  },
+  {
+    "code": "600074.SH",
+    "start": "20190524",
+    "end_exclusive": "20200410",
+    "classification": "listing_suspended_until_resumption_or_delisting",
+    "sources": [
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202004011377390774_1.pdf",
+        "path": "data\\source_documents\\12da39b093fcf4074483.pdf",
+        "sha256": "956c49d4276f5ae1c65ddbd520ab41cd3992ab2d9acfd5575257a7169ffd5f7d",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "accounting": "No executable quotes during interval; preserve held shares and disclose stale mark sensitivity."
+  },
+  {
+    "code": "600485.SH",
+    "start": "20200515",
+    "end_exclusive": "20210601",
+    "classification": "listing_suspended_until_resumption_or_delisting",
+    "sources": [
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202005081379480190_1.pdf",
+        "path": "data\\source_documents\\a6303d5a4ff5afde0261.pdf",
+        "sha256": "de3333b22c579c73e67188cf0df8b31e7187901d5bfe07b2e68f4e153236fc24",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202105251493882217_1.pdf",
+        "path": "data\\source_documents\\65f5b37a633efeaaa17d.pdf",
+        "sha256": "571338b88ae2b2c20e8c376e3d11876ad651a2fc95c41ec707ecf1d97ffe55fb",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "accounting": "No executable quotes during interval; preserve held shares and disclose stale mark sensitivity."
+  },
+  {
+    "code": "002450.SZ",
+    "start": "20200710",
+    "end_exclusive": "20210414",
+    "classification": "listing_suspended_until_resumption_or_delisting",
+    "sources": [
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202007071390110099_1.pdf",
+        "path": "data\\source_documents\\49753e9adeafa9080185.pdf",
+        "sha256": "dc40565719b2b9d41d39f8eed2db372c8e52d06db8d995420da00c887a4a6883",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202104061481639821_1.pdf",
+        "path": "data\\source_documents\\3b878b54c61d7642cfe1.pdf",
+        "sha256": "3d077c8b4e181139271c882fe5bf3947ff69eab25fb5dbc7a48286529a5066d0",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "accounting": "No executable quotes during interval; preserve held shares and disclose stale mark sensitivity."
+  }
+]

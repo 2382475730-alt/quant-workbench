@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "registered_before_performance": true,
+  "initial_cash": 1000000,
+  "single_stock_examples": ["000001.SZ", "000063.SZ", "000333.SZ", "600519.SH", "600900.SH", "601318.SH"],
+  "example_selection_note": "固定行业分散案例：银行、通信设备、家电、白酒、电力、保险；选于收益比较前，但这是当下选择的案例，不代表无选择偏差的随机样本。",
+  "phases": {
+    "development": ["2017-01-01", "2021-12-31"],
+    "validation": ["2022-01-01", "2024-12-31"],
+    "final": ["2025-01-01", "2026-10-23"]
+  },
+  "portfolio": [
+    {"name": "equal_weight", "kind": "equal", "lookback": 252, "skip": 21, "count": 300, "role": "baseline"},
+    {"name": "momentum_252_20", "kind": "momentum", "lookback": 252, "skip": 21, "count": 20, "role": "primary"},
+    {"name": "momentum_126_20", "kind": "momentum", "lookback": 126, "skip": 21, "count": 20, "role": "sensitivity"},
+    {"name": "momentum_252_10", "kind": "momentum", "lookback": 252, "skip": 21, "count": 10, "role": "sensitivity"},
+    {"name": "momentum_252_30", "kind": "momentum", "lookback": 252, "skip": 21, "count": 30, "role": "sensitivity"}
+  ],
+  "single_stock": [
+    {"name": "buy_hold", "kind": "buy_hold", "window": 200, "role": "baseline"},
+    {"name": "trend_200", "kind": "trend", "window": 200, "role": "primary"},
+    {"name": "trend_200_risk", "kind": "trend_risk", "window": 200, "role": "primary_risk"},
+    {"name": "trend_100", "kind": "trend", "window": 100, "role": "sensitivity"},
+    {"name": "trend_250", "kind": "trend", "window": 250, "role": "sensitivity"}
+  ],
+  "stress": ["double_cost", "one_extra_day_delay"],
+  "risk_target": 0.15,
+  "cash_yield": 0,
+  "dividend_tax": "gross dividends before investor-specific tax; no claim of investor net return",
+  "gate": "最终封存须有冻结文件；仅历史研究，无券商交易连接。"
+}

@@ -1,0 +1,413 @@
+[
+  {
+    "code": "002352.SZ",
+    "ex_date": "20241107",
+    "record_date": "20241106",
+    "cash_per_share": 1.4,
+    "stock_ratio": 0,
+    "pay_date": "20241107",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-10-31/1221573964.PDF",
+    "reason": "公司实施公告：中期每10股4元及特别每10股10元合计每10股14元。原接口0.4和1.4是部分与合计，不能相加或重复记账。"
+  },
+  {
+    "code": "002157.SZ",
+    "ex_date": "20231208",
+    "record_date": "20231207",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2023-12-02/30bca297-1cf1-4365-aaea-14177aaad240.PDF",
+    "reason": "重整转增股份全部用于偿债和引入投资人，不分配给原股东；不能把每股1.623股记入普通投资者持仓。"
+  },
+  {
+    "code": "000656.SZ",
+    "ex_date": "20250912",
+    "record_date": "20250911",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-09-12/1224652943.PDF",
+    "reason": "金科重整专项意见明确原股东分配导致流通股增加数为0。转增股份给重整投资人及债权人，不计入普通股持仓。"
+  },
+  {
+    "code": "000792.SZ",
+    "ex_date": "20200331",
+    "record_date": "20200330",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-03-25/1207399017.PDF",
+    "reason": "盐湖重整财务顾问专项意见确认每10股转9.5股不向原股东分配，全部用于偿债及管理人处置。"
+  },
+  {
+    "code": "000793.SZ",
+    "ex_date": "20260622",
+    "record_date": "20260618",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-18/1225376733.PDF",
+    "reason": "华闻重整专项意见明确原股东获配股份为0；除权参考价调整产生的原价稀释损失保留，不能发放虚构红股。"
+  },
+  {
+    "code": "002142.SZ",
+    "ex_date": "20171116",
+    "record_date": "20171115",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-03-29/1204534797.PDF",
+    "reason": "2017年年报核实每股4.6元为宁行优01的优先股股息，非002142普通股现金红利。"
+  },
+  {
+    "code": "002310.SZ",
+    "ex_date": "20241230",
+    "record_date": "20241227",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-12-28/1222165527.PDF",
+    "reason": "东方园林重整股份全部登记至管理人账户按重整计划处置，不作为普通股股东送股；复牌参考价不调整。"
+  },
+  {
+    "code": "002608.SZ",
+    "ex_date": "20161228",
+    "record_date": "20161227",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201612300222775821_1.pdf",
+    "reason": "舜天船舶公司重整公告确认转增不向原股东分配，由管理人向债权人分配或处置。"
+  },
+  {
+    "code": "300750.SZ",
+    "ex_date": "20250124",
+    "record_date": "20250123",
+    "cash_per_share": 1.23,
+    "stock_ratio": 0,
+    "pay_date": "20250124",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366609.PDF",
+    "reason": "特别分红实施公告每10股12.30元；接口不同报告期下的同一特别分红不可重复计入。"
+  },
+  {
+    "code": "300760.SZ",
+    "ex_date": "20241107",
+    "record_date": "20241106",
+    "cash_per_share": 1.65,
+    "stock_ratio": 0,
+    "pay_date": "20241107",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202410301640602304_1.pdf",
+    "reason": "2024年第二次中期权益分派公告每10股16.50元；接口重复报告期不得重复计息。"
+  },
+  {
+    "code": "600989.SH",
+    "ex_date": "20240724",
+    "record_date": "20240723",
+    "cash_per_share": 0.3158,
+    "stock_ratio": 0,
+    "pay_date": "20240724",
+    "list_date": "",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2024/2024-7/2024-07-18/10334213.PDF",
+    "reason": "差异化分红：本研究普通中小股东每股0.3158元，大股东0.265元不适用。两条接口记录不是重复利润分配。"
+  },
+  {
+    "code": "601318.SH",
+    "ex_date": "20180607",
+    "record_date": "20180606",
+    "cash_per_share": 1.2,
+    "stock_ratio": 0,
+    "pay_date": "20180607",
+    "list_date": "",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2018/2018-5/2018-05-31/4486100.PDF",
+    "reason": "公司2017年年度与30周年特别分红实施公告确认年度1元加特别0.2元，合计每股1.2元；接口两行0.2不完整。"
+  },
+  {
+    "code": "601088.SH",
+    "ex_date": "20170710",
+    "record_date": "20170707",
+    "cash_per_share": 2.97,
+    "stock_ratio": 0,
+    "pay_date": "20170710",
+    "list_date": "",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=3692800&stockid=601088",
+    "reason": "公司2017半年报确认普通0.46元和特别2.51元合计2.97元；接口2.51与2.97为部分与合计，不相加。"
+  },
+  {
+    "code": "601898.SH",
+    "ex_date": "20240820",
+    "record_date": "20240819",
+    "cash_per_share": 0.555,
+    "stock_ratio": 0,
+    "pay_date": "20240820",
+    "list_date": "",
+    "source": "https://www.chinacoalenergy.com/cms_files/jcms1/web2/site/attach/0/5c706ac8437542fc8b925e9dc0c84260.pdf",
+    "reason": "公司实施公告确认年度0.442元加特别0.113元，共0.555元；接口只记特别分红，遗漏年度分红。"
+  },
+  {
+    "code": "600157.SH",
+    "ex_date": "20201229",
+    "record_date": "20201228",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-12-23/1208965019.PDF",
+    "reason": "永泰重整转增不向原股东分配，用于抵偿债务及重整费用，普通账户不获新增股份。"
+  },
+  {
+    "code": "600221.SH",
+    "ex_date": "20211206",
+    "record_date": "20211203",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-11-30/1211723695.PDF",
+    "reason": "公司重整除权公告确认转增全部不向原股东分配，普通账户不获新增股份。"
+  },
+  {
+    "code": "600654.SH",
+    "ex_date": "20221223",
+    "record_date": "20221222",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8742637&stockid=600654",
+    "reason": "公司重整实施公告确认新增股份不向原股东分配，全部用于偿债和引入投资人。"
+  },
+  {
+    "code": "600666.SH",
+    "ex_date": "20230220",
+    "record_date": "20230217",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://paper.cnstock.com/html/2023-02/14/content_1725187.htm",
+    "reason": "公司实施公告：普通股东对应转增股无偿让渡给重整投资人，不能计为普通账户持股。实际原价变化保留。"
+  },
+  {
+    "code": "601258.SH",
+    "ex_date": "20191230",
+    "record_date": "20191227",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2019/2019-12/2019-12-24/5820930.PDF",
+    "reason": "庞大重整实施公告：转增不向原股东分配，分别由投资人受让及用于清偿债务。"
+  },
+  {
+    "code": "600733.SH",
+    "ex_date": "20180919",
+    "record_date": "20180918",
+    "cash_per_share": 0,
+    "stock_ratio": 2.5,
+    "pay_date": "",
+    "list_date": "20180920",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201908161344392823_1.pdf",
+    "reason": "公司公告确认2018年9月18日登记每10股转25股，仅实施一次；接口三条不同报告期重复事件不能累计为每股7.5股。上市日暂按原实施记录，须核对复牌及可交易日期。"
+  },
+  {
+    "code": "600518.SH",
+    "ex_date": "20211215",
+    "record_date": "20211214",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "uncertain_entitlement": true,
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2021/2021-12/2021-12-14/7717838.PDF?vt=4",
+    "reason": "康美中小股东获配比例为1113309515股除以登记日原前50名之外股东持股总和，非普遍每股1.8股。尚缺准确分母；持有该事件权益的策略必须中止，禁止假定为0或1.8。"
+  },
+  {
+    "code": "600515.SH",
+    "ex_date": "20211222",
+    "record_date": "20211221",
+    "cash_per_share": 0,
+    "stock_ratio": 0,
+    "pay_date": "",
+    "list_date": "",
+    "uncertain_entitlement": true,
+    "source": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211970832.PDF",
+    "reason": "海航基础实际向中小股东分配1142173967股，不是每股1.92387股普遍送股。每股实际比例及适用资格仍需登记分母核验；持有事件权益则禁止回测继续。"
+  },
+  {
+    "code": "601601.SH",
+    "record_date": "20210629",
+    "ex_date": "20210630",
+    "cash_per_share": 1.3,
+    "stock_ratio": 0,
+    "pay_date": "20210630",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202106211499157648_1.pdf",
+    "reason": "公司实施公告第1页确认年度1.2元及30周年特别0.1元合计1.3元。接口0.1与1.3为部分与合计，不应合计成1.4元。"
+  },
+  {
+    "code": "600188.SH",
+    "record_date": "20220713",
+    "ex_date": "20220714",
+    "cash_per_share": 2.0,
+    "stock_ratio": 0,
+    "pay_date": "20220714",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202207071575915504_1.pdf",
+    "reason": "年度1.6元与特别0.4元合计2元；接口0.4与2为部分与合计，不重复相加。"
+  },
+  {
+    "code": "600332.SH",
+    "record_date": "20161125",
+    "ex_date": "20161128",
+    "cash_per_share": 0.3,
+    "stock_ratio": 0,
+    "pay_date": "20161128",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201611210118877576_1.pdf",
+    "reason": "2016年A股特别股息仅每股0.3元，接口不同报告期三行记录同一笔股息。"
+  },
+  {
+    "code": "600600.SH",
+    "record_date": "20230713",
+    "ex_date": "20230714",
+    "cash_per_share": 1.8,
+    "stock_ratio": 0,
+    "pay_date": "20230714",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202307061592071824_1.pdf",
+    "reason": "年度1.3元与特别0.5元合计1.8元，不能将0.5与1.8重复相加。"
+  },
+  {
+    "code": "600705.SH",
+    "record_date": "20160113",
+    "ex_date": "20160114",
+    "cash_per_share": 0.086,
+    "stock_ratio": 0,
+    "pay_date": "20160114",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201601060012773565_1.pdf",
+    "reason": "2015年中期每股0.086元，接口不同报告期的同次派息不重复计入。"
+  },
+  {
+    "code": "600930.SH",
+    "record_date": "20260210",
+    "ex_date": "20260211",
+    "cash_per_share": 0.03,
+    "stock_ratio": 0,
+    "pay_date": "20260211",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202602031819617394_1.pdf",
+    "reason": "2025年特别分红每股0.03元，接口不同报告期的同次派息不重复计入。"
+  },
+  {
+    "code": "600938.SH",
+    "record_date": "20220714",
+    "ex_date": "20220715",
+    "cash_per_share": 1.00699,
+    "stock_ratio": 0,
+    "pay_date": "20220715",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202207071575915393_1.pdf",
+    "reason": "2021年末期与上市20周年特别股息合计每股1.00699元，接口两行不是两次派息。"
+  },
+  {
+    "code": "601066.SH",
+    "record_date": "20181203",
+    "ex_date": "20181204",
+    "cash_per_share": 0.18,
+    "stock_ratio": 0,
+    "pay_date": "20181204",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201811261251816776_1.pdf",
+    "reason": "2017年度普通A股每股0.18元，接口不同报告期记录同次派息。"
+  },
+  {
+    "code": "601800.SH",
+    "record_date": "20260108",
+    "ex_date": "20260109",
+    "cash_per_share": 0.1178,
+    "stock_ratio": 0,
+    "pay_date": "20260109",
+    "list_date": "",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512291810706605_1.pdf",
+    "reason": "2025年半年度A股每股0.1178元，接口不同报告期记录同次派息。"
+  },
+  {
+    "code": "600733.SH",
+    "record_date": "20180201",
+    "ex_date": "20180821",
+    "cash_per_share": 0.0,
+    "stock_ratio": 0.5,
+    "list_date": "20180823",
+    "mark_stock_ratio": 0.0,
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201808191180565942_1.pdf",
+    "reason": "股改股份对价：2018-02-01登记流通股每10股获送5股，8月21日实施、8月23日流通；非流通股东转让，总股本不变。9月每10转25以获送后的持股为基数，原1000股最终5250股。未把行情4倍复权当作实际股数。",
+    "source_pages": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "code": "600005.SH",
+    "record_date": "20170214",
+    "ex_date": "20170217",
+    "cash_per_share": 0.0,
+    "stock_ratio": 0.0,
+    "exchange_to": "600019.SH",
+    "exchange_ratio": 0.56,
+    "list_date": "20170227",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201702210355506312_1.pdf",
+    "source_pages": [
+      8,
+      13
+    ],
+    "reason": "武钢股份由宝钢换股吸收合并。2017-02-14登记，2月17日完成登记，每1股换0.56股宝钢，2月27日新股流通；取消旧证券持仓，不将其当作永续停牌。未申报异议股东现金选择权。非整数尾数不擅自补股并记入事件审计；本次实际1000股转换为560股，无尾数。"
+  },
+  {
+    "code": "600837.SH",
+    "record_date": "20250303",
+    "ex_date": "20250313",
+    "cash_per_share": 0.0,
+    "stock_ratio": 0.0,
+    "exchange_to": "601211.SH",
+    "exchange_ratio": 0.62,
+    "list_date": "20250317",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202503131644344196_1.pdf",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "reason": "按完成登记证明日期确认吸收合并换股，新股份上市前锁定；不自动申报异议股东现金选择权。整数尾数按向下取整保守记账，实际可能多获1股；该差异单独审计。此项为首次最终检验后发现的账本修订，原结果完整保留。"
+  },
+  {
+    "code": "601989.SH",
+    "record_date": "20250904",
+    "ex_date": "20250911",
+    "cash_per_share": 0.0,
+    "stock_ratio": 0.0,
+    "exchange_to": "600150.SH",
+    "exchange_ratio": 0.1339,
+    "list_date": "20250916",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509111741810030_1.pdf",
+    "source_pages": [
+      1,
+      2,
+      4
+    ],
+    "reason": "按完成登记证明日期确认吸收合并换股，新股份上市前锁定；不自动申报异议股东现金选择权。整数尾数按向下取整保守记账，实际可能多获1股；该差异单独审计。此项为首次最终检验后发现的账本修订，原结果完整保留。"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "sse_2026_rules.docx",
+    "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/10816492/files/58bd5ce4dfc94b57a5391f60eb2719ab.docx",
+    "bytes": 65302,
+    "sha256": "fc922c433438b2636cb631eab25cca405209712acbb6aaded768c45456ff8888",
+    "at": "2026-10-24T07:39:31.664248+00:00"
+  },
+  {
+    "file": "sse_2026_deferred.docx",
+    "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/universal/c/10816492/files/7476908baade49b8b14881439d2f89b6.docx",
+    "bytes": 16476,
+    "sha256": "f4a0d0976a01e3e95f82460170900993824b70d91183e42d09e13ba10a9958c5",
+    "at": "2026-10-24T07:39:31.663717+00:00"
+  },
+  {
+    "file": "csrc_2020_compilation.pdf",
+    "url": "https://www.sse.com.cn/lawandrules/regulations/csrcannoun/c/10117255/files/3bf4b304076849538eff00d61940125f.pdf",
+    "bytes": 1023892,
+    "sha256": "6e6ac8a93b85b4325ef612c072c43ea40ce06ba1fac78750b4fd1de3e135d4f1",
+    "at": "2026-10-24T07:39:35.829813+00:00"
+  },
+  {
+    "file": "csrc_2020_amendment.pdf",
+    "url": "https://www.csrc.gov.cn/csrc/c101950/c1047975/1047975/files/%E9%99%84%E4%BB%B61_%E4%B8%AD%E5%9B%BD%E8%AF%81%E7%9B%91%E4%BC%9A%E5%86%B3%E5%AE%9A%E4%BF%AE%E6%94%B9%E7%9A%84%E8%A7%84%E8%8C%83%E6%80%A7%E6%96%87%E4%BB%B6.pdf",
+    "bytes": 802968,
+    "sha256": "f38beda59fc70d71dcb175a7c04171e971320934cdd9174c68b83413dbcabbf8",
+    "at": "2026-10-24T07:39:33.938020+00:00"
+  },
+  {
+    "file": "license.html",
+    "url": "https://tushare.pro/document/1?doc_id=405",
+    "bytes": 26751,
+    "sha256": "4f9c1f1ed1270cd8b0078c7270816dcafd7f171e36477fdf47d9fc21d70b1939",
+    "at": "2026-10-24T07:39:32.018186+00:00"
+  },
+  {
+    "file": "csrc_permit.html",
+    "url": "https://www.csrc.gov.cn/csrc/c101968/c4188211/content.shtml",
+    "bytes": 107276,
+    "sha256": "28e589134744f241c427307da100fd1a1d5ebba0fd558db151f10f35120b1253",
+    "at": "2026-10-24T07:39:32.035711+00:00"
+  },
+  {
+    "file": "csrc_2026_enforcement.html",
+    "url": "https://www.csrc.gov.cn/shanghai/c103864/c7625964/content.shtml",
+    "bytes": 17406,
+    "sha256": "f9c384f6fcee39bad311f8febf3657c1cb5c78f0c01ff9c1b3c344c340c1959d",
+    "at": "2026-10-24T07:39:32.495117+00:00"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "research_library": "../research_library/baseline_20261024/quant_workbench",
+  "default_module": "pork",
+  "modules": [
+    {"id": "pork", "name": "生猪养殖研究", "subtitle": "行业周期 · 公司经营 · 估值观察 · 建仓与资金实验"},
+    {"id": "stocks", "name": "单股研究", "subtitle": "六家公司 · 基本面与持仓规则"},
+    {"id": "enhancement", "name": "指数增强", "subtitle": "相对指数 · 约束与执行"},
+    {"id": "small", "name": "小资金配置", "subtitle": "ETF配置 · 交易单位与成本"}
+  ],
+  "companies": {
+    "000001.SZ": "平安银行", "000063.SZ": "中兴通讯", "000333.SZ": "美的集团",
+    "600519.SH": "贵州茅台", "600900.SH": "长江电力", "601318.SH": "中国平安"
+  }
+}

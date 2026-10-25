@@ -1,0 +1,19 @@
+{
+  "version": "cycle_hold_draft_20261025",
+  "specified_at": "2026-10-25",
+  "purpose": "跨周期持有研究规则：未用收益结果调参，不是已验证的最优策略",
+  "review_sessions": 20,
+  "planned_exposure": [0.4, 0.6, 0.8],
+  "entry_pb_percentile": 0.70,
+  "add_pb_percentile": 0.50,
+  "harvest_pb_percentile": 0.80,
+  "funding_watch_debt_ratio": 0.75,
+  "funding_watch_cash_coverage": 0.20,
+  "funding_exit_debt_ratio": 0.85,
+  "funding_exit_cash_coverage": 0.25,
+  "minimum_pb_observations": 120,
+  "pb_lookback_years": 5,
+  "cash_basis": "历史信号仅用当时公开的报表货币资金作为上界代理；当前经营页另展示已核实受限资金，不向早期回填",
+  "valuation_basis": "供应商历史PB，可能存在追溯修订；当前成分历史回放，不宣称严格时点可交易回测",
+  "threshold_basis": "显式风险预算和分批纪律参数，不是统计显著门槛；另做阈值敏感性，不按最优结果选参数"
+}

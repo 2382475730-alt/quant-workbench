@@ -1,0 +1,186 @@
+PDF page 164
+144 4 Stochastic Calculus 
+determine the quadratic variation of X on [0, t], we choose a partition II = 
+{to, h, .. . ,t n} of [O,t ] (i.e. , 0 =t o< t1 < ··· < tn = t) and we write the 
+sampled quadratic variation 
+n-1 n-1 n-1 
+L [X(tj+I) -X(tj)] 2 = L [I(ti+I)- I(tj)] 2 + L [R(tj+I)- R(tj)] 2 j=O j=O j=O 
+n-1 
++2 L [I(tj+I)- I(tj)] [R(tj+1)- R(tj)] . j=O 
+As IIIIII --+ 0, the first term on the right-hand side, I:j,:-g [I(tj+I)- I(tj)] 2, 
+converges to the quadratic variation of I on [0, t], which according to Theorem 
+4.3. 1 (vi) is [I, I](t) = J; Ll2(u) du. The absolute value of the second term is 
+bounded above by 
+n-1 
+max IR(tk+1) - R(tk) l · L IR(ti+I) - R(tj)l O�k�n-1 j=O 
+� o<'l'l:-· IR(t,., ) - R(t,)i · � lfH e(u )d ul 
+:5 olf!t;_1 IR(tk+I) -R(tk) l · � lt;+I IB (u) l du 
+= max IR(tk+I)- R(tk) l · t IB (u) l du, O�k�n-1 Jo 
+and as IIIIII --+ 0, this has limit 0· J; IB( u)l du = 0 because R(t) is continuous. 
+The absolute value of the third term is bounded above by 
+n-1 
+2 max II(tk+1)- I(tk)l · "'I R(ti+I)- R(ti)l O<k<n-1 L....J - - j=O 
+:5 2 0�V(t;_1 II(t k+I) - I(tk) i · fot IB (u) l du, 
+and this has limit 0· J; jB( uW du = 0 as IIIIII --+ 0 because I(t) is continuous. 
+We conclude that (X, X) (t) = [I, I](t) = J; Ll2(u) du. 0 
+The conclusion of Lemma 4.4.4 is most easily remembered by first writing 
+( 4.4. 16 ) in the differential notation 
+dX(t) = Ll(t) dW(t) + B(t) dt (4.4. 18) 
+and then using the differential multiplication table (4.4. 12 ) to compute 
+
+PDF page 174
+154 4 Stochastic Calculus 
+In this section, we derive the Black-Scholes-Merton partial differential 
+equation for the price of an option on an asset modeled as a geometric Brow­
+nian motion. The idea behind this derivation is the same as in the binomial 
+model of Chapter 1 of Volume I, which is to determine the initial capital 
+required to perfectly hedge a short position in the option. 
+4.5. 1 Evolution of Portfolio Value 
+Consider an agent who at each time t has a portfolio valued at X(t). This 
+portfolio invests in a money market account paying a constant rate of interest 
+r and in a stock modeled by the geometric Brownian motion 
+dS(t) = o:S(t) dt + uS(t) dW(t) . (4.5. 1) 
+Suppose at each time t, the investor holds L\(t) shares of stock. The position 
+L\(t ) can be random but must be adapted to the filtration associated with 
+the Brownian motion W(t) , t � 0. The remainder of the portfolio value, 
+X( t) - L\(t)S(t) , is invested in the money market account. 
+The differential dX(t) for the investor's portf olio value at each time t is 
+due to two factors, the capital gain L\(t) dS(t) on the stock position and the 
+interest earnings r(X( t) - L\(t)S(t) ) dt on the cash position. In other words, 
+dX(t) = L\(t) dS(t) + r(X( t) - L\(t)S (t) ) dt 
+= L\(t) (o:S(t) dt + uS(t) dW(t) ) + r(X( t) - L\(t)S(t) ) dt 
+= rX(t) dt + L\(t) (o: - r)S(t) dt + L\(t)uS(t) dW(t) . (4.5.2) 
+The three terms appearing in the last line of (4.5.2) can be understood as 
+follows: 
+(i) an average underlying rate of return r on the portfolio, which is reflected 
+by the term r X ( t) dt, 
+(ii) a risk premium o: - r for investing in the stock, which is reflected by the 
+term L\(t) (o: - r)S(t) dt, and 
+(iii) a volatility term proportional to the size of the stock investment, which 
+is the term L\(t)u S(t) dW(t) . 
+The discrete-time analogue of equation (4.5.2) appears in Chapter 1 of 
+Volume I as (1 .2. 12) : 
+Xn+l = L\nSn+l + (1 + r)(X n - L\nSn)· 
+We may rearrange terms in this equation to obtain 
+(4. 5.3) 
+which is analogous to the first line of (4.5.2) , except in (4.5.3) time steps for­
+ward one unit at a time, whereas in (4. 5.2) time moves forward continuously. 
+
+PDF page 175
+4.5 Black-Scholes-Merton Equation 15 5 
+See Exercise 4.10 for additional discussion of the rationale for equation ( 4.5.2) 
+in option pricing. 
+We shall often consider the discounted stock price e-rts(t) and the dis­
+counted portfolio value of an agent, e-rt X(t ). According to the ItO-Doeblin 
+formula with f(t, x) = e-rtx, the differential of the discounted stock price is 
+d(e-rts(t)) 
+= df(t, S(t)) 
+1 = ft (t, S(t)) dt + fx(t, S(t)) dS(t) + ?Jxx (t, S(t)) dS(t) dS(t) 
+= -re-rt S(t) dt + e-rt dS(t) 
+=( a-r) e-rts(t) dt + ae-rts(t) dW(t) , 
+and the differential of the discounted portfolio value is 
+d(e-rtx(t)) 
+= df(t, X(t)) 
+(4.5.4) 
+1 = ft (t, X(t)) dt + fx(t, X(t)) dX(t) + ?Jxx (t, X(t)) dX(t) dX(t) 
+= -re-rt X(t) dt + e-rt dX(t) = Ll(t) (a - r)e-rt S(t) dt + Ll(t)ae-rt S(t) dW(t) 
+= Ll(t) d(e-rts(t)). (4.5.5) 
+Discounting the stock price reduces the mean rate of return from a, the term 
+multiplying S(t) dt in (4.5. 1), to a - r, the term multiplying e-rtS(t) dt in 
+(4.5.4 ). Discounting the portfolio value removes the underlying rate of return 
+r; compare the last line of (4.5.2 ) to the next-to-last line of (4.5.5) . The last 
+line of (4.5.5) shows that change in the discounted portfolio value is solely due 
+to change in the discounted stock price. 
+4.5.2 Evolution of Option Value 
+Consider a European call option that pays (S(T) -Kt at time T. The strike 
+price K is some nonnegative constant. Black, Scholes, and Merton argued that 
+the value of this call at any time should depend on the time (more precisely, 
+on the time to expiration ) and on the value of the stock price at that time, 
+and of course it should also depend on the model parameters r and a and the 
+contractual strike price K. Only two of these quantities, time and stock price, 
+are variable. Following this reasoning, we let c( t, x) denote the value of the call 
+at time t if the stock price at that time is S(t) = x. There is nothing random 
+about the function c(t, x). However, the value of the option is random; it is 
+the stochastic process c(t, S(t)) obtained by replacing the dummy variable x 
+by the random stock price S(t) in this function. At the initial time, we do not 
+
+PDF page 234
+214 5 Risk-Neutral Pricing 
+We next show that W(t)Z(t) is a martingale under IP'. To see this, we 
+compute the differential using Ito's product rule (Corollary 4.6.3) : 
+d(W(t)Z( t) ) = W(t) dZ(t) + Z(t) dW(t) + dW(t) dZ(t) 
+= -W (t) 8(t) Z(t) dW(t) + Z(t) dW(t) + Z(t) 8(t) dt 
++(dW(t) + 8(t) dt) ( - 8(t)Z(t) dW(t) ) 
+= ( - W(t)8(t) + 1) Z(t) dW(t) . 
+Because the final expression has no dt term, the process W(t)Z(t) is a mar­
+tingale under IP'. 
+Now let 0 :::; s :::; t :::; T be given. Lemma 5.2.2 and the martingale property 
+for W(t)Z (t) under IP' imply 
+-- 1 - 1 - -IE[W(t) jF(s)] = Z(s) lE[W(t)Z(t) jF(s)] = Z(s) W(s)Z(s) = W(s) . 
+This shows that W(t) is a martingale under JP>. The proof is complete. 0 
+The probability measures IP' and IP' in Girsanov's Theorem are equivalent 
+(i.e. , they agree about which sets have probability zero and hence about which 
+sets have probability one). This is because IP'{ Z > 0} = 1; see Definition 1. 6.3 
+and the discussion following it. In the remainder of this section, we set_ up 
+an asset price model in which IP' is the actual probability measure and IP' is 
+the risk-neutral measure. We want these probabilities to agree about what is 
+possible and what is impossib le, and they do. In the discrete-time binomial 
+model of Volume I, the actual and risk-neutral probability measures agree 
+about which moves are possible (i.e., they both give positive probability to 
+an up move, positive probability to a down move, and the sizes (but not the 
+probabilities ) of the up and down moves are the same whether we are working 
+under the actual probability measure or the risk-neutral probability measure). 
+The set of possible asset price paths is a tree in the binomial model, and both 
+the actual probability measure and the risk-neutral probability measure are 
+based on the same tree. In the continuous-time model, there are infinitely 
+many possible paths, and this agreement about what is possible and what is 
+not possible is the equivalence of Definition 1.6.3. 
+5.2.2 Stock Under the Risk-Neutral Measure 
+Let W(t), 0 :::; t :::; T, be a Brownian motion on a probability space (il, F, IP'), 
+and let F(t) , 0 :::; t :::; T, be a filtration for this Brownian motion. Here T is a 
+fixed final time. Consider a stock price process whose differential is 
+dS(t) = a(t)S(t) dt + a(t)S( t) dW(t) , 0 :::; t :::; T. (5.2. 15 ) 
+The mean rate of return a( t) and the volatility a( t) are allowed to be adapted 
+processes. We assume that , for all t E [0, T], a(t) is almost surely not zero. 
+
+PDF page 235
+5.2 Risk-Neutral Measure 215 
+This stock price is a generalized geometric Brownian motion (see Example 
+4.4.8, in particular, (4.4. 27) ), and an equivalent way of writing (5.2. 15) is (see 
+( 4.4. 26)) 
+S(t) = S(O) exp {1t a(s) dW(s) + 1t ( a(s) - �a2(s)) ds} . (5. 2. 16 ) 
+In addition, suppose we have an adapted interest rate process R( t). We 
+define the discount process 
+and note that 
+D(t) = e- J� R(s) ds 
+dD(t) = -R(t)D(t) dt. 
+(5.2.17 ) 
+(5.2.18 ) 
+To obtain (5.2.18 ) from (5. 2.17 ), we can define I(t) J;R(s) ds so that 
+dl(t) = R(t) dt and dl(t) dl(t) = 0. We introduce the function f(x ) = e-x, 
+for which f'(x) = -f(x), f"( x) = f(x), and then use the Ito-Doeblin formula 
+to write 
+dD(t) = df(I(t) ) 
+= f' ( I(t) ) dl(t) + � f" ( I(t) ) dl(t) dl(t) 
+= -f(I(t) )R(t) dt 
+= -R(t)D(t) dt. 
+Observe that although D(t) is random, it has zero quadratic variation. This 
+is because it is "smooth." It has a derivative, namely D'(t) = -R(t)D (t) , and 
+one does not need stochastic calculus to do this computation. The stock price 
+S(t) is random and has nonzero quadratic variation. It is "more random" 
+than D(t) . If we invest in the stock, we have no way of knowing whether the 
+next move of the driving Brownian motion will be up or down, and this move 
+directly affects the stock price. Hence, we face a high degree of uncertainty. 
+On the other hand, consider a money market account with variable interest 
+rate R(t), where money is rolled over at this interest rate. If the price of 
+a share of this money market account at time zero is 1, then the price of 
+a share of this money market account at time t is ef� R(s) ds = v(t). If we 
+invest in this account, we know the interest rate at the time of the investment 
+and hence have a high degree of certainty about what the return will be 
+over a short period of time. Over longer periods, we are less certain because 
+the interest rate is variable, and at the time of investment, we do not know 
+the future interest rates that will be applied . However, the randomness in 
+the model affects the money market account only indirectly by affecting the 
+interest rate. Changes in the interest rate do not affect the money market 
+account instantaneously but only when they act over time. (Warning: The 
+money market account is not a bond. For a bond, a change in the interest 
