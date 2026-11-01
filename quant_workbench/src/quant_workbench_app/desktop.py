@@ -17,7 +17,7 @@ matplotlib.rcParams["axes.unicode_minus"] = False
 class Workbench(tk.Tk):
     def __init__(self, state_path=None):
         super().__init__()
-        self.title("量化研究工作台 · 四条研究主线")
+        self.title("猪逻辑公园")
         self.state_path = state_path or RUNTIME / "ui_state.json"
         self.saved = read_json(self.state_path, {}) or {}
         self.active = ""
@@ -33,15 +33,16 @@ class Workbench(tk.Tk):
         style.configure("TLabel", background="#f4f6f9", foreground="#23364d", font=("Microsoft YaHei", 10))
         style.configure("Title.TLabel", font=("Microsoft YaHei", 17, "bold"), foreground="#193550")
         style.configure("Heading.TLabel", font=("Microsoft YaHei", 12, "bold"))
-        style.configure("Sub.TLabel", foreground="#596c80", font=("Microsoft YaHei", 9))
+        style.configure("Sub.TLabel", foreground="#465a6d", font=("Microsoft YaHei", 9))
         style.configure("TNotebook.Tab", padding=(12, 7), font=("Microsoft YaHei", 10))
-        style.configure("Treeview", rowheight=26, font=("Microsoft YaHei", 10))
+        style.configure("Treeview", rowheight=30, font=("Microsoft YaHei", 10), foreground="#25374b")
         style.configure("Treeview.Heading", font=("Microsoft YaHei", 10, "bold"))
+        style.map('Treeview', background=[('selected', '#e5eef6')], foreground=[('selected', '#193550')])
         self.configure(bg="#f4f6f9")
         sidebar = tk.Frame(self, bg="#172d43", width=170)
         sidebar.pack(side="left", fill="y")
         sidebar.pack_propagate(False)
-        tk.Label(sidebar, text="量化研究\n工作台", font=("Microsoft YaHei", 19, "bold"),
+        tk.Label(sidebar, text="猪逻辑公园", font=("Microsoft YaHei", 17, "bold"),
                  bg="#172d43", fg="white", justify="left").pack(anchor="w", padx=18, pady=(24, 28))
         self.buttons = {}
         for module in SETTINGS["modules"]:
@@ -55,6 +56,7 @@ class Workbench(tk.Tk):
         bottom = tk.Frame(sidebar, bg="#172d43")
         bottom.pack(side="bottom", fill="x", pady=18)
         for label, command in [("数据与核验", self.open_data), ("使用与目录说明", self.open_guide),
+                                ("研究报告", self.open_reports),
                                 ("打开导出目录", self.open_exports)]:
             tk.Button(bottom, text=label, command=command, bg="#172d43", fg="#c3cfdd", bd=0,
                       anchor="w", padx=18, pady=8, font=("Microsoft YaHei", 10)).pack(fill="x")
@@ -70,7 +72,7 @@ class Workbench(tk.Tk):
         self.container.pack(fill="both", expand=True)
         self.container.rowconfigure(0, weight=1)
         self.container.columnconfigure(0, weight=1)
-        ttk.Label(body, text="本地研究 · 数据日期与报告期见各页面 · 历史回放 / 资金试算均非实际成交",
+        ttk.Label(body, text="本地数据快照 · 日期见各页面 · 回测持仓与新资金试算分别列示",
                   style="Sub.TLabel").pack(side="bottom", anchor="w", pady=(6, 0), before=self.container)
         self.protocol("WM_DELETE_WINDOW", self.close)
         self.bind("<Configure>", self.resize_labels, add="+")
@@ -121,39 +123,49 @@ class Workbench(tk.Tk):
         for name, button in self.buttons.items():
             button.configure(bg="#315c80" if name == key else "#172d43", fg="white" if name == key else "#dae4ee")
         self.after_idle(self.resize_labels)
+        from .ui_presentation import style_panel
+        style_panel(self.panels[key])
         self.save()
 
     def resize_labels(self, event=None):
         if event is not None and event.widget is not self:
             return
-        width = max(500, self.container.winfo_width() - 45)
         def visit(widget):
             if isinstance(widget, ttk.Label) and int(float(widget.cget("wraplength") or 0)) > 0:
-                widget.configure(wraplength=width)
+                widget.configure(wraplength=max(100, min(widget.winfo_width(), widget.master.winfo_width()) - 10))
             for child in widget.winfo_children():
                 visit(child)
         if self.active in self.panels:
             visit(self.panels[self.active])
 
-    def document(self, title, content):
+    def document(self, title, content, source=None):
         window = tk.Toplevel(self)
         window.title(title)
         window.geometry("980x720")
-        text_panel(window, content)
+        text_panel(window, content, report=content.startswith('# '), source=source)
+        return window
 
     def open_guide(self):
-        self.document("工作台使用与目录说明", (PROJECT / "README.md").read_text(encoding="utf-8"))
+        self.document("工作台使用与目录说明", (PROJECT / "README.md").read_text(encoding="utf-8"), source=PROJECT / "README.md")
+
+    def open_reports(self):
+        from .reading import report_index
+        path = report_index()
+        if path is not None:
+            os.startfile(path)
+        else:
+            self.document("研究报告", "阅读版尚未生成，请运行 scripts/build_plain_reports.py。")
 
     def open_data(self):
         report = read_json(RUNTIME / "verification.json", {})
         content = ("共享研究资料库\n\n" + str(LIBRARY) + "\n\n"
-                   "行情、财报与报告仍是历史快照；打开窗口不会联网下载。\n"
-                   "生猪研究使用独立新采集资料，记录写入当前应用 runtime。\n\n"
+                   "页面读取本地行情与财报快照，日期见各页。\n"
+                   "生猪研究资料和新增记录保存在当前应用 runtime。\n\n"
                    f"最近结构核验：{report.get('status', '尚未运行')}\n"
                    f"迁移文件核验数：{report.get('migration_files_verified', '未知')}\n"
                    f"核验时间：{report.get('checked_at', '未知')}\n\n"
                    "终端复核：在 quant_workbench 目录运行 .venv\\Scripts\\python.exe scripts\\verify.py\n"
-                   "已知局限保留在各研究报告中；文件完整不等于策略有效。")
+                   "此项核验检查文件完整性。数据口径、模型假设和策略局限见研究报告。")
         self.document("数据与核验", content)
 
     def open_exports(self):

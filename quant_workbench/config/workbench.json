@@ -1,6 +1,7 @@
 {
   "research_library": "../research_library/baseline_20261024/quant_workbench",
   "default_module": "pork",
+  "swine_overview_root": "runtime/research/swine_overview_20261029",
   "modules": [
     {"id": "pork", "name": "生猪养殖研究", "subtitle": "行业周期 · 公司经营 · 估值观察 · 建仓与资金实验"},
     {"id": "stocks", "name": "单股研究", "subtitle": "六家公司 · 基本面与持仓规则"},

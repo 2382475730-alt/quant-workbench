@@ -19,34 +19,6 @@ class DeepResearchMixin:
                        'bridge_company','bridge_pe','bridge_cost','bridge_volume',
                        'allocation_budget','allocation_return','allocation_roe')
 
-    def build_overview(self):
-        page=ttk.Frame(self.pages,padding=9)
-        self.frames['overview']=page
-        self.pages.insert(0,page,text='研究总览');self.pages.select(page)
-        self.label(page,'先看产能与售价，再比较成本、现金承受力和估值要求',True)
-        self.label(page,'2026-10-23收盘 · 当前已披露财务：天邦Q3，其余H1 · 现金横向比较统一H1')
-        bottom=ttk.Frame(page);bottom.pack(side='bottom',fill='x')
-        self.overview_table=table(bottom,[('公司',105),('已核实成本/元kg',150),('成本期间',100),('可用现金/短期义务',155),('披露净资产PB',130),('隐含终态ROE*',135)],6)
-        for r in self.deep['profiles']:
-            cost=next((c for c in self.deep['costs'] if c['code']==r['code']),None)
-            amount=({'upper':'≤','strict_upper':'＜'}.get(cost['qualifier'],''))+f"{cost['value']:.2f}" if cost else '未核实'
-            self.overview_table.insert('','end',iid=r['code'],values=(r['name'],amount,cost['period'] if cost else '—',f"{r['cash_short_coverage']:.1%}",f"{r['price']/r['latest_bps']:.2f}",f"{r['valuation']['required_terminal_roe']:.1%}"))
-        bar=ttk.Frame(bottom);bar.pack(fill='x')
-        for title,section in [('比较经营与成本','companies'),('查看资金压力','funding'),('分档与权重','allocation'),('调整恢复假设','valuation'),('原始证据与研究说明','evidence')]:
-            ttk.Button(bar,text=title,command=lambda target=section:self.overview_navigate(target)).pack(side='left',padx=3)
-        self.label(bottom,'*隐含ROE：未来三年−10%/0%/10%，要求回报10%，过渡分红30%，终态零增长全分配。现金统一H1，成本月份不同；猪价取每月第3周（10月为第2周），非月均价。')
-        self.overview_figure,self.overview_canvas=chart(page,190)
-        ax=self.overview_figure.add_subplot(121)
-        rows=self.deep['capacity'];x=list(range(len(rows)))
-        ax.plot(x,[r['sows'] for r in rows],marker='o',color='#2a7588')
-        ax.set_xticks(x,[r['period'] for r in rows],fontsize=8);ax.set_ylabel('能繁母猪 / 万头');ax.grid(alpha=.2)
-        prices=self.overview_figure.add_subplot(122)
-        history=self.price_history_frame()
-        prices.plot(history.index,history.hog,color='#b87952',label='全国集贸生猪，月度周样本')
-        prices.set_ylabel('全国生猪 / 元kg');prices.legend(fontsize=7);prices.grid(alpha=.2)
-        prices.xaxis.set_major_locator(YearLocator());prices.xaxis.set_major_formatter(DateFormatter('%Y'))
-        self.overview_figure.tight_layout();self.overview_canvas.draw_idle()
-
     def overview_navigate(self,section):
         selected=self.overview_table.selection()
         code=selected[0] if selected else next(iter(self.deep_profiles))
@@ -66,8 +38,9 @@ class DeepResearchMixin:
             self.open_deep_report()
 
     def open_deep_report(self):
+        from .reading import read_report
         path=DEEP/'report/research.md'
-        self.winfo_toplevel().document('生猪行业、公司与跨周期恢复研究',path.read_text(encoding='utf8') if path.exists() else '研究说明正在生成，原始资料已保存。')
+        self.winfo_toplevel().document('生猪行业、公司与跨周期恢复研究',read_report(path),source=path)
 
     def open_source_catalog(self):
         window=tk.Toplevel(self);window.title('本轮新采集的来源与原文');window.geometry('1000x680')
@@ -136,7 +109,7 @@ class DeepResearchMixin:
 
     def build_price_cycle(self):
         page=ttk.Frame(self.research_books['cycle'],padding=7);self.research_books['cycle'].add(page,text='猪价与饲料周期')
-        self.label(page,'把当前猪价放回较长周期，并把饲料变化单独比较',True)
+        self.label(page,'猪价与饲料价格',True)
         s=self.deep['price_history_summary']
         self.label(page,f"农业农村部原文重采：{s['observations']}个月样本；每月第3周，2026年10月为最新第2周。非月平均、非完整周序列，不用于确定周期最低点。")
         bottom=ttk.Frame(page);bottom.pack(side='bottom',fill='x')
@@ -177,7 +150,7 @@ class DeepResearchMixin:
 
     def build_allocation(self):
         page=ttk.Frame(self.research_books['companies'],padding=7);self.research_books['companies'].add(page,text='分档与条件权重')
-        self.label(page,'先定候选额度，再用估值条件释放；未释放部分留现金',True)
+        self.label(page,'候选额度与估值条件',True)
         self.label(page,'成本、现金、估值三项分别显示。全部使用当前研究资料，未回填至6月；默认25%终态ROE是一组可修改情景。')
         row=ttk.Frame(page);row.pack(fill='x')
         self.allocation_budget=tk.StringVar(value='80');self.allocation_return=tk.StringVar(value='10');self.allocation_roe=tk.StringVar(value='25')
@@ -209,7 +182,7 @@ class DeepResearchMixin:
         self.allocation_result=result;self.allocation_table.delete(*self.allocation_table.get_children())
         for r in result['rows']:
             self.allocation_table.insert('','end',iid=r['code'],values=(r['name'],r['cost_band'],r['cash_band'],r['tier'],f"{r['value_coverage']:.2f}",f"{r['candidate_weight']:.1%}",f"{r['release']:.0%}",f"{r['target_weight']:.1%}"))
-        self.allocation_summary.configure(text=f"当前条件总仓位{result['target_exposure']:.1%}，现金{result['target_cash']:.1%}；组合额度不是必须花完的金额。低仓位只说明这组估值和证据门槛尚未满足，不等于判断猪周期机会不存在。")
+        self.allocation_summary.configure(text=f"条件仓位{result['target_exposure']:.1%}，现金{result['target_cash']:.1%}。额度按当前成本、资金与估值门槛释放；未满足条件的部分保留现金。")
         self.allocation_table.selection_set(result['rows'][0]['code']);self.show_allocation_reason()
         if refresh_capital and self.capital_basis.get()=='当前分档条件草案':self.calculate_capital()
 
@@ -242,7 +215,7 @@ class DeepResearchMixin:
 
     def build_profit_bridge(self):
         page=ttk.Frame(self.research_books['valuation'],padding=7);self.research_books['valuation'].add(page,text='盈利需要怎样的价差')
-        self.label(page,'把估值所需利润，转成需要验证的售价、成本和销量条件',True)
+        self.label(page,'估值对应的售价、成本与销量',True)
         self.label(page,'仅三家公司月报有可配对的商品猪收入与公斤价。按1—9月收入÷价格推算重量再年化，含内部销售；其余公司不补造。')
         self.bridge_names={name:code for name,code in self.deep_names.items() if any(s['code']==code[:6] for s in self.deep['price_sensitivity'])}
         row=ttk.Frame(page);row.pack(fill='x')
@@ -277,7 +250,8 @@ class DeepResearchMixin:
         ax.bar([f'基准量{v:+.0%}' for v in changes],values,color=['#bf8a6c','#2a7588','#77a18f'])
         ax.axhline(cost,color='#a24c4c',linestyle='--',label='输入完全成本情景')
         for i,value in enumerate(values):ax.text(i,value,f'{value:.2f}',ha='center',va='bottom')
-        ax.set_ylabel('所需商品猪售价 / 元kg');ax.legend();ax.grid(axis='y',alpha=.2)
+        ax.margins(y=.18)
+        ax.set_ylabel('所需商品猪售价 / 元kg');ax.legend(loc='lower left',fontsize=9);ax.grid(axis='y',alpha=.2)
         self.bridge_figure.tight_layout();self.bridge_canvas.draw_idle()
 
     def export_profit_bridge(self):
@@ -291,7 +265,7 @@ class DeepResearchMixin:
     def build_history_cycle(self):
         page=ttk.Frame(self.research_books['cycle'],padding=7)
         self.research_books['cycle'].add(page,text='历史周期与当前差异')
-        self.label(page,'母猪去化与当年肉量可以方向相反，不能机械平移一条曲线',True)
+        self.label(page,'能繁母猪与猪肉产量的年度变化',True)
         bottom=ttk.Frame(page);bottom.pack(side='bottom',fill='x')
         text_panel(bottom,'2023年末母猪降至4,142万头，全年猪肉产量仍增至5,794万吨；2024年末母猪继续下降，全年肉量才转为下降。存栏是时点、出栏是期间流量，仔猪存量、生产效率和出栏重量都会改变传导。\n当前2026Q3母猪同比−10.7%，但1—9月猪肉产量仍同比＋3.2%。这支持继续跟踪供给收缩，尚不足以确认盈利拐点。\n跟踪顺序：母猪及仔猪供给 → 商品猪出栏和体重 → 同口径售价与饲料成本 → 公司经营现金流与净资产。需求、库存、进口和二次育肥尚未形成完整连续序列，未对猪价做单点预测。').configure(height=6)
         figure,canvas=chart(page,240);rows=self.deep['annual_capacity']
@@ -304,7 +278,7 @@ class DeepResearchMixin:
     def build_earnings_quality(self):
         page=ttk.Frame(self.research_books['companies'],padding=7)
         self.research_books['companies'].add(page,text='利润、减值与经营恢复')
-        self.label(page,'减亏不一定全部来自经营改善，减值也不能一笔加回当盈利',True)
+        self.label(page,'利润变化与资产减值',True)
         self.label(page,'2026Q2=半年累计−一季度累计，六家公司均使用原始报告核对。金额亿元。')
         view=table(page,[('公司',105),('Q1归母净利',120),('Q2归母净利',120),('H1资产减值损益',150),('H1剔除该项利润总额',180)],6)
         for r in self.deep['profiles']:
@@ -314,7 +288,7 @@ class DeepResearchMixin:
 
     def build_supply_research(self):
         page=self.deep_frames['cycle']
-        self.label(page,'母猪减少 → 仔猪与育肥传导 → 肉量 → 价格 → 公司现金流',True)
+        self.label(page,'能繁母猪、效率与出栏重量的供给情景',True)
         self.label(page,'母猪同比下降已扩大，但效率与出栏重量会抵消部分影响。下表出栏、肉量同比为年初累计口径。')
         view=table(page,[('期间',110),('能繁/万头',130),('母猪同比',110),('出栏同比',110),('肉量同比',110),('公布日期',130)],4)
         for r in self.deep['capacity']:
@@ -349,8 +323,8 @@ class DeepResearchMixin:
 
     def build_funding_research(self):
         page=self.deep_frames['companies']
-        self.label(page,'跨周期首先要求能承受等待，而不只是当期成本低',True)
-        self.label(page,'统一用2026H1：扣除已披露受限资金；新五丰另扣募集资金用途限制。此处不把授信额度当成已到账现金。金额亿元。')
+        self.label(page,'现金储备与12个月资金压力',True)
+        self.label(page,'本模型保留10月25日研究输入，统一为2026H1；扣除已核实受限资金，新五丰另扣募集资金用途限制。总览采用后续核实的可动用现金，天邦专用偿债资金的扣减见总览明细。金额亿元。')
         self.funding_table=table(page,[('公司',110),('可用现金代理',130),('短期到期义务代理',160),('现金覆盖',105),('经营现金−资本开支',175)],6)
         for r in self.deep['profiles']:
             self.funding_table.insert('','end',values=(r['name'],f"{r['cash_available_proxy']/1e8:.2f}",f"{r['short_obligations_proxy']/1e8:.2f}",f"{r['cash_short_coverage']:.1%}",f"{(r['operating_cashflow']-r['capex_cash'])/1e8:.2f}"))
@@ -382,7 +356,7 @@ class DeepResearchMixin:
 
     def build_recovery_research(self):
         page=self.deep_frames['valuation']
-        self.label(page,'现价要求多高的长期盈利能力，等待期间又消耗多少净资产？',True)
+        self.label(page,'现价隐含的长期ROE与净资产变化',True)
         top=ttk.Frame(page);top.pack(fill='x')
         self.recovery_company=tk.StringVar(value=next(iter(self.deep_names)))
         combo=ttk.Combobox(top,textvariable=self.recovery_company,values=list(self.deep_names),state='readonly',width=23);combo.pack(side='left');combo.bind('<<ComboboxSelected>>',self.calculate_recovery)

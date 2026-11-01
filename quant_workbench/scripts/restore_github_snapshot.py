@@ -50,4 +50,5 @@ def restore(assets,root=WORKSPACE,check_only=False,manifest_path=None):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('assets',type=Path);parser.add_argument('--check-only',action='store_true')
-    args=parser.parse_args();restore(args.assets,check_only=args.check_only)
+    parser.add_argument('--manifest',type=Path,help='Manifest for a separate incremental release')
+    args=parser.parse_args();restore(args.assets,check_only=args.check_only,manifest_path=args.manifest)

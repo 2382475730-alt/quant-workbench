@@ -1,45 +1,51 @@
-# 量化研究工作台
+# 猪逻辑公园
 
-原生 Tk 桌面工作台，日常入口为 `LaunchWorkbench.bat`。四个平级模块：**生猪养殖研究、单股研究、指数增强、小资金配置**。
+原生 Tk 桌面工作台，双击 `LaunchWorkbench.bat` 启动。四个模块为生猪养殖研究、单股研究、指数增强和小资金配置。
 
-生猪研究已在2026-10-25从零重建。首页先展示关键图表与六家公司对比，进一步查看行业周期、成本、利润质量、现金承受力、估值条件、分档权重和资金适配。公司池按核心业务判断，不机械采用90%收入占比；牧原纳入。
+本次更新加入生猪产能、调控区间、价格与六家公司比较，展示可动用现金、资产负债率及PB；母猪存栏采用柱状图。四个模块统一加深日期和说明，涨跌按红涨绿跌显示，超限提示使用琥珀色，并调整小窗口下的换行和图表空间。
 
-## GitHub 中的内容
+总览数据观察日为2026-10-29，各指标列明期间；历史模型和报告沿用各自数据日期。18份报告及说明提供文字修订版，保留原数字、表格、代码与来源。
 
-- 当前应用源码、配置、脚本、测试、依赖锁文件和文档。
-- 其他三个模块仍需使用的资料库源码，保持原相对路径，不改写冻结研究。
-- [生猪研究说明](quant_workbench/docs/github/swine_research_20261025.md)与[数据快照清单](quant_workbench/docs/github/snapshot-manifest.json)。
-- 大型研究数据、原始资料与验证产物放在本仓库的私有 [snapshot-20261025 Release](https://github.com/2382475730-alt/quant-workbench/releases/tag/snapshot-20261025)，不把数GB数据塞进Git提交。
+## GitHub中的内容
 
-凭据、`.env`、虚拟环境、工具缓存、日志以及个人界面状态不上传。此前已按授权删除的旧养殖研究不会随快照恢复；仅保留删除清单与其他模块仍需的资料。
+- 当前源码、配置、脚本、测试、依赖锁文件和说明。
+- 研究基线源码保留原相对路径。原始数据与资料通过私有Release附件恢复。
+- 基础数据：[snapshot-20261025](https://github.com/2382475730-alt/quant-workbench/releases/tag/snapshot-20261025)。
+- 本次增量：[update-20261101](https://github.com/2382475730-alt/quant-workbench/releases/tag/update-20261101)，包含总览官方资料、报告阅读版及后台界面核验记录。
+
+凭据、`.env`、虚拟环境、个人界面状态、讨论笔记和浏览器缓存不上传。数据包恢复前核对SHA256，已有文件不同则停止，保留本地修改。
 
 ## 新电脑恢复与运行
 
-需要Windows、Python 3.11及以上（推荐3.13，包含Tk）、Git和GitHub CLI。此仓库为私有，先用自己的GitHub账号登录 `gh auth login`。
+需要Windows、带Tk的Python 3.11及以上（推荐3.13）、Git与GitHub CLI。私有仓库使用自己的GitHub账号登录：
 
 ```powershell
+gh auth login
 gh repo clone 2382475730-alt/quant-workbench
 cd quant-workbench
-gh release download snapshot-20261025 --repo 2382475730-alt/quant-workbench --dir .snapshot
-py -3.13 quant_workbench/scripts/restore_github_snapshot.py .snapshot
+gh release download snapshot-20261025 --repo 2382475730-alt/quant-workbench --dir .snapshot/base
+py -3.13 quant_workbench/scripts/restore_github_snapshot.py .snapshot/base
+gh release download update-20261101 --repo 2382475730-alt/quant-workbench --dir .snapshot/update-20261101
+py -3.13 quant_workbench/scripts/restore_github_snapshot.py .snapshot/update-20261101 --manifest quant_workbench/docs/github/update-20261101-manifest.json
 py -3.13 -m venv quant_workbench/.venv
-quant_workbench/.venv/Scripts/python.exe -m pip install -e "./quant_workbench[dev]"
+quant_workbench/.venv/Scripts/python.exe -m pip install -e "./quant_workbench[dev,reports]"
 .\LaunchWorkbench.bat
 ```
 
-如使用uv，可用 `uv sync --project quant_workbench --extra dev --locked` 代替创建环境和安装步骤。恢复脚本核对压缩包及逐文件SHA256；本地文件若不同则停止，不覆盖修改。`--check-only`只验证，不写入。既有工作区无需重建环境。
+使用uv时，可用 `uv sync --project quant_workbench --extra dev --extra reports --locked` 代替创建环境和安装依赖。既有工作区沿用原环境；已恢复基础数据时，只需下载并恢复增量包。
 
-历史快照可离线查看，不需要凭据。重新采集行情时才按 `.env.example` 在本地配置自己的数据源凭据。
+历史快照可离线读取。重新采集行情时，再按 `.env.example` 配置本地数据源凭据。报告HTML使用相对链接，可随仓库移动。
 
-## 检查与研究边界
+## 检查与复现
 
-实际验证请进入 `quant_workbench`，运行：
+进入 `quant_workbench` 后执行：
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\test_background.py
 .\.venv\Scripts\python.exe scripts\capture_background.py
+.\.venv\Scripts\python.exe scripts\verify.py
 ```
 
-后台检查使用独立Windows桌面，不切换当前桌面或注入键鼠。快照交付记录包含63项测试、82个窗口状态、1,080个移动起点情景及686个规则敏感性情景；这些检查不证明投资有效性。跨周期策略仍为明确假设下的研究草案，观察窗口没有跨越完整猪周期。
+界面检查在独立Windows后台桌面运行，覆盖四模块、六家公司及标准和小窗口。界面验收记录包含119个窗口状态，文件核验与策略收益检验分别记录。
 
-更详细的运行、数据重建与资料边界见 [当前项目说明](quant_workbench/README.md) 和 [GitHub数据恢复说明](quant_workbench/docs/github/README.md)。
+运行、数据重建与研究假设见[项目说明](quant_workbench/README.md)；快照恢复见[数据说明](quant_workbench/docs/github/README.md)。

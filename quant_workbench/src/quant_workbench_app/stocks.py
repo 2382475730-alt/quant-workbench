@@ -5,6 +5,10 @@ from quant_workbench.desktop import LABELS, Desktop
 from quant_workbench.holding_view import load_ledger, snapshot
 
 from .paths import LIBRARY, SETTINGS, read_json
+from .reading import read_report
+from .presentation_copy import plain_copy
+from .report_text import set_report_text
+from .ui_presentation import NoteLabel, style_panel
 from .widgets import chart, report_tab, set_text, table, text_panel
 
 PERIODS = {"2025—2026 核算修订": "final_repaired", "2022—2024 验证": "validation", "2017—2021 开发": "development"}
@@ -14,7 +18,7 @@ class StockPanel(ttk.Frame):
     nav = Desktop.nav
     plot = Desktop.plot
     draw_stock = Desktop.draw_stock
-    set_text = staticmethod(set_text)
+    set_text = staticmethod(lambda widget, content: set_text(widget, plain_copy(content)))
     open_company_source = Desktop.open_company_source
 
     def __init__(self, parent):
@@ -41,15 +45,15 @@ class StockPanel(ttk.Frame):
         self.stock_note = ttk.Label(overview, style="Heading.TLabel")
         self.stock_note.pack(anchor="w")
         self.stock_fig, self.stock_canvas = chart(overview)
-        self.conclusion = ttk.Label(overview, wraplength=1000, style="Sub.TLabel")
+        self.conclusion = NoteLabel(overview)
         self.conclusion.pack(fill="x")
         self.metrics = table(overview, [("规则", 280), ("区间收益", 140), ("最大回撤", 140), ("平均股票仓位", 180)], 3)
-        self.facts = text_panel(facts)
+        self.facts = text_panel(facts, report=True)
         self.stock_text = text_panel(notes)
-        self.account = ttk.Label(holdings, wraplength=1000)
+        self.account = NoteLabel(holdings)
         self.account.pack(fill="x", pady=8)
         self.ledger = table(holdings, [("证券", 150), ("实际股数", 140), ("估值价格", 140), ("市值", 160), ("权重", 130)], 5)
-        ttk.Label(holdings, text="展示所选历史区间的趋势＋波动控制账户；不是新资金买入计划，也不是券商持仓。",
+        ttk.Label(holdings, text="所选区间的趋势＋波动控制模拟账户；股数取自回测成交账本。",
                   wraplength=1000, style="Sub.TLabel").pack(anchor="w", pady=12)
         report_tab(self.pages, "research/single_stock_holding_guide.md", "研究记录")
         self.refresh()
@@ -82,9 +86,10 @@ class StockPanel(ttk.Frame):
                                    f"{row['market_value']:,.2f}", f"{row['actual_weight']:.2%}"))
         p = read_json(LIBRARY / f"artifacts/company/{self.symbol.get()}/snapshot.json", {})
         summary_path = LIBRARY / f"artifacts/company/{self.symbol.get()}/summary.md"
-        content = summary_path.read_text(encoding="utf-8") if summary_path.exists() else "公司资料暂缺。"
-        set_text(self.facts, f"财务与估值观察日：{p.get('market_date', '未知')}；此页不随历史回测区间改变。\n"
-                 "当前买卖规则使用价格与波动率，财务和估值条件尚未自动进入信号。\n\n" + content)
+        content = read_report(summary_path)
+        set_report_text(self.facts, f"财务与估值观察日：{p.get('market_date', '未知')}；此页不随历史回测区间改变。\n"
+                 "当前买卖规则使用价格与波动率，财务和估值条件尚未自动进入信号。\n\n" + content, summary_path)
+        style_panel(self)
 
     def state(self):
         return {"company": self.company.get(), "period": self.period.get(), "tab": self.pages.index(self.pages.select())}

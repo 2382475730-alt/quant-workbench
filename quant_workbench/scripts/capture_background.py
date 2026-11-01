@@ -7,6 +7,7 @@ import sys
 import time
 import subprocess
 import os
+import faulthandler
 
 PROJECT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT / 'src'))
@@ -41,6 +42,7 @@ class Header(ctypes.Structure):
 
 def capture(app, name):
     app.update_idletasks()
+    check_notes(app, name)
     hwnd = u.GetParent(app.winfo_id())
     rect = wintypes.RECT()
     u.GetWindowRect(hwnd, ctypes.byref(rect))
@@ -88,10 +90,22 @@ if '--isolated' not in sys.argv:
         u.CloseDesktop(handle)
 
 app = Workbench(state_path=OUT/f'capture_state_{time.time_ns()}.json')
+diagnostics=(OUT/'layout_diagnostics.log').open('w',encoding='utf8')
+faulthandler.dump_traceback_later(25,repeat=True,file=diagnostics)
 app.withdraw()
 app.geometry('1420x940+40+40')
 app.report_callback_exception = lambda exc,value,tb: app.errors.append(str(value))
 records=[]
+note_geometry=[]
+def check_notes(widget, name):
+    from quant_workbench_app.ui_presentation import NoteLabel
+    if isinstance(widget, NoteLabel) and widget.winfo_ismapped():
+        note_geometry.append({'page':name,'text':widget.cget('text'),
+            'width':widget.winfo_width(),'height':widget.winfo_height(),
+            'requested':widget.winfo_reqheight(),'lines':widget.cget('height'),
+            'display_lines':widget.count('1.0','end-1c','displaylines'),
+            'end_visible':widget.dlineinfo('end-1c') is not None})
+    for child in widget.winfo_children():check_notes(child,name)
 try:
     app.deiconify()
     for _ in range(10):
@@ -106,6 +120,34 @@ try:
             app.update()
             records.append(capture(app, f'{key}_{index}'))
         if key == 'pork':
+            panel.pages.select(panel.frames['overview'])
+            app.update()
+            cards_bottom=max(c.winfo_rooty()+c.winfo_height() for c in panel.overview_metric_cards)
+            viewport_bottom=panel.overview_scroll.winfo_rooty()+panel.overview_scroll.winfo_height()
+            assert cards_bottom <= viewport_bottom, f'Default industry cards clipped: {cards_bottom} > {viewport_bottom}'
+            before = panel.overview_scroll.yview()[0]
+            panel.overview_metric_cards[0].winfo_children()[0].event_generate('<MouseWheel>',delta=-120)
+            app.update()
+            assert panel.overview_scroll.yview()[0] > before, 'Nested card wheel must scroll overview'
+            panel.scroll_to_overview_companies();app.update()
+            records.append(capture(app, 'overview_company_section'))
+            panel.overview_scroll.yview_moveto(0.0);app.update()
+            for code in panel.overview_profiles:
+                panel.overview_table.selection_set(code)
+                details = panel.open_overview_company()
+                details.geometry('990x730+40+40');app.update()
+                records.append(capture(details, f'overview_cash_{code}'));details.destroy()
+            for metric in ('capacity','price','hog_inventory','slaughter','pork_output','psy'):
+                details = panel.open_overview_metric(metric)
+                details.geometry('960x700+40+40');app.update()
+                records.append(capture(details, f'overview_metric_{metric}'));details.destroy()
+            details = panel.open_overview_sources();app.update()
+            records.append(capture(details, 'overview_official_sources'));details.destroy()
+            # Check all data exports without activating an external application.
+            folder = panel.export_overview()
+            assert folder.is_relative_to(PROJECT/'runtime/exports/swine_overview')
+            assert (folder/'companies.csv').is_file() and (folder/'sources.json').is_file()
+            panel.overview_export_note.pack_forget()
             for section in ('cycle','companies','valuation'):
                 panel.pages.select(panel.frames[section])
                 for index in range(1,len(panel.research_books[section].tabs())):
@@ -148,6 +190,19 @@ try:
                 panel.refresh()
                 app.update()
                 records.append(capture(app, f'stocks_{code}'))
+            panel.pages.select(1);app.update()
+            records.append(capture(app, 'stocks_financial_reading'))
+        if key in ('pork', 'enhancement', 'small'):
+            before=set(app.winfo_children())
+            if key == 'pork':
+                panel.open_deep_report()
+            else:
+                panel.open_text('reports/' + ('enhancement_v1' if key == 'enhancement' else 'small_capital_v1') + '/report.md', '研究报告')
+            app.update()
+            documents=[w for w in app.winfo_children() if w not in before]
+            for window in documents:
+                window.geometry('1000x740+40+40');app.update()
+                records.append(capture(window, f'{key}_reading_dialog'));window.destroy()
     app.show_module('pork')
     app.panels['pork'].valuation_company.set(next(iter(app.panels['pork'].valuation_names)))
     app.panels['pork'].draw_valuation()
@@ -156,16 +211,36 @@ try:
         app.panels['pork'].pages.select(index)
         app.update()
         records.append(capture(app, f'pork_small_{index}'))
+        if index == 0:
+            app.panels['pork'].scroll_to_overview_companies();app.update()
+            records.append(capture(app, 'pork_small_overview_jump'))
+            app.panels['pork'].overview_scroll.yview_moveto(1.0);app.update()
+            records.append(capture(app, 'pork_small_overview_bottom'))
+            app.panels['pork'].overview_scroll.yview_moveto(0.0)
     for section in ('cycle','companies','valuation'):
         app.panels['pork'].pages.select(app.panels['pork'].frames[section])
         for index in range(1,len(app.panels['pork'].research_books[section].tabs())):
             app.panels['pork'].research_books[section].select(index)
             app.update()
             records.append(capture(app,f'swine_deep_small_{section}'+('' if index==1 else f'_{index}')))
+            check_notes(app.panels['pork'],f'swine_deep_small_{section}_{index}')
         app.panels['pork'].research_books[section].select(0)
+    for key in ('stocks','enhancement','small'):
+        app.show_module(key);app.update()
+        panel=app.panels[key]
+        for index in range(len(panel.pages.tabs())):
+            panel.pages.select(index);app.update()
+            records.append(capture(app,f'{key}_small_{index}'))
+            check_notes(panel,f'{key}_small_{index}')
+    clipped=[row for row in note_geometry if not row['end_visible'] or row['height']<row['requested']]
+    if clipped:
+        raise RuntimeError('Clipped explanatory text: '+str([(row['page'],row['text'][:40]) for row in clipped]))
     if app.errors:
         raise RuntimeError(str(app.errors))
 finally:
+    faulthandler.cancel_dump_traceback_later()
+    diagnostics.close()
     app.destroy()
     (OUT/'capture_report.json').write_text(json.dumps({'captures':records,'errors':app.errors},ensure_ascii=False,indent=2),encoding='utf-8')
+    (OUT/'note_geometry.json').write_text(json.dumps(note_geometry,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps({'captures':len(records),'errors':app.errors}))

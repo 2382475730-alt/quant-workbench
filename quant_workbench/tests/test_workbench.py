@@ -61,6 +61,12 @@ def test_six_stock_cases_match_saved_ledgers(app, code):
     panel.refresh()
     assert panel.symbol.get() == code
     assert len(panel.metrics.get_children()) == 3
+    displayed = panel.facts.get('1.0', 'end-1c')
+    assert panel.facts.tag_ranges('report_h1')
+    source = (LIBRARY / f'artifacts/company/{code}/summary.md').read_text(encoding='utf8')
+    for line in source.splitlines():
+        if line.startswith('|') and not line.startswith('|---'):
+            assert all(cell.strip() in displayed for cell in line.strip('|').split('|'))
     curves = panel.stock_fig.axes[0].get_lines()
     assert len(curves) == 3
     rows = [r for r in panel.rows if r["symbol"] == code and r["scenario"] == "base"
@@ -256,6 +262,56 @@ def test_overview_links_selected_company_and_actual_cost_source(app,monkeypatch)
     assert '2026-07' in p.company_detail.get('1.0','end')
 
 
+def test_official_overview_company_provenance_and_export(app,monkeypatch):
+    from quant_workbench_app import swine_overview
+    import csv
+    p=app.panels['pork'];opened=[]
+    monkeypatch.setattr(swine_overview,'RUNTIME',app.test_output_root)
+    monkeypatch.setattr(swine_overview.os,'startfile',lambda path:opened.append(Path(path)))
+    assert app.title()=='猪逻辑公园'
+    assert '资产负债率' in [p.overview_table.heading(c,'text') for c in p.overview_table['columns']]
+    assert '绿色区域' in p.overview_capacity_status
+    # Each published observation remains a bar at its actual month; gaps stay empty.
+    bars = p.overview_figure.axes[0].containers[0]
+    known = [r for r in p.overview_data['capacity'] if r['sows'] is not None]
+    assert [b.get_height() for b in bars] == [r['sows'] for r in known]
+    from datetime import datetime
+    from matplotlib.dates import date2num
+    assert [b.get_x() + b.get_width() / 2 for b in bars] == pytest.approx(
+        [date2num(datetime.fromisoformat(r['date'])) for r in known])
+    from quant_workbench_app.swine_overview import change_color, NOTE_COLOR, UP_COLOR, DOWN_COLOR
+    assert change_color(1) == UP_COLOR == '#b02a37'
+    assert change_color(-1) == DOWN_COLOR == '#187345'
+    assert change_color(0) == change_color(None) == NOTE_COLOR
+    assert any(value > 0 for value, _ in p.overview_change_labels)
+    assert any(value < 0 for value, _ in p.overview_change_labels)
+    for value, label in p.overview_change_labels:
+        assert label.cget('fg') == change_color(value)
+    def luminance(hex_color):
+        values = [int(hex_color[i:i+2], 16) / 255 for i in (1, 3, 5)]
+        linear = [v / 12.92 if v <= .04045 else ((v + .055) / 1.055) ** 2.4 for v in values]
+        return sum(c * v for c, v in zip((.2126, .7152, .0722), linear))
+    assert 1.05 / (luminance(NOTE_COLOR) + .05) >= 4.5
+    for code in p.overview_profiles:
+        p.overview_table.selection_set(code)
+        window=p.open_overview_company();pump(app)
+        assert window.winfo_exists();window.destroy()
+        p.open_overview_original(p.overview_profiles[code]['cash_source'])
+    assert len(opened)==6 and all(path.is_file() for path in opened)
+    for key in ('capacity','price','hog_inventory','slaughter','pork_output','psy'):
+        window=p.open_overview_metric(key);pump(app);window.destroy()
+    window=p.open_overview_sources();pump(app)
+    assert len(window.overview_source_view.get_children())==len(p.overview_sources)
+    window.destroy()
+    folder=p.export_overview()
+    assert folder.is_relative_to(app.test_output_root/'exports/swine_overview')
+    with (folder/'companies.csv').open(encoding='utf-8-sig',newline='') as stream:
+        rows=list(csv.DictReader(stream))
+    assert len(rows)==6 and all(row['现金余额日']=='2026-06-30' for row in rows)
+    assert float(next(r for r in rows if r['公司']=='天邦食品')['可动用现金/亿元'])==pytest.approx(.5355807396)
+    assert (folder/'industry.png').is_file() and (folder/'sources.json').is_file()
+
+
 @pytest.mark.parametrize('version',['swine_v2','swine_v3'])
 def test_swine_deep_state_survives_restart(app,tmp_path,version):
     p=app.panels['pork'];p.required_return.set('12');p.interim_roes.set('-15,-5,10,15')
@@ -343,3 +399,44 @@ def test_source_search_and_price_periods_are_readable_evidence(app):
         assert prices.price_view.selection()==('2026-10',)
         assert prices.price_view.item('2026-10','values')[1:3]==('2026-10-15','2026-10-20')
     finally:prices.destroy()
+
+
+def test_report_buttons_open_reviewed_reading_copies(app, monkeypatch):
+    captured = []
+    monkeypatch.setattr(app, 'document', lambda title, content, **_: captured.append((title, content)))
+    for key, relative, expected in [
+        ('pork', None, '# 生猪养殖研究：供给、公司现金与跨周期估值'),
+        ('enhancement', 'reports/enhancement_v1/report.md', '# 指数增强研究：约束执行与超额收益检验'),
+        ('small', 'reports/small_capital_v1/report.md', '# 10万元小资金组合：执行成本、风险与服务费影响'),
+    ]:
+        app.show_module(key)
+        panel = app.panels[key]
+        if relative:
+            panel.open_text(relative, '研究报告')
+        else:
+            panel.open_deep_report()
+            panel.open_research_note()
+        assert captured[-1][1].startswith(expected)
+
+
+def test_cell_colors_remain_correct_after_selection_and_scrolling(app):
+    from quant_workbench_app.ui_presentation import UP_COLOR, DOWN_COLOR
+    app.deiconify();app.geometry('1100x700')
+    app.show_module('small')
+    panel=app.panels['small'];panel.phase.set('2025—2026-10-23');panel.draw();panel.pages.select(0);pump(app)
+    tree=panel.summary_table
+    row=tree.get_children()[0]
+    tree.selection_set(row);pump(app)
+    painter=tree._cell_colors
+    up=painter.cells[(row, '1')];down=painter.cells[(row, '2')]
+    assert up.itemcget(up.find_all()[0], 'fill') == UP_COLOR
+    assert down.itemcget(down.find_all()[0], 'fill') == DOWN_COLOR
+    tree.selection_remove(row)
+    up.event_generate('<ButtonPress-1>',x=10,y=10)
+    up.event_generate('<ButtonRelease-1>',x=10,y=10)
+    pump(app)
+    assert row in tree.selection()
+    tree.xview_moveto(1);pump(app)
+    tree.xview_moveto(0);pump(app)
+    assert painter.cells[(row, '1')].winfo_ismapped()
+    assert painter.cells[(row, '2')].itemcget(painter.cells[(row,'2')].find_all()[0], 'fill') == DOWN_COLOR

@@ -12,6 +12,8 @@ from .swine_engine import STRATEGIES, SwineModel, capital_plan, export_run
 from .widgets import chart, set_text, table, text_panel
 from .swine_deep_panel import DeepResearchMixin, DEEP
 from .swine_allocation import tier_allocation
+from .swine_overview import OverviewMixin
+from .ui_presentation import NoteLabel, UP_COLOR, DOWN_COLOR
 
 
 def number(value, scale=1):
@@ -22,7 +24,7 @@ def percent(value):
     return '未取得' if value is None else f'{value:.2%}'
 
 
-class PorkPanel(DeepResearchMixin,ttk.Frame):
+class PorkPanel(OverviewMixin,DeepResearchMixin,ttk.Frame):
     def __init__(self, parent):
         super().__init__(parent)
         self.records = all_companies()
@@ -46,9 +48,8 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
         self.build_overview()
 
     def label(self, parent, text, heading=False):
-        item = ttk.Label(parent, text=text, style='Heading.TLabel' if heading else 'Sub.TLabel', wraplength=1000)
+        item = NoteLabel(parent, text=text, heading=heading)
         item.pack(anchor='w', fill='x', pady=(3,5))
-        item.bind('<Configure>',lambda event: item.configure(wraplength=max(200,event.width-4)))
         return item
 
     def build_cycle(self):
@@ -79,8 +80,8 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
 
     def build_companies(self):
         page = self.split_research_page('companies','经营与成本','现金承受力')
-        self.label(page, '先判断经营本质，再比较财务承受力', True)
-        self.label(page, '核心6家、观察3家，其余候选明确排除。纳入研究不等于纳入持仓。财务单位亿元，期间按已披露报告。')
+        self.label(page, '公司业务与财务比较', True)
+        self.label(page, '核心6家、观察3家；其余候选列明排除原因。金额亿元，各公司报告期见表。公司池用于研究，持仓由所选规则计算。')
         filter_bar=ttk.Frame(page)
         filter_bar.pack(fill='x')
         ttk.Label(filter_bar,text='显示范围').pack(side='left')
@@ -123,24 +124,24 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
         cash_after = cashflow-capex if cashflow is not None and capex is not None else None
         notes = []
         if r['net_profit'] is not None and r['net_profit'] < 0:
-            notes.append('本期亏损：不能直接用本期PE评估便宜程度，应检验可持续盈利恢复条件。')
+            notes.append('本期亏损，PE难以衡量估值；需检验盈利恢复后的利润水平与持续性。')
         if r['debt_ratio'] is not None and r['debt_ratio'] >= .7:
-            notes.append('资产负债率达到70%以上：进一步核对短债、授信、受限资金和再融资；此阈值只是提示。')
+            notes.append('资产负债率达到70%以上，需核对短债、授信、受限资金和再融资安排。70%为本页筛查阈值。')
         if cash_after is not None and cash_after < 0:
             notes.append('经营现金流不足以覆盖本期购建长期资产支出，需关注资金来源与资本开支节奏。')
         cost = next((x for x in self.deep['costs'] if x['code']==r['code']),None)
-        cost_text = f"{cost['period']}：{cost['value']} 元/kg，{cost['definition']}；原文位置 {cost['locator']}。这是本研究已核实月份，不冒充当前月成本。" if cost else '未核实到可比单位完全成本，不能用毛利率代替。'
+        cost_text = f"{cost['period']}：{cost['value']} 元/kg，{cost['definition']}；原文位置 {cost['locator']}。成本对应上述期间。" if cost else '可比单位完全成本尚未核实，毛利率无法换算为该项成本。'
         content = (f"{r['name']}  {r['code']}\n\n研究边界：{r['reason']}\n\n"
                 f"财务报告期：{r['period']}；公告日期：{r['ann_date']}。不同期间不能直接比较累计增长。\n"
                 f"货币资金：{number(r['cash'],1e8)}亿元；债务代理：{number(r['debt_proxy'],1e8)}亿元。\n"
                 '债务代理=短借+长借+债券+一年内到期非流动负债，可能含非借款项且未覆盖全部租赁；货币资金未扣受限，不能直接当净债务。\n'
                 f"经营现金流减购建长期资产现金：{number(cash_after,1e8)}亿元（非严格自由现金流）。\n\n经营风险提示\n"
-                +'\n'.join(notes or ['当前几项筛查未触发阈值，不等于无风险。'])+'\n\n'
+                +'\n'.join(notes or ['当前筛查未触发亏损、高负债或现金支出缺口提示；其他风险需结合公司明细检查。'])+'\n\n'
                 f"成本证据\n{cost_text}\n\n2026H1业务收入（原报表口径）\n{business}\n\n"
                 '分部可能含内部销售抵消；不加总含“合计”的行，不按90%硬筛。\n'
                 '继续研究：单位成本构成、生产效率、出栏结构、减值与现金回收。')
         set_text(self.company_detail,content)
-        self.company_note.configure(text=f"{r['name']} · 来源可追溯")
+        self.company_note.configure(text=f"{r['name']} · 报告期、公告日期与来源见下方明细")
 
     def open_cost_document(self):
         selected=self.company_table.selection()
@@ -224,7 +225,7 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
         ax.legend()
         profit=self.valuation_figure.add_subplot(122)
         annual=[x for x in r['annual_history'] if x['net_profit'] is not None]
-        profit.bar([x['year'] for x in annual],[x['net_profit']/1e8 for x in annual],color=['#3b8b72' if x['net_profit']>=0 else '#bf6457' for x in annual])
+        profit.bar([x['year'] for x in annual],[x['net_profit']/1e8 for x in annual],color=[UP_COLOR if x['net_profit']>=0 else DOWN_COLOR for x in annual])
         profit.axhline(0,color='#7b8794',linewidth=.6)
         profit.set_title('年度归母净利（含非经常项）/ 亿元',fontsize=10)
         profit.tick_params(axis='x',rotation=45,labelsize=8)
@@ -243,7 +244,7 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
 
     def build_replay(self):
         page=self.frames['replay']
-        self.label(page,'从2026年6月起，检验每一个可选建仓日',True)
+        self.label(page,'2026年6月起的建仓日比较',True)
         self.label(page,'当前五家公司研究篮子：等权、技术对照与跨周期条件持仓分别比较，有选股回看偏差。失败订单等待下一次允许交易的复评。')
         bar=ttk.Frame(page)
         bar.pack(fill='x')
@@ -322,7 +323,7 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
 
     def build_capital(self):
         page=self.frames['capital']
-        self.label(page,'策略权重不随本金改写，执行精度随资金量变化',True)
+        self.label(page,'按本金计算整数股数与剩余现金',True)
         self.label(page,'默认沿用公司经营页的当前分档条件草案；历史规则目标和等权保留作对照。各口径独立，目标不随本金变化，未释放或买不起的额度保留现金。')
         bar=ttk.Frame(page)
         bar.pack(fill='x')
@@ -399,7 +400,7 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
 
     def build_evidence(self):
         page=self.frames['evidence']
-        self.label(page,'事实、研究判断、假设与未完成问题分别保留',True)
+        self.label(page,'研究来源与讨论记录',True)
         bar=ttk.Frame(page)
         bar.pack(fill='x')
         ttk.Button(bar,text='打开研究资料',command=lambda:os.startfile(ROOT)).pack(side='left')
@@ -420,13 +421,11 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
         lines=['公司池：'+UNIVERSE['rule'],UNIVERSE['basket_note'],'研究协议与规则在config，数据与原始公告在runtime/research/swine_v1_20261025。',
                '全部建仓日起点、20/60日比较与账本可复算。没有前向绩效，不把重叠起点当独立统计样本。',
                '三批：第1/11/21个交易日目标40%/60%/80%；风险方案每20个交易日检查前期60日均线及波动。',
-               '旧研究删除清单在runtime/cleanup；公共数据仅保留给其他三个模块。','行业证据：']
+               '行业来源：']
         lines += [s['title']+'  '+s['date']+'\n'+s['url'] for s in evidence['sources']]
-        lines += ['用户已确认：愿意跨周期持有，重点看盈利恢复与估值。',
-                  '持有依据：同口径成本下降、产能去化逐步传导、经营现金流与净资产改善，且正常化盈利足以支持估值。',
+        lines += ['跨周期持有条件：同口径成本下降、产能去化逐步传导、经营现金流与净资产改善，且正常化盈利足以支持估值。',
                   '重新评估条件：成本竞争力持续恶化、流动性或稀释风险上升、经营恢复假设被后续报告证伪，或价格已提前兑现乐观情景。短期跌价本身不是自动退出条件。',
-                  '跨周期草案已编码：每20交易日按此前公告的产能、财报、PB分位重评；冻结新增、分批兑现及资金恶化退出。阈值是研究纪律，未优化，不能据此断言有效。',
-                  '旧编译与工具缓存按用户要求暂不处理，不作为本轮阻塞。']
+                  '跨周期草案每20交易日按此前公告的产能、财报、PB分位重评，决定冻结新增、分批兑现或资金恶化退出。阈值预先设定，尚缺前向业绩验证。']
         text_panel(page,'\n\n'.join(lines))
 
     def save_notes(self):
@@ -436,8 +435,9 @@ class PorkPanel(DeepResearchMixin,ttk.Frame):
         self.notes_status.configure(text='讨论记录已保存')
 
     def open_research_note(self):
+        from .reading import read_report
         path=DEEP/'report/research.md'
-        self.winfo_toplevel().document('生猪养殖：跨周期研究说明',path.read_text(encoding='utf-8'))
+        self.winfo_toplevel().document('生猪养殖：跨周期研究说明',read_report(path),source=path)
 
     def state(self):
         return {'version':'swine_v3','tab':self.pages.index(self.pages.select()),'date':self.date.get(),

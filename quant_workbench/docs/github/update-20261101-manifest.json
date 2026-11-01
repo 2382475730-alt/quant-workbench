@@ -1,0 +1,2084 @@
+{
+  "version": 1,
+  "repository": "2382475730-alt/quant-workbench",
+  "tag": "update-20261101",
+  "requires": "snapshot-20261025",
+  "created_at": "2026-11-01T10:09:12.186251+00:00",
+  "assets": [
+    {
+      "name": "workbench-update-20261101.zip",
+      "bytes": 41062710,
+      "sha256": "475a85d1b6a5f0864437235bf8fe074280bbc7721a66ba071696a956fde3f3d4"
+    }
+  ],
+  "files": [
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/app/runtime/research/swine_deep_20261025/report/research.html",
+      "bytes": 30322,
+      "sha256": "9b6d8a2182b043e5ad46c341dd4e3e0b790eb4801d24ec673122909f3715b920",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/app/runtime/research/swine_deep_20261025/report/research.md",
+      "bytes": 18498,
+      "sha256": "d0e0c275e389d30a727ffe7fc99c6f0d7324233baceb423a9247725bfa98ec8d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/app/runtime/research/swine_v1_20261025/results/research_report.html",
+      "bytes": 30328,
+      "sha256": "bea2157b196a7b62e41fcd1f97854b6030ba32a11aa4491c6074ba485d5544ab",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/app/runtime/research/swine_v1_20261025/results/research_report.md",
+      "bytes": 18498,
+      "sha256": "d0e0c275e389d30a727ffe7fc99c6f0d7324233baceb423a9247725bfa98ec8d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/index.html",
+      "bytes": 2636,
+      "sha256": "81bdee0cdca0e4b4f495b7a73c6d52887bbe0f004ef568d3ebe5e2b26d630c6f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/000001.SZ/summary.html",
+      "bytes": 4244,
+      "sha256": "f0ee2fdc87a4d35c01b82a4ea32dce1d0c29c170b22a66ca65456dfa264720b2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/000001.SZ/summary.md",
+      "bytes": 2394,
+      "sha256": "8a93fa65e08f760541da6126bbb429750848224b769c638c214fa486e10d60e7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/000063.SZ/summary.html",
+      "bytes": 4191,
+      "sha256": "c3ead349478a8f60bbbd6a4958c0238e5672bbc40e8e6336bcd06976739c0e93",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/000063.SZ/summary.md",
+      "bytes": 2340,
+      "sha256": "f53f1e52e71467e0a0f30bb5fb636214dc57f515ea06bf18ecdd64e7d0f23c08",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/000333.SZ/summary.html",
+      "bytes": 4369,
+      "sha256": "f2fc52ede07aeb1b1f3d9fad576e486e192c9f7cf4cb90975b1db7c38b044efd",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/000333.SZ/summary.md",
+      "bytes": 2510,
+      "sha256": "6926f3101fff08a3b93d160e74e9edb8f62a849f14b0fdea84624e2b440f9161",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/600519.SH/summary.html",
+      "bytes": 4391,
+      "sha256": "a6b09ee361645b7c25b1edce44ad9010fff6a79e95d62223ef2906bc705eabbb",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/600519.SH/summary.md",
+      "bytes": 2532,
+      "sha256": "21492fe74778974ac65ba48e7b58380c9dd8699971207588a43f0b64c5eadca5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/600900.SH/summary.html",
+      "bytes": 4182,
+      "sha256": "fa861c31501971b3377923420f30e82f8e49de74f215b0a969da07ddbe67b0a1",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/600900.SH/summary.md",
+      "bytes": 2331,
+      "sha256": "b0907e63a796092201627e4c140b5ada8d567ef39be8defbaaa3fefb4e6148c9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/601318.SH/summary.html",
+      "bytes": 4368,
+      "sha256": "fdff2ad44395a4049dbb065e562740e5180195553db6ccbd2026ed1eb89f13f8",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/artifacts/company/601318.SH/summary.md",
+      "bytes": 2510,
+      "sha256": "509a4c3b53fc5af57b1d56e24df613797733f0ee33cebe3c4c901fb52db7ba36",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/reports/enhancement_v1/report.html",
+      "bytes": 36005,
+      "sha256": "0735d357d58f4952cba6b19972ec8e5c4ad038cc9f2e5220ee1a5ff3563e4acb",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/reports/enhancement_v1/report.md",
+      "bytes": 18207,
+      "sha256": "4834ee73f6294aba23e9b535929de8058de7232d97c77bec75e9c70f106113b4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/reports/small_capital_v1/report.html",
+      "bytes": 24226,
+      "sha256": "134786ab21ce74ee5f1f8002f4d86150cfb82daa6802fa5c2552f41939f18f89",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/reports/small_capital_v1/report.md",
+      "bytes": 16044,
+      "sha256": "64f86f99d7e3cc8f751f752d67c44a0e5b0536f8e4993ddcb450c127583ad73b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/reports/量化研究报告.html",
+      "bytes": 24604,
+      "sha256": "384cb51e25ef2db9fef0c3380888f087cd7e89c23d0d3a2806c02896e3e18581",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/reports/量化研究报告.md",
+      "bytes": 18506,
+      "sha256": "a2e015a9468c51e5f3a24cc6ed0b5d37e3a4e45eb0f2aa4a6e4283d4e913b440",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/methodology.html",
+      "bytes": 9828,
+      "sha256": "0b57f9770bd4aa351b3fbf475b72d842e1eb58de8f2e4bc04d416c62a83edc12",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/methodology.md",
+      "bytes": 8413,
+      "sha256": "55c72f5239500021d65a253b58a01da6a992208171d3480433c15ea4e486735c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/portfolio_holdings_guide.html",
+      "bytes": 5318,
+      "sha256": "77e0db11b322b1f623798e6a69ae24d515839d8aa08a8ba3313e6aa67a8c4708",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/portfolio_holdings_guide.md",
+      "bytes": 2577,
+      "sha256": "d2e7c2d67b06651c072fc319a3acee8af0891eb49804a428e4200d5058f230c9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/quant_agent_design.html",
+      "bytes": 8928,
+      "sha256": "8271507692faf023afa182f918a3a657dc8663493f2b219770939c4196fac176",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/quant_agent_design.md",
+      "bytes": 6851,
+      "sha256": "25f6e4b4ddbe1840477bc41536b72bbad0b29b13903362055ca9eec8621c4eba",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/single_stock_holding_guide.html",
+      "bytes": 12516,
+      "sha256": "6d10f5a9af0cc7aaa8df03e3cb7cb37f5544c3635096d0ca66d079d12a56fae5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/single_stock_holding_guide.md",
+      "bytes": 9705,
+      "sha256": "376f0f9195c7ddd86c5e09bd272bc162a662b83d0bddb20c708a975f9e43f2e0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/small_capital_v1/agent_guide.html",
+      "bytes": 6139,
+      "sha256": "af0ad24561cd2eee21fc69afd4d5f761b08c570468b9b24aa214bcae3c2b8631",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/small_capital_v1/agent_guide.md",
+      "bytes": 4764,
+      "sha256": "0ae029d7cc2dcb49fa86b8429a5e94780ec0e18babc23bd322b861b3d5e142a2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/small_capital_v1/compliance.html",
+      "bytes": 7348,
+      "sha256": "b0911a698e275178b70e35772a41079623ddd40b2a92b9ceea327350b2df7dca",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/small_capital_v1/compliance.md",
+      "bytes": 5959,
+      "sha256": "4aa767b20de4059615080f89444a9c55fd8876c06a2faf63acc5bb833321aaab",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/small_capital_v1/theory.html",
+      "bytes": 4703,
+      "sha256": "4e5e1ac783b7fee44abea80d99f542e8da2a39485e9a2e9ce086daf25b9216a6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/library/research/small_capital_v1/theory.md",
+      "bytes": 3145,
+      "sha256": "053ec7a569ecae25e1285cae8ab1eb17e5aea86878b68fa25a355ad5714ba189",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/editorial_20261031/manifest.json",
+      "bytes": 52708,
+      "sha256": "a9abb090228349c50f0c96ab94dcd0ec84f698aeacfa5dc8f2842b75e6f31dac",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/checks.json",
+      "bytes": 338,
+      "sha256": "41b97567a67ddbf259911e2823b25a88539ffca649d95d414acbe5501386a46f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/001201_1.json",
+      "bytes": 11560,
+      "sha256": "9fd54fb74e3ef08e4a3366d3a4a1cd492d97d68d488218e7dd714fd9b4a92836",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/001201_relation.json",
+      "bytes": 27193,
+      "sha256": "494bcdbdc7caafd9945a8111731b8a07fba46755869281b3a4edd8ca004baf09",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/001201_stock_1.json",
+      "bytes": 11560,
+      "sha256": "9fd54fb74e3ef08e4a3366d3a4a1cd492d97d68d488218e7dd714fd9b4a92836",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/002124_1.json",
+      "bytes": 23646,
+      "sha256": "0a1dd8527106f5e036c9bc95b43688122e60bf540f1c0dc0a8b6f74b45a5b7a4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/002124_relation.json",
+      "bytes": 27447,
+      "sha256": "1384e21cbed30cd7d45cd57e7e7f82f96128e8b2c8374ce6556fe25b6feecd05",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/002124_stock_1.json",
+      "bytes": 23646,
+      "sha256": "0a1dd8527106f5e036c9bc95b43688122e60bf540f1c0dc0a8b6f74b45a5b7a4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/002714_1.json",
+      "bytes": 26193,
+      "sha256": "4400c5ce048ebad8d38446558d397aac190ea4dfc460f7b683b430e268550f2e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/002714_relation.json",
+      "bytes": 26803,
+      "sha256": "13568d3c1147cbe554c876c3b5abed66f82893811e6556cf4e03e4ba3f51257e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/002714_stock_1.json",
+      "bytes": 26193,
+      "sha256": "4400c5ce048ebad8d38446558d397aac190ea4dfc460f7b683b430e268550f2e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/600975_1.json",
+      "bytes": 17485,
+      "sha256": "499a8742fd07e0edfb13e4a95459e056f9bcbd690f4d0bd70a47394177afde5b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/600975_stock_1.json",
+      "bytes": 17485,
+      "sha256": "499a8742fd07e0edfb13e4a95459e056f9bcbd690f4d0bd70a47394177afde5b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/603477_1.json",
+      "bytes": 14359,
+      "sha256": "f2cd5010da6200d71b908ddee8e88126f355bfff4fe5657932d9255e5d8d5645",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/603477_stock_1.json",
+      "bytes": 14359,
+      "sha256": "f2cd5010da6200d71b908ddee8e88126f355bfff4fe5657932d9255e5d8d5645",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/605296_1.json",
+      "bytes": 30425,
+      "sha256": "923ecbe5d0d01cf4b18dd4d9e484315eed9076144ec57cab4d22b28166d78c9c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/indexes/605296_stock_1.json",
+      "bytes": 30425,
+      "sha256": "923ecbe5d0d01cf4b18dd4d9e484315eed9076144ec57cab4d22b28166d78c9c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/overview.json",
+      "bytes": 40580,
+      "sha256": "30b15fb84bae1b69266f02c07bbf3419c1c56c50b654dd4e3b959c9d8d246d71",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/protocol.json",
+      "bytes": 749,
+      "sha256": "4602327a84432db6d586a260cb45c75dba59c2ffe4226aa826a17f3fd34e315c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_1225525045.pages.json",
+      "bytes": 278086,
+      "sha256": "56338102f05889af8d8748eef99a34394dc4f927b1df0ddcc99beea0e73102b6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_1225525045.pdf",
+      "bytes": 937914,
+      "sha256": "b97725a5e96045cd0900c307bbdc793f314b2a17a1356a75ca6c79d1c89ae2d0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_1225628773.pages.json",
+      "bytes": 21695,
+      "sha256": "9377785222c3b8bcb7c88dda0ab00c3edd3cb22a821cbf56d200e42978edae8d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_1225628773.pdf",
+      "bytes": 207705,
+      "sha256": "8c533c367bc2287a3455fe5b41e57b5be40cc431e7b9d96ddd49fc05cef35d2f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_IR_1225533798.pages.json",
+      "bytes": 3542,
+      "sha256": "4d533d7d7ff7fda03a6b7b566aa410895f15c2db7f64a0de681290fdede5f12a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_IR_1225533798.pdf",
+      "bytes": 137108,
+      "sha256": "174700c32211e898983b3d687b3cdca13a07e74a0df6d55708890c1d408a2b40",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_IR_1225565651.pages.json",
+      "bytes": 4635,
+      "sha256": "acdcc414bfa80b1ca1390579df53f757129a1c364d65d3ab71ac58b9bf3c2777",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_IR_1225565651.pdf",
+      "bytes": 159502,
+      "sha256": "d98bfa4a7221dd2a8b51b16f7f677516ab820248881ffb764eea7055da23a6da",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_IR_1225632684.pages.json",
+      "bytes": 4191,
+      "sha256": "397d9fb4f7efb8c3d17a66a6389da42c03aec8f239833297a17363ac5f3c18f5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/001201_IR_1225632684.pdf",
+      "bytes": 146884,
+      "sha256": "28e7329a44cecf31489e2dad4d51fc10825f8be52da944f45b400a99b2182b6b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002124_1225495961.pages.json",
+      "bytes": 417030,
+      "sha256": "b1cf38282e52851632e0dc7fbd7ad926c9fe13b8a5d23b19cb39d007eeed4124",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002124_1225495961.pdf",
+      "bytes": 3460073,
+      "sha256": "402eb4fa94e74360ba6c24fc1bc13afb513f10840c28a32bff1fbc883583c38d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002124_1225604531.pages.json",
+      "bytes": 35464,
+      "sha256": "1745518a138f2cb21bb6bf1074c7c62f7ed783595fc0a5888dc63e27284e7b65",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002124_1225604531.pdf",
+      "bytes": 445021,
+      "sha256": "3a75bfcfae682fe19b603c55cc9294fbf56b08023944ff2b22889f8cdfaf521b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002714_1225485220.pages.json",
+      "bytes": 398774,
+      "sha256": "efa31d1b8855f5a5bc36dce61650113bc07fcc1623bee47afb2ef477a0678c17",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002714_1225485220.pdf",
+      "bytes": 3954283,
+      "sha256": "06f3f6284318122399c6cf1156f5a142c9b9abd8157c669ccd37bdb298002c53",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002714_IR_1225488086.pages.json",
+      "bytes": 9716,
+      "sha256": "9e6b53e29374a4686769e1c2c280ab762ef4dee9b75136032dd728d829a8e57a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/002714_IR_1225488086.pdf",
+      "bytes": 287440,
+      "sha256": "23f41b0ad5939e45adbe613acf4320f1705e6d2979dc4c68e9677a6f666196d0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/600975_1225519338.pages.json",
+      "bytes": 1473,
+      "sha256": "aa064da457c950900e68c660dc4b3f79f5193b2825e0dbab53231eb42961c4b0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/600975_1225519338.pdf",
+      "bytes": 93024,
+      "sha256": "8881e8b33c3ad200b206df87a0efef76bb2d2e1711bf28404349e9be28467dc9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/600975_1225534594.pages.json",
+      "bytes": 445861,
+      "sha256": "01039ca90b63acb49e9302cbf29cb3c2b31ebe848af1098f7b224a1fe3b0bdec",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/600975_1225534594.pdf",
+      "bytes": 1310485,
+      "sha256": "c5fb81e1389fbad6ca7b4e874950f0783d5f0d06c37b43318d2c5f6db835d2ca",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/603477_1225520167.pages.json",
+      "bytes": 382541,
+      "sha256": "728c3b25ba94cda0c2a11262c8a7cd454c4684a33217391827f5278d08936749",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/603477_1225520167.pdf",
+      "bytes": 1437582,
+      "sha256": "bb10101fdf6178be4a697b799ddde4e0605f7fbdd0c2010f3ccddadd2dbe5487",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/605296_1225628112.pages.json",
+      "bytes": 31642,
+      "sha256": "a7caf0a60c53e61fb930780178f20882feabe52ab7320b2ea60a7fca0a2e9167",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/605296_1225628112.pdf",
+      "bytes": 213159,
+      "sha256": "6f9853c1dfaf5d84ce565096409ed60d42d4f14176ef3295ebe8f0e6c8b3434b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/605296_H1.pages.json",
+      "bytes": 390520,
+      "sha256": "631fa99c206444b292123c7edfab7c081d584f07bda35b4dd0f9651897e3e172",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/605296_H1.pdf",
+      "bytes": 1496769,
+      "sha256": "b53c794af4bb690414964df67549838209ea4ea1b2615e8a4f89e9f2ab26ebe9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202501.html",
+      "bytes": 77163,
+      "sha256": "1da8de65cf9b3f20383a7cd90c59643b87160bb55945de2d1fa18ae8d30043b8",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202501.txt",
+      "bytes": 9689,
+      "sha256": "a6714d8fd05087ccaa5ebcaf82ee5dc7aa23c70b2538e08c4124e15d00cf9210",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202502.html",
+      "bytes": 79736,
+      "sha256": "5da44d50197ea9db3367fee04b0957dbf2af356826e9845cb1e8e3088e0ebed1",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202502.txt",
+      "bytes": 10655,
+      "sha256": "ca1ea0bf2c93c8676ad1c08090a218bb426e80fd02941ebba9f2ec4aec52fe62",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202503.html",
+      "bytes": 85486,
+      "sha256": "6f2e1610e6e697fc8b56ff206a15a3a6c316f4fa98ee6e31d586f4bf1757ec90",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202503.txt",
+      "bytes": 11672,
+      "sha256": "491c08c962b1e377438d7b4fa40e6ecaf013c0df3941de61cb7c525dfe5960d9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202504.html",
+      "bytes": 69792,
+      "sha256": "2fd6a02160fea8345938c710ffdefb8761fa64b35c3240b64f67dc9c959eb35f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202504.txt",
+      "bytes": 10504,
+      "sha256": "8491233a1194dd474ef50dfaef6b3ec35ed534d8cd7082c55837c07ae75a3ae8",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202505.html",
+      "bytes": 70240,
+      "sha256": "e5433c5a170b019145f3901ddc47f9c13f2a4f18cfec947425918a3330a911ee",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202505.txt",
+      "bytes": 10365,
+      "sha256": "bbc4746a30469387d95aabba6edd1a958705c75c752f69635ccd66dab3ed1d18",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202506.html",
+      "bytes": 75415,
+      "sha256": "9da72b0eb1c6f64a8cc67642b5b086afe26df4f93cd1cc3cfe7c3afac5d45cc9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202506.txt",
+      "bytes": 11505,
+      "sha256": "930472afdf00040c6b36ae3c01a000906da5826ed5905ad93f0a50301f86cb85",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202507.html",
+      "bytes": 61970,
+      "sha256": "83c4a6989ce28df4ebfea80c4216117f32c2b753d94cbd070e654bed7a552317",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202507.txt",
+      "bytes": 10522,
+      "sha256": "78ed288f6d71fac5a371f93e0ff0f44c94da47fbe46cbd9cc0a1ee2afde848f8",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202508.html",
+      "bytes": 61985,
+      "sha256": "432c760100d69c6169fcf1a9bcbe8d00412ae6e2cdb5e937406b46e5e8cee33f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202508.txt",
+      "bytes": 10537,
+      "sha256": "08a838bee9c2a83d9c8aa00e3ad0ce58857424516d5403f9558dc4d6da7df29a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202509.html",
+      "bytes": 55691,
+      "sha256": "848becfb1b414ca984018edd9c284b955bae2d53b52970a64790e1aafe34fdc6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202509.txt",
+      "bytes": 9088,
+      "sha256": "078ae95434be18eadc27fd2b44f877bd5a7807001d1ba593a2a7ce192c58883b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202510.html",
+      "bytes": 51491,
+      "sha256": "39198d962fb5d203c54388dad521cf21fdacda448f5ae49a8c9c6aa2598335b2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202510.txt",
+      "bytes": 8091,
+      "sha256": "1486d23d6e43098fccf47406515f1a02c2e3a8e3f30ee1b7f8face1a416c6579",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202511.html",
+      "bytes": 48730,
+      "sha256": "154a89c645a09b2c37b7070c57668de7049b37f7671a1dfb535b476692a05c2d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202511.txt",
+      "bytes": 7005,
+      "sha256": "be03bb2f3c304da6b82009cd8e758b5602b97340285b74faadf30ba8c7c1aaed",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202512.html",
+      "bytes": 56615,
+      "sha256": "5888b9bdd7c46173966888bf739eea78f2d910e3b67cd2c3de0846fd03c3cfae",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202512.txt",
+      "bytes": 9778,
+      "sha256": "cc9e9849371f262f717472262aff858e4b975b85125f22176f599232e35e0332",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202601.html",
+      "bytes": 35928,
+      "sha256": "0381c1da733312e6a84bd1d80e2a563be71c19faff418641cac09ae6264b2c43",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202601.txt",
+      "bytes": 5351,
+      "sha256": "a266614e798f89f29162dffa6834233004f53ef5578e8bbddfbcd3b8f35924e7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202602.html",
+      "bytes": 47187,
+      "sha256": "6d8357a7be26a921de0b51a7ad7bc02ed86a628aa5da2fc8699a4185e5e3f842",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202602.txt",
+      "bytes": 6877,
+      "sha256": "dcb8fce3879b2680c8cb9d2b2b03ed70fdb23cd350d6c41799d29a3023f90ffd",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202603.html",
+      "bytes": 53575,
+      "sha256": "3a581f8413b950977b1fd397a77f3476b16b7404d266c32c2d155310ba96379e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202603.txt",
+      "bytes": 8908,
+      "sha256": "031f47fd2facdddb46180fe4d4f00f5e75f365cb32e5caf037a61a36273a697b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202604.html",
+      "bytes": 46829,
+      "sha256": "c42a6cd3271e4fca4203d959cde065d7a41aafecea1f2cd924522b6ece10b581",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202604.txt",
+      "bytes": 6869,
+      "sha256": "e4a3d3d99c6b9e1abb5443237e8c6f43e7a37d17968a644a12f1c963c9e473e5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202605.html",
+      "bytes": 53077,
+      "sha256": "8d86ae42833c03b79873f95625394ecf9abcde72c7da0b29553bfa916009e2d5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202605.txt",
+      "bytes": 6911,
+      "sha256": "0f67f9e03f338a658e13fe197aab4a088d914cca8c0898479db4a004c1756e59",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202606.html",
+      "bytes": 53973,
+      "sha256": "5f0958ea781e3cdb1fca4542f25aed7a77c33eb082e39b6eda47661cf5150c7b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202606.txt",
+      "bytes": 8964,
+      "sha256": "aad8d04dc96ff1d2d8f8a768857131c01e99737f67d7f6da229b22bfd189ae15",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202607.html",
+      "bytes": 47533,
+      "sha256": "7c61c84ac05fed1ec72b390fa54384f3de9d8f6d8f0db6fbd20bfbad331b7beb",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202607.txt",
+      "bytes": 6901,
+      "sha256": "67c48c05b72305368e4d202ad6bf2bb16ab07d046b682435e9a34c564f1fbed4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202608.html",
+      "bytes": 47537,
+      "sha256": "d058548dc90b013b193973d38c9fbe72fdd3c3c1e513cf55e6d48db6039dd551",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202608.txt",
+      "bytes": 6905,
+      "sha256": "ee51ee089fa8eeba836bc53f4017c47082784c8184fadf645d420f62a12a64c5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202609.html",
+      "bytes": 53967,
+      "sha256": "d36af0a928b8d2c8de376e2925cd7b137d1e3ee2f65fa8c0a79a53112f6cca08",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_MONTH_202609.txt",
+      "bytes": 8966,
+      "sha256": "98516379e66fecabdf28ddfbe59f065360fec94d6eb18ec74cc9c99d04c26fe2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_PRICE_20261020.html",
+      "bytes": 60477,
+      "sha256": "c3b455ebd584f9b826d7e7f465cb8f253da9913002ce43cc320d82399e237c77",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_PRICE_20261020.txt",
+      "bytes": 9851,
+      "sha256": "fb2fa975ff3beae0d6a14b13bb893b47ef49ab88b9a069075a66e4b4c8341b3b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_PRICE_20261027.html",
+      "bytes": 60456,
+      "sha256": "17b872409e35386d162ca08162717475e736443f8de3cc0e23d2274e567a7aeb",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOA_PRICE_20261027.txt",
+      "bytes": 9820,
+      "sha256": "43e6a1a4a8e1a842287aa2f8caccfb22fd544089ccadd3eeaf735d8c9be913eb",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOF_CASH.html",
+      "bytes": 27323,
+      "sha256": "d3dfb3b45cff71bf62468b86de4eb9aff49fe87c0e8a1425089ada10ff8d7f8b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOF_CASH.txt",
+      "bytes": 7093,
+      "sha256": "6ae37cf90dae8bac7af20b086c9d410418fe4de44e616ce9bf430c4979512d1e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOFCOM_PSY_CONTEXT.html",
+      "bytes": 19448,
+      "sha256": "b1b72b06e8b479187443d855d2e82fc3efa3d4ec7deab0b0df3645f2a3a08e46",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MOFCOM_PSY_CONTEXT.txt",
+      "bytes": 6027,
+      "sha256": "da223e2bf031e6fcfdb5daec3d99980c3fa342e0e4139a5f4fb5baa90b859a8d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/MUYUAN_COST_OFFICIAL.json",
+      "bytes": 31794,
+      "sha256": "a483c93b366df4423984a798320880a8bd2d16242d904b376496e802fdbcf741",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/NBS_Q3.html",
+      "bytes": 100953,
+      "sha256": "2b3cec0f59a9715ee3942d190f86ac4aa0e5271f99e5ded32180c523621c9ed9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/NBS_Q3.txt",
+      "bytes": 14614,
+      "sha256": "3e04f441e35c922bb92e1f6a61806d003f41730dda1727c31a08df2dc63228e1",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/NBS_Q3_TABLE.html",
+      "bytes": 553739,
+      "sha256": "e8334689a2708a1f86adac88612cddaaa2b1c4c25a3604174523ac357d1604ad",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/NBS_Q3_TABLE.txt",
+      "bytes": 47769,
+      "sha256": "1622f1709bfe6b810e2e02d01d85d15e648994cbc410bca8edc603c3787f0559",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/NEWHOPE_PSY.pages.json",
+      "bytes": 762686,
+      "sha256": "f6c5dc82de9c3ae707af0eb606937e21ec26ee3d4c0a13a66d87fbebf09820e8",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/NEWHOPE_PSY.pdf",
+      "bytes": 6848731,
+      "sha256": "5eb80edb1941df8b1a5ca53a64243046f373df6fa8d5f6dc21e84b3ac0294494",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/POLICY_2024.html",
+      "bytes": 109471,
+      "sha256": "b4d0d548946e6adeed1b1fee02c66399e451b1fe91de446d5b3b447366167481",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/POLICY_2024.txt",
+      "bytes": 18407,
+      "sha256": "38ab01a219b6e3679ef19cfb0997b387694f2181d88a1acec7d55bedc9e6f7b2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/POLICY_2026.html",
+      "bytes": 215072,
+      "sha256": "1e58920530c575451192f6c6884c1275f1357d54172633f2740a82661e7ff0f2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/POLICY_2026.txt",
+      "bytes": 17092,
+      "sha256": "0a8cf9cbf6f3aca05291a459ee12152d3afba459d2c6128555afd49e80b6ee40",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_001201_AN202609151829418815.pages.json",
+      "bytes": 4578,
+      "sha256": "85b6cad387be66c559682fb11b865e88fed8d60cfdcb09298b670be651fe5406",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_001201_AN202609151829418815.pdf",
+      "bytes": 159502,
+      "sha256": "d98bfa4a7221dd2a8b51b16f7f677516ab820248881ffb764eea7055da23a6da",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_002124_AN202608241828368721.pages.json",
+      "bytes": 413535,
+      "sha256": "e4893a9d7988bba17af6df0fa3c57800c56f3b2e37646f7d8ce2438bf83f2254",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_002124_AN202608241828368721.pdf",
+      "bytes": 3460073,
+      "sha256": "402eb4fa94e74360ba6c24fc1bc13afb513f10840c28a32bff1fbc883583c38d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_603477_AN202608281828634722.docx",
+      "bytes": 30725,
+      "sha256": "c1dfaf84fb2f93d111e6d8a25bcd3c6f8513b144de82d4843192b074d17eed67",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_603477_AN202608281828634722.pages.json",
+      "bytes": 8368,
+      "sha256": "4b51dde76dc391e6644e105d6688d7ee292cd5c3bb14fc09d61b5bf8e18a51b1",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_605296_AN202608251828420234.docx",
+      "bytes": 27554,
+      "sha256": "e0c1b2b551468255fd5f627bc5b858fa1acb5949e25cb4dd632365a1b5864460",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_605296_AN202608251828420234.pages.json",
+      "bytes": 7627,
+      "sha256": "b2e612bfad9e4c9aadbc6e40c820f7ff79ca52c338d48936d81332330142155b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_FEED_SEP.html",
+      "bytes": 60769,
+      "sha256": "9243fd37a4575b8b2b2af071308759c6585eeb271a076801a7036a491dbccfe5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_IR_002714.json",
+      "bytes": 41621,
+      "sha256": "648c2a22b76ced0d231eb09b7ff001a0cf2f0989d06b677f9d08617edbc1d23b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220125.html",
+      "bytes": 57180,
+      "sha256": "eb658f57955161e72825e4c4f24aced9c7643d05ef004c2f3257582e1d870fab",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220222.html",
+      "bytes": 58249,
+      "sha256": "dd7f928f5c04a62ad3e8d12075afd9b4123c414c3806c2d99b53c9d14a0e1627",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220322.html",
+      "bytes": 58362,
+      "sha256": "1198daa07d317e32a07d70c4eda7e73d63ace13e9becfa287e717821e91447ce",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220426.html",
+      "bytes": 56351,
+      "sha256": "38f7d8c5c28b176ab150cb69708c33590cb8ae7115f8ea52a048eb7fd2c87544",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220524.html",
+      "bytes": 63197,
+      "sha256": "9aa2e2355cc2199a4c624763cdb2ab8f3350b2ba9fd927017173c78b16b6a705",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220621.html",
+      "bytes": 62596,
+      "sha256": "681869d41cb489ccfaaa34d3b51435ce75b561806f906109cecdf71cd50976db",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220725.html",
+      "bytes": 64428,
+      "sha256": "1fd94f704e160716b641f0103aac2ec71345f64e811810f0c4522019b6e5502f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220823.html",
+      "bytes": 64545,
+      "sha256": "18e8b691becfbe0fac84e58a3e4db18bd6b2ad093c2d68b94482089cdc930384",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20220920.html",
+      "bytes": 62803,
+      "sha256": "e82bd66da87fba379caa7bb86ccbe04ec9ecd292751fdd0847e472cb5f9d4176",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20221025.html",
+      "bytes": 60656,
+      "sha256": "a9a6acb52d2a85e6aae776aa72bb467bd0d8eaa3a4194b5d3c9cdc1f8cf5cfe8",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20221122.html",
+      "bytes": 61161,
+      "sha256": "b7b8fac78b430d71d590928666a250522a436c124881de0ab5706cec7f4ec16e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20221219.html",
+      "bytes": 56608,
+      "sha256": "8fa896335a01879216b3ab6a082cedf1d5830ec482784f5f6725745f6d57c523",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230128.html",
+      "bytes": 67894,
+      "sha256": "2f6bdef1d4e1aa5ae472867a51535cdd5099c85bd3c10e6b81ab7ec9a00abdd7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230221.html",
+      "bytes": 55259,
+      "sha256": "1fe0abf2eed6fdce16cea307808244aecb37467d21cfdf0eb606e80099fd23cd",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230320.html",
+      "bytes": 54851,
+      "sha256": "ac4ecf5d133d387c783802029b3c25620ed1caf72a3d3a7d3cc0306cc8939041",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230423.html",
+      "bytes": 54201,
+      "sha256": "783982061e273e14e38e720ef0263aa52616d9dde97882c6d203132b71181469",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230522.html",
+      "bytes": 54177,
+      "sha256": "af0bcc9ddb1781d5eecadedf3fd12e00600510aced4380808360f774f01bf58c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230620.html",
+      "bytes": 54970,
+      "sha256": "c5c18688dc274bfd9fff2486664a19e9cbcdac504ffaba431139ebbebbf204ee",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230724.html",
+      "bytes": 55689,
+      "sha256": "27df93cab0c88ccb1a28eea327c139eebf990b53ab12f25f47251b467367d116",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230821.html",
+      "bytes": 54199,
+      "sha256": "cdd7412c409b6c68e6fbf93fc0b7a823f44f7b6b0f8e879a3de02eaef3ddba31",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20230925.html",
+      "bytes": 54031,
+      "sha256": "24d12a3fe2701ccf3db0fce1b2ccb24a63c3c464fb2223f9eb3f8aa586ebb0a7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20231024.html",
+      "bytes": 55328,
+      "sha256": "dbb68b120225807d63088adb8fd5b46add7200608d76e11761a0513edbc57685",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20231120.html",
+      "bytes": 54567,
+      "sha256": "56ad9e9f271b0dc57f7e6ca29d03b100e6e3d0ede704282f884ddc59b2042e22",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20231226.html",
+      "bytes": 54753,
+      "sha256": "add61bad6cb7d5fcbad42ba3549988feae7e9bd7101b960b78ca5bf9faaf6719",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240122.html",
+      "bytes": 54373,
+      "sha256": "435ad87332fba547e8ed72017233de118b8e898bc4e5529f421c7943b5dfd7f0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240222.html",
+      "bytes": 54306,
+      "sha256": "218ff4f959ef13b6618a434fc49d8ee14f8400beb6cd812b03bc89427d626843",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240327.html",
+      "bytes": 54599,
+      "sha256": "988e398417dd5558d64228fdf1c01936b589969fa2c20add83ab34dcce157e22",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240423.html",
+      "bytes": 54966,
+      "sha256": "b5b3d10c7a0d6dc3d02f45906cd48e5bdde7d4d1619680a629c9947296556c76",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240521.html",
+      "bytes": 54858,
+      "sha256": "7759971cae8f2414fa2fe9d56add33cd94ec14200ad323823d27cf3f66f74877",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240624.html",
+      "bytes": 54199,
+      "sha256": "bc155e37a81f6ab2962b84193251dff030e0691cfba296ab25c649e758cd0913",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240723.html",
+      "bytes": 54325,
+      "sha256": "3b93dfa7fcd7de009d9c1635ea3500fc7a3b5b41c645fc44dfebf3e52c5a065d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240820.html",
+      "bytes": 54566,
+      "sha256": "7c56cfb7bcc1c956146034196d4bd1d7ba1ac98e6f988179482bc16bea7989ef",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20240924.html",
+      "bytes": 54240,
+      "sha256": "b79bc3d64271dd065a0ff01d007a74c4b9c2cdaba433543b0f86d1597335c822",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20241022.html",
+      "bytes": 54790,
+      "sha256": "ff9194fa54f226564d417f6e4242d3c007b3ddf4e75a5c3b4f1cda05db15db46",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20241126.html",
+      "bytes": 54626,
+      "sha256": "23d1701eed40dc8f927b6c4f954a91a4f271f0a53ce64067c65ddf6f19715f26",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20241224.html",
+      "bytes": 54368,
+      "sha256": "65b77fc8318b87eadb4ee74c5c5f8666ea63f7e22e9508c8c4437a575e850ee4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250121.html",
+      "bytes": 54436,
+      "sha256": "30503ccf4f09471c22483bc08c05609c1e2a16af2a8fdee4d29ffb465c43e240",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250225.html",
+      "bytes": 54221,
+      "sha256": "299f3e44ceab3176a6d2f7be74e2f4fe552ed1a0be1ecf5c6212d80cbd07bc23",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250325.html",
+      "bytes": 55953,
+      "sha256": "77eb2ed93daf276f72b072ded491ac03ea27d8022c2c1cee95404f522ae8c545",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250422.html",
+      "bytes": 55890,
+      "sha256": "3b63c680eb9caa8a7968acd51b551a60cfd3573391f2207b96fffb34c619e141",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250527.html",
+      "bytes": 55931,
+      "sha256": "e98d66964967727821633e77ff96d7f41a9ebff2181821f83a71bb3b6eff9112",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250624.html",
+      "bytes": 55880,
+      "sha256": "f2d2c92de1d797b0f5f454856f4fe5ec5b309cd32a69e26332034509f8366e4b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250722.html",
+      "bytes": 56790,
+      "sha256": "e0c430c120da5bcde262d74d75d21d4bea9d9ce1f32fab3e5dfe197a7236aefc",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250825.html",
+      "bytes": 55563,
+      "sha256": "34ab7343be118178033cf1270f5313638908b294322e27fdd903f183f0982bc9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20250922.html",
+      "bytes": 54450,
+      "sha256": "fafa57b69d8d87008dfa4a98e5a8b068af3a8ab336f4cc7c6e64638f2b67c40c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20251029.html",
+      "bytes": 55516,
+      "sha256": "51eb78cdc0b2b0dfafd37c3766be2c537d33453959f3ad92e849b503fccf24f9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20251124.html",
+      "bytes": 55827,
+      "sha256": "28f2e7011368e1cface409f03e5819b15a2e6ab6d66d62aa244aa7c2e2bb31f0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20251223.html",
+      "bytes": 64240,
+      "sha256": "0d24f7b90683bc540bb3e88c4009d6ddaeb0e1022305c27055d7f8f9cc07be01",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260123.html",
+      "bytes": 63766,
+      "sha256": "5574ac76fe35a1a54b45ac9c7bf11b9c35131c20645b72a111b401fcab5ae49b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260302.html",
+      "bytes": 63894,
+      "sha256": "47934f7d62f324a3bc0a1439e77d5c194c0a5e87a49b7d40b611429dfc18713e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260325.html",
+      "bytes": 54608,
+      "sha256": "e04b4877e1c49583077609f69436e3fc520141370e86cb8f13021d4271dd2ef9",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260422.html",
+      "bytes": 63699,
+      "sha256": "e0c9e85c63bbfe43c6741eabe4d5f075dd6f23e10ad18dd375a8dd45f334aff7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260526.html",
+      "bytes": 54526,
+      "sha256": "395e430bded8749c2be1e13edadede1dcbe5722c2f78159bd42ed10d2ce76b03",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260623.html",
+      "bytes": 61537,
+      "sha256": "b3843299692c9692b3e4fb7484b195363f9f537fdb508e41291024ff450a1381",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260722.html",
+      "bytes": 61199,
+      "sha256": "d6f905c11ef55ba295db3ed09d3438bd7c1a31fc70496a2af88ba0987d011b0d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources/S_MOA_WEEK_20260825.html",
+      "bytes": 61407,
+      "sha256": "999d8f961ebe2615a76c67acf103a765bacab2fbd0053da5c882aebcce951454",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/research/swine_overview_20261029/sources.json",
+      "bytes": 69873,
+      "sha256": "6feb4613f5f7208a373b35ae4ca2813e5552ce18e7f71481888d072e93ec5b0e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/all_modules_ui_20261101.json",
+      "bytes": 1076,
+      "sha256": "c673479827b8027c7e919ae20087179d1c27a3a1606757dd17c578699054cabc",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/capture_report.json",
+      "bytes": 19934,
+      "sha256": "95798965fcd6104a61d576d18520eaaa55c070a738f3b0bddf03de3f9decba29",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/note_geometry.json",
+      "bytes": 97621,
+      "sha256": "7dd14b2fc64b0d32fd2e12426d7afdce7db3fe3eb7079a72aa0c9c54959ea2b4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/overview_ui_20261101.json",
+      "bytes": 1016,
+      "sha256": "8e718e1b50fb4fc5a55cc4ea890b9f9896608b767c3272a562796ac8e8587211",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/plain_writing_20261031.json",
+      "bytes": 904,
+      "sha256": "4c948590d7d6d827586410ef25066cc527891a5371e151933f59cdd82f2dc95c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/pytest_background.json",
+      "bytes": 162,
+      "sha256": "98750204a0217c1feefca09bb6d18efe4ea4e261bfe98590bdcb42400e2aafa7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/002124_1225495961_cash_note.png",
+      "bytes": 95882,
+      "sha256": "e97309dc99d7e32a7b6715afaef824fbb6960c60e50f3e811c2c671bdf177e05",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/600975_1225534594_cash_note.png",
+      "bytes": 179426,
+      "sha256": "be1fbbf4575aea7d7a5de77d8bd8709dc6612fd3147d687f5039d86d540249c7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/contact.png",
+      "bytes": 490350,
+      "sha256": "b319c00bff7d00f1c36e052cba71939f326e3b97256278f9916a16af914b7ea4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_0.png",
+      "bytes": 169930,
+      "sha256": "9e3d3ad39208d810d9343d81636ba174d62d0728ebea21a9c7e93b1b8d5d10b0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_1.png",
+      "bytes": 172180,
+      "sha256": "ed9163eeb213b3976b979f6babb7d6830a62cae3a1e2ab793e3aa7138cec248d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_2.png",
+      "bytes": 153738,
+      "sha256": "4737d87601e2bc899db0379973985dfe65fca9e9f89e60c7502ca599243c48de",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_3.png",
+      "bytes": 146719,
+      "sha256": "8c568c605e7f4c060850155bf0db2be006f019f6a557236a1e2dbdb7a0e05c50",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_4.png",
+      "bytes": 187912,
+      "sha256": "f8f65ce932a13259b2c6904d9805520aa23b42be3ab01668808bdd147f449cad",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_reading_dialog.png",
+      "bytes": 165438,
+      "sha256": "3dabc33e8efd3ea5e54315d9aef2fe5c946fd94e5e6e1e60460473a5434bee4c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_small_0.png",
+      "bytes": 142958,
+      "sha256": "10774034a7c8b807300013167a1dd7aab69a86c20376e0e19b0c9c93eed46714",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_small_1.png",
+      "bytes": 130232,
+      "sha256": "d9dc61bd36009e2ba4af7f36f7541e8d578743d5afe25c6d5dc886eb08d629a6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_small_2.png",
+      "bytes": 119739,
+      "sha256": "8bff4cab2fe63dc0f6990790fc223a92f7e1ec1d6b4b74da0caf1eaba08cf71f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_small_3.png",
+      "bytes": 116642,
+      "sha256": "576153ba48e12019f1784647e982510d5e5f85fff147932a8a85dc389a838429",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/enhancement_small_4.png",
+      "bytes": 129745,
+      "sha256": "510316263712ceaeb0878d4c38440859a2e7c1c27048d18319850c3c609d08aa",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/new_pig.png",
+      "bytes": 199332,
+      "sha256": "c6a525de152f194702d3495aecacb030a6683f328f55d83ffa27b0e9ed8dbb14",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/others.png",
+      "bytes": 1571977,
+      "sha256": "1941c4aa0aef51ad0da960716d1c17c5c4bb4749c5e675b20200c7f59c5b5705",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_cash_001201.SZ.png",
+      "bytes": 103896,
+      "sha256": "13808e503283f0c936e382256f0ac25964a1179a05f652b2d0661902a068579b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_cash_002124.SZ.png",
+      "bytes": 101953,
+      "sha256": "37b0eaa3f322c3f534cb8e0dfb342cbe99e94fb23c3795d040ae47602d793b2f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_cash_002714.SZ.png",
+      "bytes": 103111,
+      "sha256": "202572b0588e8a859ba1ad5626455a4ecd84d852fd6b607e4c14085e595f9b43",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_cash_600975.SH.png",
+      "bytes": 105478,
+      "sha256": "3942e50ecc2c8ea82c7b6973c6a5ac89aa2330a663b22d576db75dae977c34da",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_cash_603477.SH.png",
+      "bytes": 102118,
+      "sha256": "ade5cf8de9b293b9d8d6c0df08188d1b88bd0e7491ee1ae87cbb4dd9bf1192f0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_cash_605296.SH.png",
+      "bytes": 101330,
+      "sha256": "90ff7692bb410dcc0a6a1ad71bce0f6c22f70c666b0b24996ab035d2039d8908",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_company_section.png",
+      "bytes": 133462,
+      "sha256": "263b2fa285145d7d7391f5059aa6d35bb6d3a9ea32116ac5b520beb591ca984e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_metric_capacity.png",
+      "bytes": 107893,
+      "sha256": "5a5971c6ff061f1d74f7eb630474f1160f5c44953af3459662e53d0c7dac2934",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_metric_hog_inventory.png",
+      "bytes": 64324,
+      "sha256": "f6424139462a435efee7d6158fc9c6f16943cfbbca1d501f9b648d43fcdb5e3f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_metric_pork_output.png",
+      "bytes": 64382,
+      "sha256": "eb5bf76c4ecb54b0d1221036bb6911bdb74c3b8510babaa8b01659defedb14f5",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_metric_price.png",
+      "bytes": 72634,
+      "sha256": "994557863fdb4f919e3246288862da9b548607f1c8aab8faaee1a251fa1c3651",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_metric_psy.png",
+      "bytes": 55096,
+      "sha256": "8de4eded0a340441e056c4233fca78c9c73396c7ed24be10798d48b1cac52adc",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_metric_slaughter.png",
+      "bytes": 64240,
+      "sha256": "075711354c3fde278ce8e005088b9dfc617ba860d9e00be00ce7e7cf0e76da92",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_official_sources.png",
+      "bytes": 120854,
+      "sha256": "eb8b170a831c40d0069c01e2707885dccaec2cc887b0b26e92258710be427846",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/overview_review_contact_sheet.png",
+      "bytes": 355282,
+      "sha256": "34892e6599e66828bab21e34d3641cabd27a8bbec67427dcc1df830be27df7dc",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_0.png",
+      "bytes": 158193,
+      "sha256": "f83e610c27d93224981711ca4c5c8809611709aa3c9e7ac948147b89ece85f0e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_1.png",
+      "bytes": 207980,
+      "sha256": "42f0fd93d4f2ab07594d07a22a6cf19c7977961f1adb4686a6421d9ad28fbf0a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_2.png",
+      "bytes": 178760,
+      "sha256": "2e0f0719327737b0c6a04b2e58349797e06776bfa19c70a94c6939e73aab37ff",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_3.png",
+      "bytes": 205285,
+      "sha256": "267291c089293807341e3985076885bc9a91f41534f9d91495b9a6ab394434e6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_4.png",
+      "bytes": 232919,
+      "sha256": "5192e03527e4eab706a2da19439ab7cd429d3eb031942ee165e483a31bcc6856",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_5.png",
+      "bytes": 152610,
+      "sha256": "c44d222a1c54cb9d76ea8e654762af5c7e582d21ba79815d48d36a481de51adc",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_6.png",
+      "bytes": 140012,
+      "sha256": "e358d7a8a776b79511e10af49ba45928b001980dd58ffe4469c208cfeb9f4009",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_reading_dialog.png",
+      "bytes": 120026,
+      "sha256": "83228fac1630a264da1b1e1451535f26000ab99ae43819d2a0b57b0700cd4cc2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_0.png",
+      "bytes": 119198,
+      "sha256": "6281869aa5ba9d9c149b30b6fa72717257d63450cb01a22883bdda30a125e5e6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_1.png",
+      "bytes": 167216,
+      "sha256": "69f3c6006d59eb2311b5b08b5803e13c0b88ae9e85c28a940f5a7d8cef7f05ae",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_2.png",
+      "bytes": 129632,
+      "sha256": "2475229c0ee6f1719c742560fc8d84fbd1c41fb92f63f8ab358018ece40bfbb0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_3.png",
+      "bytes": 168990,
+      "sha256": "fe79186d1af3d3401d0a11c7d7497b074ff83a7d7399ad730de2998fa267e0ae",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_4.png",
+      "bytes": 177411,
+      "sha256": "0bab6ea6611f05d1da763daccdd2697ce5fc6c8ed312f7a6f807898b3f453ad0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_5.png",
+      "bytes": 131957,
+      "sha256": "ee903c15de5996bc9c91583928a157b3fb87610a602b2868f88a89ea9fb66a17",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_6.png",
+      "bytes": 110349,
+      "sha256": "68eec62017ee3149c0ba25e4838e0fa78b9a8e9fa6ecd79b414839ba91b204e3",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_overview_bottom.png",
+      "bytes": 104746,
+      "sha256": "6ac68efe4ed4b8d22f1200356c5a6de45357a4e0b699aaa9baee4d04c471411b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/pork_small_overview_jump.png",
+      "bytes": 105149,
+      "sha256": "b8c719c2917a13545c05754d0b106ceb13d645d1ea3f50eb49e1edb82f668aaa",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_0.png",
+      "bytes": 215860,
+      "sha256": "2829f6f9a0a8861218ab6377c7b2c484f4bd321dad6d7d87f31fcb56b0437300",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_1.png",
+      "bytes": 144529,
+      "sha256": "4ce4506ffc464c1152c13133c01d9611b3cfda5deff7b5bbb60b358aa14059a0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_2.png",
+      "bytes": 169310,
+      "sha256": "24c7943682df6774b7155519a0d1ee3a5c4614878f59f9cb2221b1c86ae2ae23",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_3.png",
+      "bytes": 99759,
+      "sha256": "971fec0073288c8bf363b09000bf9d2c93c942a3b8eb6110f277ae6ea97187af",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_4.png",
+      "bytes": 126744,
+      "sha256": "bef413f61bcb638731af780b652b7819dc5191ddb59f28f3f81c09e8bad08ec6",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_5.png",
+      "bytes": 155299,
+      "sha256": "ac0a71b1524bbc2184512301a2eba028a89ccb5f13b5e6fd7285bb8c549d3195",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_6.png",
+      "bytes": 209599,
+      "sha256": "f367ec01862ea196636349d808e4218490197c7c8c7b7c25cb5d402b2a43d3c4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_reading_dialog.png",
+      "bytes": 155792,
+      "sha256": "e8bfb6bf64501678cef0e3120ea216f41df0f7cab466104503379a8b94c667be",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_0.png",
+      "bytes": 160419,
+      "sha256": "83ee549b5cccce9d7df29a23f69e96ed4000a964f0303b6689660056b33fc638",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_1.png",
+      "bytes": 135808,
+      "sha256": "5c1624828090c8dca84a4f237176aae96fa3438160e42649e99036dc0c5f5506",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_2.png",
+      "bytes": 158760,
+      "sha256": "27adc009581bcace0ab6b2fdb52135cdb133e9898c93135b7d1f41b47ff66faf",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_3.png",
+      "bytes": 95859,
+      "sha256": "ff2bba09a4093a0d42fdc6ee116665b1089e9e58a6ea7c655e6e1f424bc54243",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_4.png",
+      "bytes": 108119,
+      "sha256": "902d0eabfbab66c1f0357bfd6218c28d5b40126f41cb950cd1a2466f4399c533",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_5.png",
+      "bytes": 151339,
+      "sha256": "584638351baf9ccd024d700260a1446166774df572e5a759ed9d63b92721ed79",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/small_small_6.png",
+      "bytes": 141338,
+      "sha256": "012798c68705468c100b692f46d184693523a2608dbe515d26c40542cd1425da",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_0.png",
+      "bytes": 227380,
+      "sha256": "05ef6d67ee56c8b436226d13e18f3f03ef436fdb5be0ee8b3d7a6fd3aa0cca2e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_000001.SZ.png",
+      "bytes": 220247,
+      "sha256": "c68c285d22fb21dd79cc20b1dc6392ea289e4ff75ebc12f747459ff050cc36fd",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_000063.SZ.png",
+      "bytes": 208803,
+      "sha256": "e920e478d5afc56884811029d8eb99622c28887f7b80fca30e5b690b082a2249",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_000333.SZ.png",
+      "bytes": 252435,
+      "sha256": "0e1af03baf5a87faff7febc2687ac5ff1be144e56a7e8c16453f9e42db799393",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_1.png",
+      "bytes": 142256,
+      "sha256": "e5003099e6283d80733a85d608b9789409e8702dcd445c6e5bd8c1a4ddf244af",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_2.png",
+      "bytes": 74396,
+      "sha256": "149dc5bf707797e0deeb2ce87a1aa715a2a8bf4a27e916e82d4a3039edea3e0c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_3.png",
+      "bytes": 194112,
+      "sha256": "76c35cb4569ca0b6b33781f72daf7f8a01e4142b5bac9488516c560007f6d9ea",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_4.png",
+      "bytes": 158638,
+      "sha256": "7fea2f12525cb868cacee3255013dd2f0c2b85d2c1f0d111c9740ae0180daf56",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_600519.SH.png",
+      "bytes": 187785,
+      "sha256": "e57dce41a3cca800ed5e0debf19856da0b44fb5b48ea881811ebda37bdac35b0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_600900.SH.png",
+      "bytes": 213306,
+      "sha256": "4a8ce82c4f388185dc250eae1fb57c33f6b60f0517153a33b686927184753bf3",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_601318.SH.png",
+      "bytes": 190878,
+      "sha256": "f1696779cee1a21184c11734b69a878f4466746d2dd626f03152716708b2b860",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_financial_reading.png",
+      "bytes": 141894,
+      "sha256": "2cc30b0f5ac05cf9a193cb7689479ce6c7c9692a26357bbe74943a4859a5dba2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_small_0.png",
+      "bytes": 143857,
+      "sha256": "68e7120c0e97ffa7cbf652b0d58b38525c273ee1a94968535a7d6999a642a854",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_small_1.png",
+      "bytes": 99356,
+      "sha256": "a1febc330c0d6a7868fb3c8e5b09b0e7d2c318ed9cc277a8e147535f96d03d02",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_small_2.png",
+      "bytes": 67716,
+      "sha256": "f8decfc753f84aca84fec93d16a50d0dce9190856e30e11c908d36b8e4b3757d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_small_3.png",
+      "bytes": 142801,
+      "sha256": "73b7934252e01f3b001ff2a11aa4d7e75ab0f7da968fb37c16cc33dfcbc5a135",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/stocks_small_4.png",
+      "bytes": 107519,
+      "sha256": "e281bf8e090466bdf227e44594bd46e9f024c8bbbc0dc204e846cc9a34cd928a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_company_001201.SZ.png",
+      "bytes": 177621,
+      "sha256": "6c14bb240fd031b8c6d0b52274bdb610e44e5b490b0b5ab4330e4e066b89c66a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_company_002124.SZ.png",
+      "bytes": 179296,
+      "sha256": "2baeb288d666634934bb3a0ace8d7575f52b94e4ce34b7cf3372a989745995a0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_company_002714.SZ.png",
+      "bytes": 178753,
+      "sha256": "3e4b57e646787261b6b45f1f897e10ba5719800747637a52b9466d9e08bf1831",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_company_600975.SH.png",
+      "bytes": 179185,
+      "sha256": "84502f3b60bff74665306a3f453576edf6ada22fb8105c4be6192d15895f095d",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_company_603477.SH.png",
+      "bytes": 175275,
+      "sha256": "b3fdfa4d892a99ea82b8a39d06dd0850235e8887ef1180b1c90fd9f49d9f4e4f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_company_605296.SH.png",
+      "bytes": 177392,
+      "sha256": "fa858fbd483ae40c2700c5aeec913eb6a966e2ae6d8588bb7381dc22e00b9549",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_companies.png",
+      "bytes": 167617,
+      "sha256": "d2ffa87948c7cc02eb31bb9896460f569eae6a02bb3cc0f298aa2de29b02c2ec",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_companies_2.png",
+      "bytes": 150959,
+      "sha256": "eab7a7b88bec40ae349a208a0f356aeb2341ef037d1eef4786a1f30498d4bc92",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_companies_3.png",
+      "bytes": 194823,
+      "sha256": "be271b4e81227d531801b93198b585583ed328b976b02d150471c9e5fe4c51bf",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_cycle.png",
+      "bytes": 160262,
+      "sha256": "8840fd7785be717e5778afa0c9c1b4265406d672173b91c1a3159381df4c7e24",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_cycle_2.png",
+      "bytes": 140592,
+      "sha256": "88684782bc771d5ab45e579fdbdc160cd96854975627acb8ea5d192e791b0d25",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_cycle_3.png",
+      "bytes": 200225,
+      "sha256": "0209bcade16fb022024aa84ddc304d89b9bdc29e9d0cb8f8979ced25a822c762",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_companies.png",
+      "bytes": 134830,
+      "sha256": "e378213532b4c8cebc8bd6c0815dcc6ac6c9981f0138c6c83467c56f04f10473",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_companies_2.png",
+      "bytes": 139995,
+      "sha256": "8fec1bc0eecd29a1892a3f751866e9646416b5744bb85c0691b81459cd7986a7",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_companies_3.png",
+      "bytes": 148689,
+      "sha256": "28c3984c17195ac0b0a9e520f6906a74981c453f892417fbbeff6c25ad8d2dfa",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_cycle.png",
+      "bytes": 139687,
+      "sha256": "d6db364c6ba8c196fb20fab9a7e6801e003c6877b11e4beb681950f96fc12a24",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_cycle_2.png",
+      "bytes": 128992,
+      "sha256": "94b1fbd3af680db0f9df24e653846ac31c42aa7327c0eb4ad20c2f557aa7468b",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_cycle_3.png",
+      "bytes": 164033,
+      "sha256": "38c89ca02ed8b6825afd0a90dfa287534df1c06a4951a5acc72a123dbe2f0d4f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_valuation.png",
+      "bytes": 156045,
+      "sha256": "e943361682a92d777add9faa5bbac8efc8c65ce422535182d0f5ad9b1adba74c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_small_valuation_2.png",
+      "bytes": 143717,
+      "sha256": "33ce9a0f861673eb6b737bc7ef3b788337badc1126cf2eb9d450b2b5a3b96fca",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_valuation.png",
+      "bytes": 168512,
+      "sha256": "ee04429eb25dcce1212203f87c83f95a61564f1bc45f2286778e4cc5733e6fc4",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_deep_valuation_2.png",
+      "bytes": 150734,
+      "sha256": "8ae41d869fdbce810ac3cf43537e1dac965f8dd79ea22129876aa606292edf9a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_funding_001201.SZ.png",
+      "bytes": 166594,
+      "sha256": "e5c61af1a611bde4a040d7bb3190c7de5f199933769026bce6d1e97576e103cf",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_funding_002124.SZ.png",
+      "bytes": 166202,
+      "sha256": "d534572d0fe31e57206af3799a9666d42ae7890f2a91566dbd121e86147d54b0",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_funding_002714.SZ.png",
+      "bytes": 167617,
+      "sha256": "d2ffa87948c7cc02eb31bb9896460f569eae6a02bb3cc0f298aa2de29b02c2ec",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_funding_600975.SH.png",
+      "bytes": 166091,
+      "sha256": "5fe22dfd08f8dbb5d15f074377701b3bcfd1427f5ba825db01fa25351f9c4ba2",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_funding_603477.SH.png",
+      "bytes": 167062,
+      "sha256": "1993b4652ce958dfba98dafdf07566f528e66d4d4422c14032951f41591ed2ab",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_funding_605296.SH.png",
+      "bytes": 166553,
+      "sha256": "0758a04459ab11bc9367bfc63f270e3b68f4df9e3423deafc2aa144037ea3946",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_price_observations.png",
+      "bytes": 68688,
+      "sha256": "5575558e824c346a45cf0df797dbb24f809237f53c058a0de3d6f2a962826ada",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_profit_bridge_002714.SZ.png",
+      "bytes": 150897,
+      "sha256": "5f1a0f5418a6b2430ad1e7ed238cbeb6d7afdabe6cd9f7ff4c06526f240a6d0e",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_profit_bridge_603477.SH.png",
+      "bytes": 150077,
+      "sha256": "fb2874c5343c16ef9a3e714cd55b60f4f8ec61c8888c55c518306b9c146db13c",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_profit_bridge_605296.SH.png",
+      "bytes": 150792,
+      "sha256": "6af997baa8994f56100a0674e1d80184cda23a668a384695380af2a6345590d3",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_recovery_001201.SZ.png",
+      "bytes": 163837,
+      "sha256": "800e8b60f3b6cce3d8dd84af18581361057c88c0ba06ac9cfe99e6bafed0e867",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_recovery_002124.SZ.png",
+      "bytes": 168291,
+      "sha256": "217f8b8128cfcdd7332e68a927b7228c35c299f8f22df1789efe41d79cc4e3c1",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_recovery_002714.SZ.png",
+      "bytes": 166605,
+      "sha256": "dd514e529317a0671cc0c96568db3f8493f6469f0b2dd0bd861b033baebc3038",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_recovery_600975.SH.png",
+      "bytes": 161354,
+      "sha256": "1b06bebc3229ca14c0f1cd412a50884b0d6f06a39d781535deb2bf14860a9615",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_recovery_603477.SH.png",
+      "bytes": 164770,
+      "sha256": "a7681ac7dda36540ad98f779d1bd61c3067a8997100478df4c66c85687fd019a",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_recovery_605296.SH.png",
+      "bytes": 166715,
+      "sha256": "0f1c6472f3bfd77d423d9a51a1d0a1caf0c11ab82d616007d522afccc6436dba",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_source_search.png",
+      "bytes": 72138,
+      "sha256": "2af6f63777d8622d3eec45203a2f025bcc6eb4e6f10ccc77d8b0d10992f96d4f",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_valuation_001201.SZ.png",
+      "bytes": 201938,
+      "sha256": "0cc1e497513ef78da0dfd8d21fed5257bbe664a581c57d4fa4d2c77cf12902f3",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_valuation_002124.SZ.png",
+      "bytes": 202715,
+      "sha256": "f2b62eb8404b1384f9c27755654eb483a00aa5206d39f57bd9438a3eaf56d3f3",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_valuation_002714.SZ.png",
+      "bytes": 205945,
+      "sha256": "876e93763eb4bd392fe90794453d86e171d1b49cf44793cf8fd8db38efc0ff56",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_valuation_600975.SH.png",
+      "bytes": 204524,
+      "sha256": "bcec35a6c30eef4df014b7b7ff7c4135c24c9e7c16f6773092e169ba8ba055a1",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_valuation_603477.SH.png",
+      "bytes": 198250,
+      "sha256": "15827846e2f57dfdfc7de11fba6f17f6abcc4b10b8df2b2dbfa7df958bfd0bcf",
+      "asset": "workbench-update-20261101.zip"
+    },
+    {
+      "path": "quant_workbench/runtime/verification_artifacts/releases/update-20261101/screenshots/swine_valuation_605296.SH.png",
+      "bytes": 207816,
+      "sha256": "888a0ad5860aa76e83846f7ded7f3ae9a9ee49216427cfd9283ddf15c74a3b2d",
+      "asset": "workbench-update-20261101.zip"
+    }
+  ],
+  "scope": "Official overview data, reviewed report copies and isolated UI verification. Base data is unchanged.",
+  "exclusions": [
+    "credentials",
+    "environments",
+    "UI state",
+    "discussion notes",
+    "exports",
+    "browser profiles",
+    "unrelated projects"
+  ]
+}
